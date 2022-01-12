@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/grower-react/static/css/main.073c9b0a.css",
+    "main.js": "/grower-react/static/js/main.57d1b4d8.js",
+    "static/js/787.69c46001.chunk.js": "/grower-react/static/js/787.69c46001.chunk.js",
+    "index.html": "/grower-react/index.html",
+    "main.073c9b0a.css.map": "/grower-react/static/css/main.073c9b0a.css.map",
+    "main.57d1b4d8.js.map": "/grower-react/static/js/main.57d1b4d8.js.map",
+    "787.69c46001.chunk.js.map": "/grower-react/static/js/787.69c46001.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.57d1b4d8.js"
+  ]
+}
