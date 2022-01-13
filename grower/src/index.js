@@ -1,13 +1,29 @@
+//jshint esversion:6
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import App from './App.js';
+import Products from "../src/routes/nutrients.jsx";
+
+import { render } from "react-dom";
+import {
+  HashRouter,
+  Routes,
+  Route
+} from "react-router-dom";
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <HashRouter>
+   <Routes>
+
+    <Route path="/" element={<App />} />
+    <Route path="/nutrients" element={<Products />} />
+
+   </Routes>
+  </HashRouter>,
   document.getElementById('root')
 );
 

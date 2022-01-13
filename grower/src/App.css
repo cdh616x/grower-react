@@ -6,6 +6,34 @@
   padding-top: 5%;
 }
 
+.landing {
+  padding-top: 5%;
+  text-align: center;
+}
+
+.landing-info {
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-left: 5%;
+  text-align: justify;
+}
+
+.footer {
+  padding-top: 5%;
+  text-align: center;
+}
+
+.page-title {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+.col {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
 html, body {
   font-family: "Profession", sans-serif;
   width: 100%;
