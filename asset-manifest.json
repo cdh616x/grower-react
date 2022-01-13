@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/grower-react/static/css/main.7e1d22bb.css",
-    "main.js": "/grower-react/static/js/main.19b641e0.js",
+    "main.css": "/grower-react/static/css/main.94698eb0.css",
+    "main.js": "/grower-react/static/js/main.42aa7b56.js",
     "static/js/787.69c46001.chunk.js": "/grower-react/static/js/787.69c46001.chunk.js",
     "static/media/shop-front.jpeg": "/grower-react/static/media/shop-front.4e1d2a5e002160ccd10d.jpeg",
     "static/media/logo.png": "/grower-react/static/media/logo.84178e6fa869af83bca9.png",
     "index.html": "/grower-react/index.html",
-    "main.7e1d22bb.css.map": "/grower-react/static/css/main.7e1d22bb.css.map",
-    "main.19b641e0.js.map": "/grower-react/static/js/main.19b641e0.js.map",
+    "main.94698eb0.css.map": "/grower-react/static/css/main.94698eb0.css.map",
+    "main.42aa7b56.js.map": "/grower-react/static/js/main.42aa7b56.js.map",
     "787.69c46001.chunk.js.map": "/grower-react/static/js/787.69c46001.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e1d22bb.css",
-    "static/js/main.19b641e0.js"
+    "static/css/main.94698eb0.css",
+    "static/js/main.42aa7b56.js"
   ]
 }
