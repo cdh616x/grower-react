@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/grower-react/static/css/main.84cd0af3.css",
-    "main.js": "/grower-react/static/js/main.9e178667.js",
+    "main.js": "/grower-react/static/js/main.67ae8bd4.js",
     "static/js/787.69c46001.chunk.js": "/grower-react/static/js/787.69c46001.chunk.js",
-    "static/media/mammoth-p.png": "/grower-react/static/media/mammoth-p.42faf5e71c5aae6d9fad.png",
     "static/media/shop-front.jpeg": "/grower-react/static/media/shop-front.4e1d2a5e002160ccd10d.jpeg",
-    "static/media/zeus-juice.png": "/grower-react/static/media/zeus-juice.14b142e97e91f2e8d5ce.png",
+    "static/media/mammoth2.png": "/grower-react/static/media/mammoth2.abb3ebbb25833377da0f.png",
     "static/media/logo.png": "/grower-react/static/media/logo.84178e6fa869af83bca9.png",
+    "static/media/zeus2.png": "/grower-react/static/media/zeus2.0f9d3306eef037147485.png",
+    "static/media/athena.png": "/grower-react/static/media/athena.69e7c9316013a26e614e.png",
     "index.html": "/grower-react/index.html",
     "main.84cd0af3.css.map": "/grower-react/static/css/main.84cd0af3.css.map",
-    "main.9e178667.js.map": "/grower-react/static/js/main.9e178667.js.map",
+    "main.67ae8bd4.js.map": "/grower-react/static/js/main.67ae8bd4.js.map",
     "787.69c46001.chunk.js.map": "/grower-react/static/js/787.69c46001.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.84cd0af3.css",
-    "static/js/main.9e178667.js"
+    "static/js/main.67ae8bd4.js"
   ]
 }
