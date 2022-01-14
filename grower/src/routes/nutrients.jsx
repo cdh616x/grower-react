@@ -8,7 +8,7 @@ import GalleryPage from "../components/gallery-page.jsx";
 export default function Products() {
   return (
     <>
-    <GalleryPage pagetitle="Nutrients" />
+    <GalleryPage pagetitle="Nutrient Lines" />
     </>
   );
 }

@@ -2,13 +2,15 @@
 
 import React from "react";
 
+import icon from "../web-images/logo.png";
+
 export default function Navbar() {
   return (
     <>
     <nav className="navbar navbar-expand-lg navbar-dark bg-#097969" style={{backgroundColor: "#097969"}}>
      <div className="container-fluid">
       <a className="navbar-brand" href="#/">
-       <img id="icon" />
+       <img id="icon" src={icon} style={{height: "50px"}} />
       </a>
 
        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

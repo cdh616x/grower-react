@@ -32,6 +32,11 @@
 .col {
   padding-left: 2%;
   padding-right: 2%;
+  width: 33%;
+}
+
+.company {
+  padding-bottom: 5%;
 }
 
 html, body {
@@ -41,4 +46,55 @@ html, body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+}
+
+.button {
+  text-align: center;
+}
+
+.card-text {
+  font-size: 1.2vw;
+}
+
+.cardblock a {
+  text-align: center;
+}
+
+.card-block {
+  text-align: left;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-container {
+    display: grid;
+    perspective: 700px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.card-flip {
+    display: grid;
+    grid-template: 1fr / 1fr;
+    grid-template-areas: "frontAndBack"; /*RESEARCH THIS*/
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+}
+
+.front {
+    grid-area: frontAndBack;
+    background: linear-gradient(#fff, #E66465, #fff);
+}
+
+.back {
+  color: white;
+  background-color: black;
+    grid-area: frontAndBack;
+    transform: rotateY(180deg);
+}
+
+.card-container:hover .card-flip {
+    transform: rotateY(-180deg);
 }
