@@ -19,12 +19,12 @@ export default function GalleryItemFlip(props) {
             Available Products
           </div>
           <div className="card-block">
-            <p className="card-text">-{props.available1}</p>
-            <p className="card-text">-{props.available2}</p>
-            <p className="card-text">-{props.available3}</p>
-            <p className="card-text">-{props.available4}</p>
-            <p className="card-text">-{props.available5}</p>
-            <p className="card-text">-{props.available6}</p>
+            <p className="card-text">{props.available1}</p>
+            <p className="card-text">{props.available2}</p>
+            <p className="card-text">{props.available3}</p>
+            <p className="card-text">{props.available4}</p>
+            <p className="card-text">{props.available5}</p>
+            <p className="card-text">{props.available6}</p>
             <hr />
             <p className="card-title">{props.sizes}</p>
             <h1 className="button">

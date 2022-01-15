@@ -53,7 +53,7 @@ html, body {
 }
 
 .card-text {
-  font-size: 1.2vw;
+  font-size: 15px;
 }
 
 .cardblock a {
@@ -61,7 +61,7 @@ html, body {
 }
 
 .card-block {
-  text-align: left;
+  text-align: center;
 }
 
 .card-title {
