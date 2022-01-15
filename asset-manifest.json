@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/grower-react/static/css/main.6681a93f.css",
-    "main.js": "/grower-react/static/js/main.1f4e30c2.js",
+    "main.js": "/grower-react/static/js/main.cdad66da.js",
     "static/js/787.69c46001.chunk.js": "/grower-react/static/js/787.69c46001.chunk.js",
     "static/media/shop-front.jpeg": "/grower-react/static/media/shop-front.4e1d2a5e002160ccd10d.jpeg",
     "static/media/general-hydro.png": "/grower-react/static/media/general-hydro.56d9ec132195944705dd.png",
@@ -15,9 +15,11 @@
     "static/media/swell.png": "/grower-react/static/media/swell.dca3492a5d4d064df544.png",
     "static/media/big-bloom1.png": "/grower-react/static/media/big-bloom1.93b7d28014d59e689f19.png",
     "static/media/sturdy-stalk1.png": "/grower-react/static/media/sturdy-stalk1.8c9fa7bf465c3e88e47e.png",
+    "static/media/closed.jpeg": "/grower-react/static/media/closed.f64c8540f5569a408dd3.jpeg",
     "static/media/roots-organic.png": "/grower-react/static/media/roots-organic.23b8d6c24a37bc9ebc16.png",
     "static/media/bottles.png": "/grower-react/static/media/bottles.cacef0d1adad84996fe1.png",
     "static/media/logo.png": "/grower-react/static/media/logo.84178e6fa869af83bca9.png",
+    "static/media/open.jpeg": "/grower-react/static/media/open.d5524d7777b8a031dd76.jpeg",
     "static/media/b-52.png": "/grower-react/static/media/b-52.1bb9bf22aca181389a6f.png",
     "static/media/tri2.png": "/grower-react/static/media/tri2.7c9b7a2f4befbc289260.png",
     "static/media/athena.png": "/grower-react/static/media/athena.69e7c9316013a26e614e.png",
@@ -25,11 +27,11 @@
     "static/media/b-grow.png": "/grower-react/static/media/b-grow.efc74b3d036f125efca0.png",
     "index.html": "/grower-react/index.html",
     "main.6681a93f.css.map": "/grower-react/static/css/main.6681a93f.css.map",
-    "main.1f4e30c2.js.map": "/grower-react/static/js/main.1f4e30c2.js.map",
+    "main.cdad66da.js.map": "/grower-react/static/js/main.cdad66da.js.map",
     "787.69c46001.chunk.js.map": "/grower-react/static/js/787.69c46001.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6681a93f.css",
-    "static/js/main.1f4e30c2.js"
+    "static/js/main.cdad66da.js"
   ]
 }
