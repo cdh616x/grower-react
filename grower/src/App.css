@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.sign {
+  height: 250px;
+}
+
 .information {
   padding-top: 5%;
 }
@@ -52,6 +56,16 @@ html, body {
   text-align: center;
 }
 
+.card {
+  border: 0;
+}
+
+.card-header {
+  font-size: 25px;
+  text-decoration: underline;
+  font-family: "Profession", sans-serif;
+}
+
 .card-text {
   font-size: 15px;
 }
@@ -85,14 +99,16 @@ html, body {
 
 .front {
     grid-area: frontAndBack;
-    background: linear-gradient(#fff, #E66465, #fff);
+    background-color: white;
+    /* background: linear-gradient(#fff, #E66465, #fff); */
 }
 
 .back {
   color: white;
   background-color: black;
-    grid-area: frontAndBack;
-    transform: rotateY(180deg);
+  grid-area: frontAndBack;
+  transform: rotateY(180deg);
+  font-family: "D-DIN", sans-serif;
 }
 
 .card-container:hover .card-flip {

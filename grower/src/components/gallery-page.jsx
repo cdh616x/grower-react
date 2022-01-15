@@ -46,22 +46,28 @@ export default function GalleryPage(props) {
        available4="Herculean Harvest, Aphrodite's Extraction"
        available5="Poseidonzime, Triton's Trawl, Pegasus Potion"
        available6="Persephone's Palate, Bloom Khaos, Hades Down"
-       sizes="Qt, Gal, 2.5Gal, 5Gal"
+       sizes="Qt - Gal - 2.5Gal - 5Gal"
        href="https://www.oregonsonly.com/nectar-for-the-gods-products/" />
 
        <GalleryItemFlip src={mammoth}
-        title="Mammoth P" />
+        title="Mammoth P"
+        available1="MAMMOTH P, MAMMOTH Canncontrol"
+        available2="MAMMOTH SI, MAMMOTH Starter Plugs"
+        available3="MAMMOTH Biocontrol-PI"
+        sizes="#"
+        href="https://mammothmicrobes.com/mm-products/" />
 
        <GalleryItemFlip src={athena}
         title="Athena"
         available1="Balance, Cleanse, CaMg, PK"
         available2="Grow B, Grow A"
-        available3="Bloom A, Bloom B" />
+        available3="Bloom A, Bloom B"
+        href="https://www.athenaproducts.com/blended-line?page=1" />
      </div>
      <div className="row">
-      <GalleryItem src={roots} companyName="Roots Organic" />
-      <GalleryItem src={hydro} companyName="General Hydroponics" />
-      <GalleryItem src={fox} companyName="Fox Farms" />
+      <GalleryItemFlip src={roots} companyName="Roots Organic" />
+      <GalleryItemFlip src={hydro} companyName="General Hydroponics" />
+      <GalleryItemFlip src={fox} companyName="Fox Farms" />
      </div>
      <div className="row">
       <GalleryItem src={matrix} companyName="Vegamatrix" />
@@ -79,7 +85,9 @@ export default function GalleryPage(props) {
       <GalleryItem src={culture} companyName="Current Culture" />
      </div>
      <div className="row">
-      <GalleryItem src={house} companyName="House and Garden" />
+      <GalleryItemFlip src={house}
+       title="House and Garden"
+       a />
       <GalleryItem src={advanced} companyName="Advanced Nutrients" />
       <GalleryItem src={cutting} companyName="Cutting Edge Solutions" />
      </div>

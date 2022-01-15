@@ -16,7 +16,7 @@ export default function GalleryItemFlip(props) {
         </div>
         <div className="card back">
           <div className="card-header">
-            Available Products
+            {props.title}
           </div>
           <div className="card-block">
             <p className="card-text">{props.available1}</p>

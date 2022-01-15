@@ -4,6 +4,8 @@ import React from "react";
 
 import logo from "../web-images/logo.png";
 
+import Sign from "./Sign.jsx";
+
 export default function Banner() {
   return (
     <>
@@ -18,6 +20,7 @@ export default function Banner() {
        <h1>616.862.9095</h1>
        <h2>4252 14 Mile Rd, Rockford MI</h2>
        <h2>growersedge1@gmail.com</h2>
+       <Sign />
       </div>
      </div>
     </>
