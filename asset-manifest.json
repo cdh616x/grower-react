@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/grower-react/static/css/main.779d9a81.css",
-    "main.js": "/grower-react/static/js/main.3a9d74a2.js",
+    "main.css": "/grower-react/static/css/main.91d656c1.css",
+    "main.js": "/grower-react/static/js/main.1fcb7b48.js",
     "static/js/787.69c46001.chunk.js": "/grower-react/static/js/787.69c46001.chunk.js",
     "static/media/shop-front.jpeg": "/grower-react/static/media/shop-front.4e1d2a5e002160ccd10d.jpeg",
     "static/media/general-hydro.png": "/grower-react/static/media/general-hydro.56d9ec132195944705dd.png",
@@ -23,15 +23,18 @@
     "static/media/b-52.png": "/grower-react/static/media/b-52.1bb9bf22aca181389a6f.png",
     "static/media/tri2.png": "/grower-react/static/media/tri2.7c9b7a2f4befbc289260.png",
     "static/media/athena.png": "/grower-react/static/media/athena.69e7c9316013a26e614e.png",
+    "static/media/mills.png": "/grower-react/static/media/mills.f6acd82d25ae4ac8dc25.png",
     "static/media/pure2.png": "/grower-react/static/media/pure2.d33e55a32e92826daca2.png",
     "static/media/b-grow.png": "/grower-react/static/media/b-grow.efc74b3d036f125efca0.png",
+    "static/media/general-hydro.webp": "/grower-react/static/media/general-hydro.976f8a788664072de749.webp",
+    "static/media/mammoth.png": "/grower-react/static/media/mammoth.bd0d549d80d545df99b7.png",
     "index.html": "/grower-react/index.html",
-    "main.779d9a81.css.map": "/grower-react/static/css/main.779d9a81.css.map",
-    "main.3a9d74a2.js.map": "/grower-react/static/js/main.3a9d74a2.js.map",
+    "main.91d656c1.css.map": "/grower-react/static/css/main.91d656c1.css.map",
+    "main.1fcb7b48.js.map": "/grower-react/static/js/main.1fcb7b48.js.map",
     "787.69c46001.chunk.js.map": "/grower-react/static/js/787.69c46001.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.779d9a81.css",
-    "static/js/main.3a9d74a2.js"
+    "static/css/main.91d656c1.css",
+    "static/js/main.1fcb7b48.js"
   ]
 }
