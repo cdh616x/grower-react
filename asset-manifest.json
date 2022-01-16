@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/grower-react/static/css/main.fcf08ebe.css",
-    "main.js": "/grower-react/static/js/main.ec144a33.js",
+    "main.js": "/grower-react/static/js/main.070d3335.js",
     "static/js/787.69c46001.chunk.js": "/grower-react/static/js/787.69c46001.chunk.js",
     "static/media/shop-front.jpeg": "/grower-react/static/media/shop-front.4e1d2a5e002160ccd10d.jpeg",
     "static/media/general-hydro.png": "/grower-react/static/media/general-hydro.56d9ec132195944705dd.png",
     "static/media/all-purpose.png": "/grower-react/static/media/all-purpose.fc0bf9d2b2a87be8ce69.png",
     "static/media/veg-a-b.png": "/grower-react/static/media/veg-a-b.98813acb3e1a218b07ca.png",
     "static/media/grow2.png": "/grower-react/static/media/grow2.e9770f4f895d9ed1da30.png",
+    "static/media/gaia-green.webp": "/grower-react/static/media/gaia-green.466fa9a93fa26902252e.webp",
     "static/media/bud-xl.png": "/grower-react/static/media/bud-xl.3f2fd1b44cb876d39cb7.png",
     "static/media/killer-tea.jpeg": "/grower-react/static/media/killer-tea.f938eb03052d5d4630a2.jpeg",
     "static/media/mam-resize.png": "/grower-react/static/media/mam-resize.02771e9a55d6a1a4fbab.png",
@@ -30,11 +31,11 @@
     "static/media/mammoth.png": "/grower-react/static/media/mammoth.bd0d549d80d545df99b7.png",
     "index.html": "/grower-react/index.html",
     "main.fcf08ebe.css.map": "/grower-react/static/css/main.fcf08ebe.css.map",
-    "main.ec144a33.js.map": "/grower-react/static/js/main.ec144a33.js.map",
+    "main.070d3335.js.map": "/grower-react/static/js/main.070d3335.js.map",
     "787.69c46001.chunk.js.map": "/grower-react/static/js/787.69c46001.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fcf08ebe.css",
-    "static/js/main.ec144a33.js"
+    "static/js/main.070d3335.js"
   ]
 }
