@@ -45,9 +45,9 @@ export default function GalleryPage(props) {
        products1="Medusa's Magic, Gaia Mania, Athena's Aminas"
        products2="Demeter's Destiny, Hygeia's Hydration, Olympus Up"
        products3="The Kraken, Mega Morpheus, Zeus Juice"
-       available4="Herculean Harvest, Aphrodite's Extraction"
-       available5="Poseidonzime, Triton's Trawl, Pegasus Potion"
-       available6="Persephone's Palate, Bloom Khaos, Hades Down"
+       products4="Herculean Harvest, Aphrodite's Extraction"
+       products5="Poseidonzime, Triton's Trawl, Pegasus Potion"
+       products6="Persephone's Palate, Bloom Khaos, Hades Down"
        sizes="Qt - Gal - 2.5Gal - 5Gal"
        href="https://www.oregonsonly.com/nectar-for-the-gods-products/" />
 
@@ -56,7 +56,7 @@ export default function GalleryPage(props) {
         products1="MAMMOTH P, MAMMOTH Canncontrol"
         products2="MAMMOTH SI, MAMMOTH Starter Plugs"
         products3="MAMMOTH Biocontrol-PI"
-        sizes="#"
+        sizes="113.4ml - 250ml - 1000ml - Gal"
         href="https://mammothmicrobes.com/mm-products/" />
 
        <Flip src={athena}
@@ -67,7 +67,14 @@ export default function GalleryPage(props) {
         href="https://www.athenaproducts.com/blended-line?page=1" />
      </div>
      <div className="row">
-      <Flip src={roots} title="Roots Organic" />
+      <Flip src={roots}
+      title="Roots Organic"
+      products1="Buddha Grow, Buddha Bloom, Surge"
+      products2="Trinity, Extreme Serene, Ancient Amber"
+      products3="HP2, HPK, Rain, Calmag"
+      sizes="Qt - Gal - 2.5Gal - 5Gal"
+      href="https://www.aurorainnovations.com/roots-organics-liquid-nutrients" />
+
       <Flip src={hydro} title="General Hydroponics" />
       <Flip src={fox} title="Fox Farms" />
      </div>

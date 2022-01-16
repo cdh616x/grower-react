@@ -51,6 +51,7 @@ html, body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+  background: linear-gradient(-0.25turn, #fff, #8B95C9)
 }
 
 /* .button {
@@ -83,12 +84,7 @@ html, body {
   text-align: center;
 }
 
-.card-container {
-    display: grid;
-    perspective: 700px;
-    padding-left: 2%;
-    padding-right: 2%;
-}
+
 
 .card-flip {
     display: grid;
@@ -120,8 +116,8 @@ html, body {
 .flip-card {
   background-color: transparent;
   width: 33%;
-  height: 500px;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  height: 40vw;
+  /* Remove this if you don't want the 3D effect */
 }
 
 /* This container is needed to position the front and back side */
@@ -150,15 +146,19 @@ html, body {
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: #bbb;
+  background-color: white;
+  border-radius: 10px;
   color: black;
+  font-family: "Profession", sans-serif;
 }
 
 /* Style the back side */
 .flip-card-back {
   background-color: #097969;
+  border-radius: 10px;
   color: white;
   transform: rotateY(180deg);
+  font-family: "D-DIN", sans-serif;
 }
 
 .gallery .row {
@@ -166,5 +166,27 @@ html, body {
 }
 
 .prod {
-  font-size: 15px;
+  font-size: 1.5vw;
+}
+
+.card-title {
+  font-size: 3vw;
+}
+
+.title {
+  font-size: 3vw;
+  text-decoration: underline;
+}
+
+.flip-card-back a {
+  color: white;
+  text-decoration: none;
+}
+
+.flip-card-back a:hover {
+  color: #0bb5f4;
+}
+
+.info {
+  font-family: "D-DIN", sans-serif;
 }
