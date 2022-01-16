@@ -17,9 +17,10 @@ export default function Banner() {
       </div>
       <div className="col-lg-5 information">
        <h1>Give us a call!</h1>
-       <h1>616.862.9095</h1>
+       <h1>616.863.9095</h1>
        <h2>4252 14 Mile Rd, Rockford MI</h2>
        <h2>growersedge1@gmail.com</h2>
+       <h2><a href="https://www.facebook.com/growersedge/" target="_blank"><i class="fab fa-facebook"></i></a></h2>
        <Sign />
       </div>
      </div>

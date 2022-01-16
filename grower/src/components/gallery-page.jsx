@@ -6,6 +6,7 @@ import Navbar from "./Navbar.jsx";
 import Footer from "./Footer.jsx";
 import GalleryItem from "./GalleryItem.jsx";
 import GalleryItemFlip from "./GalleryItemFlip.jsx";
+import Flip from "./GalleryFlipItem1.jsx";
 
 import nectar from "../images/nectar/medusa.png";
 import mammoth from "../images/mammoth/mam-resize.png";
@@ -34,67 +35,66 @@ import cutting from "../images/cutting-edge/b-grow.png";
 export default function GalleryPage(props) {
   return(
     <>
+    <div className="gallery">
     <Navbar />
      <h1 className="page-title">{props.pagetitle}</h1>
      <div className="row">
 
-       <GalleryItemFlip src={nectar}
+       <Flip src={nectar}
        title="Nectar for the Gods"
-       available1="Medusa's Magic, Gaia Mania, Athena's Aminas"
-       available2="Demeter's Destiny, Hygeia's Hydration, Olympus Up"
-       available3="The Kraken, Mega Morpheus, Zeus Juice"
+       products1="Medusa's Magic, Gaia Mania, Athena's Aminas"
+       products2="Demeter's Destiny, Hygeia's Hydration, Olympus Up"
+       products3="The Kraken, Mega Morpheus, Zeus Juice"
        available4="Herculean Harvest, Aphrodite's Extraction"
        available5="Poseidonzime, Triton's Trawl, Pegasus Potion"
        available6="Persephone's Palate, Bloom Khaos, Hades Down"
        sizes="Qt - Gal - 2.5Gal - 5Gal"
        href="https://www.oregonsonly.com/nectar-for-the-gods-products/" />
 
-       <GalleryItemFlip src={mammoth}
+       <Flip src={mammoth}
         title="Mammoth P"
-        available1="MAMMOTH P, MAMMOTH Canncontrol"
-        available2="MAMMOTH SI, MAMMOTH Starter Plugs"
-        available3="MAMMOTH Biocontrol-PI"
+        products1="MAMMOTH P, MAMMOTH Canncontrol"
+        products2="MAMMOTH SI, MAMMOTH Starter Plugs"
+        products3="MAMMOTH Biocontrol-PI"
         sizes="#"
         href="https://mammothmicrobes.com/mm-products/" />
 
-       <GalleryItemFlip src={athena}
+       <Flip src={athena}
         title="Athena"
-        available1="Balance, Cleanse, CaMg, PK"
-        available2="Grow B, Grow A"
-        available3="Bloom A, Bloom B"
+        products1="Balance, Cleanse, CaMg, PK"
+        products2="Grow B, Grow A"
+        products3="Bloom A, Bloom B"
         href="https://www.athenaproducts.com/blended-line?page=1" />
      </div>
      <div className="row">
-      <GalleryItemFlip src={roots} companyName="Roots Organic" />
-      <GalleryItemFlip src={hydro} companyName="General Hydroponics" />
-      <GalleryItemFlip src={fox} companyName="Fox Farms" />
+      <Flip src={roots} title="Roots Organic" />
+      <Flip src={hydro} title="General Hydroponics" />
+      <Flip src={fox} title="Fox Farms" />
      </div>
      <div className="row">
-      <GalleryItem src={matrix} companyName="Vegamatrix" />
-      <GalleryItem src={mills} companyName="Mills" />
-      <GalleryItem src={heavy} companyName="Heavy Sixteen" />
+      <Flip src={matrix} title="Vegamatrix" />
+      <Flip src={mills} title="Mills" />
+      <Flip src={heavy} title="Heavy Sixteen" />
      </div>
      <div className="row">
-      <GalleryItem src={gaia} companyName="Gaia Green" />
-      <GalleryItem src={cyco} companyName="Cyco Flower" />
-      <GalleryItem src={emerald} companyName="Emerald Harvest" />
+      <Flip src={gaia} title="Gaia Green" />
+      <Flip src={cyco} title="Cyco Flower" />
+      <Flip src={emerald} title="Emerald Harvest" />
      </div>
      <div className="row">
-      <GalleryItem src={botanicare} companyName="Botanicare" />
-      <GalleryItem src={humboldt} companyName="Humboldt County's Own" />
-      <GalleryItem src={culture} companyName="Current Culture" />
+      <Flip src={botanicare} title="Botanicare" />
+      <Flip src={humboldt} title="Humboldt County's Own" />
+      <Flip src={culture} title="Current Culture" />
      </div>
      <div className="row">
-      <GalleryItemFlip src={house}
+      <Flip src={house}
        title="House and Garden"
        a />
-      <GalleryItem src={advanced} companyName="Advanced Nutrients" />
-      <GalleryItem src={cutting} companyName="Cutting Edge Solutions" />
-     </div>
-     <div className="row">
-      <GalleryItemFlip src={emerald} />
+      <Flip src={advanced} title="Advanced Nutrients" />
+      <Flip src={cutting} title="Cutting Edge Solutions" />
      </div>
     <Footer />
+    </div>
     </>
   );
 }
