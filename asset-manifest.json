@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/grower-react/static/css/main.ce6e081b.css",
-    "main.js": "/grower-react/static/js/main.7a9625fa.js",
+    "main.css": "/grower-react/static/css/main.57ff1c97.css",
+    "main.js": "/grower-react/static/js/main.ef0a1cc4.js",
     "static/js/787.69c46001.chunk.js": "/grower-react/static/js/787.69c46001.chunk.js",
     "static/media/shop-front.jpeg": "/grower-react/static/media/shop-front.4e1d2a5e002160ccd10d.jpeg",
     "static/media/general-hydro.png": "/grower-react/static/media/general-hydro.56d9ec132195944705dd.png",
@@ -34,12 +34,12 @@
     "static/media/general-hydro.webp": "/grower-react/static/media/general-hydro.976f8a788664072de749.webp",
     "static/media/hydro-farm.png": "/grower-react/static/media/hydro-farm.9e840f41bf305fd1a02f.png",
     "index.html": "/grower-react/index.html",
-    "main.ce6e081b.css.map": "/grower-react/static/css/main.ce6e081b.css.map",
-    "main.7a9625fa.js.map": "/grower-react/static/js/main.7a9625fa.js.map",
+    "main.57ff1c97.css.map": "/grower-react/static/css/main.57ff1c97.css.map",
+    "main.ef0a1cc4.js.map": "/grower-react/static/js/main.ef0a1cc4.js.map",
     "787.69c46001.chunk.js.map": "/grower-react/static/js/787.69c46001.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce6e081b.css",
-    "static/js/main.7a9625fa.js"
+    "static/css/main.57ff1c97.css",
+    "static/js/main.ef0a1cc4.js"
   ]
 }
