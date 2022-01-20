@@ -5,6 +5,7 @@ import React from "react";
 export default function Flip(props) {
   return (
     <>
+    <div className="container">
     <div className="flip-card">
       <div className="flip-card-inner">
         <div className="flip-card-front">
@@ -26,6 +27,7 @@ export default function Flip(props) {
 
         </div>
       </div>
+    </div>
     </div>
     </>
   );

@@ -12,7 +12,7 @@ export default function Sign() {
 
   if ((day === 1 || 2 || 3 || 4 || 5) && (hour < 10 || hour >= 19)) {
     sign = closed;
-  } else if ((day === 6 || 7) && (hour < 11 || hour >= 16)) {
+  } else if ((day === 6 || 0) && (hour < 11 || hour >= 16)) {
     sign = closed;
   } else {
     sign = open;
