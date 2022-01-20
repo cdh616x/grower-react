@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/grower-react/static/css/main.7deb593b.css",
-    "main.js": "/grower-react/static/js/main.bad5dcdd.js",
+    "main.css": "/grower-react/static/css/main.93c3cf87.css",
+    "main.js": "/grower-react/static/js/main.85b9d107.js",
     "static/js/787.69c46001.chunk.js": "/grower-react/static/js/787.69c46001.chunk.js",
     "static/media/spartan.pdf": "/grower-react/static/media/spartan.c902c6e99b3a6c3d23be.pdf",
     "static/media/fox-sched1.png": "/grower-react/static/media/fox-sched1.fc7fc2ccdda3231c3948.png",
     "static/media/house-garden.png": "/grower-react/static/media/house-garden.5856b8f380ba030c758a.png",
+    "static/media/fox-sched.jpeg": "/grower-react/static/media/fox-sched.b73fe6a3298395d3015a.jpeg",
     "static/media/shop-front.jpeg": "/grower-react/static/media/shop-front.4e1d2a5e002160ccd10d.jpeg",
     "static/media/hydrofarm.png": "/grower-react/static/media/hydrofarm.e0d72c1c98009b2605c3.png",
     "static/media/general-hydro.png": "/grower-react/static/media/general-hydro.56d9ec132195944705dd.png",
@@ -36,12 +37,12 @@
     "static/media/mammoth-recolor.png": "/grower-react/static/media/mammoth-recolor.67afeace5b3b9f0291f4.png",
     "static/media/general-hydro.webp": "/grower-react/static/media/general-hydro.976f8a788664072de749.webp",
     "index.html": "/grower-react/index.html",
-    "main.7deb593b.css.map": "/grower-react/static/css/main.7deb593b.css.map",
-    "main.bad5dcdd.js.map": "/grower-react/static/js/main.bad5dcdd.js.map",
+    "main.93c3cf87.css.map": "/grower-react/static/css/main.93c3cf87.css.map",
+    "main.85b9d107.js.map": "/grower-react/static/js/main.85b9d107.js.map",
     "787.69c46001.chunk.js.map": "/grower-react/static/js/787.69c46001.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7deb593b.css",
-    "static/js/main.bad5dcdd.js"
+    "static/css/main.93c3cf87.css",
+    "static/js/main.85b9d107.js"
   ]
 }
