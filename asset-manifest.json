@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/grower-react/static/css/main.8f52c9ea.css",
+    "main.css": "/grower-react/static/css/main.6a3c30d2.css",
     "main.js": "/grower-react/static/js/main.fe5f70bc.js",
     "static/js/787.69c46001.chunk.js": "/grower-react/static/js/787.69c46001.chunk.js",
     "static/media/house-sched.pdf": "/grower-react/static/media/house-sched.0e1e5a8232f8ae785669.pdf",
@@ -64,12 +64,12 @@
     "static/media/mammoth-recolor.png": "/grower-react/static/media/mammoth-recolor.67afeace5b3b9f0291f4.png",
     "static/media/current-culture-logo.png": "/grower-react/static/media/current-culture-logo.24e9955d36efd787ceed.png",
     "index.html": "/grower-react/index.html",
-    "main.8f52c9ea.css.map": "/grower-react/static/css/main.8f52c9ea.css.map",
+    "main.6a3c30d2.css.map": "/grower-react/static/css/main.6a3c30d2.css.map",
     "main.fe5f70bc.js.map": "/grower-react/static/js/main.fe5f70bc.js.map",
     "787.69c46001.chunk.js.map": "/grower-react/static/js/787.69c46001.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f52c9ea.css",
+    "static/css/main.6a3c30d2.css",
     "static/js/main.fe5f70bc.js"
   ]
 }
