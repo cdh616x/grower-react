@@ -5,11 +5,10 @@ import React from "react";
 import GalleryPageNutrients from "../components/gallery-page-nutrients.jsx";
 import Item from "../components/Item.jsx";
 
-
-export default function Nutrients() {
+export default function Products() {
   return (
     <>
-    <GalleryPageNutrients pagetitle="Nutrient Lines" />
+    
     </>
   );
 }

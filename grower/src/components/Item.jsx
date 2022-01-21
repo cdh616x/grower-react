@@ -12,9 +12,7 @@ export default function Item(props) {
        <img className="img-fluid product" src={props.src} />
       </div>
       <div className="col-7 product-info">
-      <a className="product-link" href={props.href} target="_blank">
-       <h2>Products</h2>
-       </a>
+
        <h5 className="product-type">{props.producttype}</h5>
        <p className="info">{props.products1}</p>
        <p className="info">{props.products2}</p>
@@ -29,7 +27,11 @@ export default function Item(props) {
        <img className="img-fluid" style={{height: "auto"}} src={props.schedule} />
        </a>
        </h5>
+       <a className="product-link" href={props.href} target="_blank">
+        <h5>To Website</h5>
+        </a>
       </div>
+      <hr />
      </div>
     </div>
     </>

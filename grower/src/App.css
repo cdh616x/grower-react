@@ -17,6 +17,10 @@
   text-align: center;
 }
 
+.welcome-text {
+  padding-top: 2%;
+}
+
 .landing-info {
   padding-top: 5%;
   padding-right: 5%;
@@ -50,119 +54,12 @@ html, body {
   background: linear-gradient(-0.25turn, #fff, #8B95C9);
 }
 
-html {
+/* html {
   overflow-x: initial !important;
-}
+} */
 
 body {
   width: 100%;
-}
-
-/* .button {
-  text-align: center;
-}
-
-.card {
-  border: 0;
-}
-
-.card-header {
-  font-size: 25px;
-  text-decoration: underline;
-  font-family: "Profession", sans-serif;
-}
-
-.card-text {
-  font-size: 15px;
-}
-
-.cardblock a {
-  text-align: center;
-}
-
-.card-block {
-  text-align: center;
-}
-
-.card-title {
-  text-align: center;
-}
-
-
-
-.card-flip {
-    display: grid;
-    grid-template: 1fr / 1fr;
-    grid-template-areas: "frontAndBack"; /*RESEARCH THIS
-    transform-style: preserve-3d;
-    transition: all 0.5s ease;
-}
-
-.front {
-    grid-area: frontAndBack;
-    background-color: white;
-    /* background: linear-gradient(#fff, #E66465, #fff);
-}
-
-.back {
-  color: white;
-  background-color: black;
-  grid-area: frontAndBack;
-  transform: rotateY(180deg);
-  font-family: "D-DIN", sans-serif;
-}
-
-.card-container:hover .card-flip {
-    transform: rotateY(-180deg);
-} */
-
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
-.flip-card {
-  background-color: transparent;
-  width: 100%;
-  height: 45vw;
-  /* Remove this if you don't want the 3D effect */
-}
-
-/* This container is needed to position the front and back side */
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-/* Position the front and back side */
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
-}
-
-/* Style the front side (fallback if image is missing) */
-.flip-card-front {
-  background-color: white;
-  border-radius: 10px;
-  color: black;
-  font-family: "Profession", sans-serif;
-}
-
-/* Style the back side */
-.flip-card-back {
-  background-color: #097969;
-  border-radius: 10px;
-  color: white;
-  transform: rotateY(180deg);
-  font-family: "D-DIN", sans-serif;
 }
 
 .gallery .row {
@@ -207,7 +104,10 @@ body {
 
 .product {
   height: auto;
+  width: auto;
   align-items: center;
+  padding-bottom: 2%;
+  margin: 0;
 }
 
 .product-type {
@@ -217,7 +117,7 @@ body {
 
 .product-link {
   color: black;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .product-info {
@@ -237,4 +137,8 @@ body {
   color: black;
   text-decoration: underline;
   padding-top: 5%;
+}
+
+.carousel-item {
+  margin: 0;
 }

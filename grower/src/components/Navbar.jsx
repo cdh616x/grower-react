@@ -26,7 +26,8 @@ export default function Navbar() {
             Inventory
           </a>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a className="dropdown-item" href="#">Hardware</a></li>
+            <li><a className="dropdown-item" href="#/growing-medias">Growing Medias</a></li>
+            <li><a className="dropdown-item" href="#/lighting">Lighting</a></li>
             <li><a className="dropdown-item" href="#/nutrients">Nutrients</a></li>
           </ul>
         </li>

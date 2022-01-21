@@ -4,9 +4,6 @@ import React from "react";
 
 import Navbar from "./Navbar.jsx";
 import Footer from "./Footer.jsx";
-import GalleryItem from "./GalleryItem.jsx";
-import GalleryItemFlip from "./GalleryItemFlip.jsx";
-import Flip from "./GalleryFlipItem1.jsx";
 import Item from "./Item.jsx";
 
 import spartan from "../schedules/spartan.png";
@@ -15,6 +12,17 @@ import housesched from "../schedules/house-garden.png";
 import emeraldsched from "../schedules/emerald.png";
 import advancedsched from "../schedules/advanced.png";
 import athenasched from "../schedules/athena.png";
+import florasched from "../schedules/flora-sched.png";
+import rootssched from "../schedules/roots.png";
+import biobizzsched from "../schedules/biobizz.png";
+import vegamatrixsched from "../schedules/vegamatrix.png";
+import millssched from "../schedules/mills.png";
+import sched16 from "../schedules/16.png";
+import cycosched from "../schedules/cyco.png";
+import botanisched from "../schedules/botanicare.png";
+import cessched from "../schedules/ces-img.png";
+import cultsched from "../schedules/culture.png";
+import hcosched from "../schedules/hco.png";
 
 import SpartanPDF from "../schedules/spartan.pdf";
 import HouseSchedule from "../schedules/house-sched.pdf";
@@ -22,6 +30,17 @@ import FoxSchedule from "../schedules/fox-sched.jpeg";
 import EmeraldSched from "../schedules/emerald-sched.pdf";
 import AdvancedSched from "../schedules/advanced-sched.pdf";
 import AthenaSched from "../schedules/athena-sched.pdf";
+import FloraSched from "../schedules/flora-sched.pdf";
+import RootsSched from "../schedules/roots.pdf";
+import BioBizzSched from "../schedules/biobizz.pdf";
+import VegaSched from "../schedules/vegamatrix.pdf";
+import MillsSched from "../schedules/millssched.pdf";
+import SixteenSched from "../schedules/16.pdf";
+import CycoSched from "../schedules/cyco.pdf";
+import BotaniSched from "../schedules/botanicare.pdf";
+import CesSched from "../schedules/ces-full.png";
+import CultSched from "../schedules/culture.pdf";
+import HcoSched from "../schedules/hco-full.jpeg";
 
 import mammothlogo from "../images/logos/mammoth-recolor.png";
 import nectarlogo from "../images/logos/ooo.png";
@@ -44,7 +63,7 @@ import biobizzlogo from "../images/logos/biobizz-logo-dark.png";
 import vegalogo from "../images/logos/vegamatrix.png";
 import heavylogo from "../images/logos/heavy16logo.png";
 
-export default function GalleryPage(props) {
+export default function GalleryPageNutrients(props) {
   return(
     <>
     <div className="gallery">
@@ -113,50 +132,116 @@ export default function GalleryPage(props) {
 
      <Item src={athenalogo}
      href="https://www.athenaproducts.com/pro-line?page=1"
-     producttype="Liquid Nutrients"
-     products1=""
+     producttype="Blended Line - Liquid Nutrients"
+     products1="Cleance, CaMg, PK, Grow A, Grow B"
+     products2="Bloom A, Bloom B, Stack, Balance"
+     producttype2="Pro Line - Granular Nutrients"
+     products21="Core, Grow, Bloom"
      schedulehref={AthenaSched}
      schedule={athenasched} />
 
      <Item src={gaialogo}
-     href="https://www.gaiagreen.com/" />
+     href="https://www.gaiagreen.com/"
+     producttype="Organic Fertilizer - Granular Nutrients"
+     products1="All Purpose, Power Bloom, Soluble Seaweed Extract, Super Fly Insect Frass"
+     products2="Living Soil, Greensand, Mineralized Phosphate, Gypsum, Bone Meal"
+     products3="Diatomaceous Earth, Oyster Shell Flour, Alfalfa Meal, Blood Meal, Feather Meal"
+     products4="Fishbone Mean, Kelp Meal, Glacial Rock Dust, Rock Phosphate, Basalt Rock Dust" />
 
      <Item src={hydrologo}
-     href="https://generalhydroponics.com/products/categories/nutrients/" />
+     href="https://generalhydroponics.com/products/categories/nutrients/"
+     producttype="BioThrive - Liquid Nutrients"
+     products1="Grow, Bloom"
+     producttype2="FloraGro - Liquid Nutrients"
+     products21="Gro, Micro, Bloom"
+     schedulehref={FloraSched}
+     schedule={florasched} />
 
      <Item src={rootslogo}
-     href="https://www.aurorainnovations.com/roots-organics-liquid-nutrients" />
+     href="https://www.aurorainnovations.com/roots-organics-liquid-nutrients"
+     producttype="Liquid Nutrients & Supplements"
+     products1="Buddha Grow, Buddha Bloom, Surge, Trinity, Extreme Serene, Ancient Amber"
+     products2="HP2, HPK, Rain, CalMag"
+     schedulehref={RootsSched}
+     schedule={rootssched} />
 
      <Item src={dtelogo}
-     href="https://downtoearthfertilizer.com/" />
+     href="https://downtoearthfertilizer.com/"
+     producttype="Blended Fertilizer"
+     products1="Acid Mix, All Purpose, Bio-Fish, Bio-Live, Bio-Turf"
+     products2="Citrus Mix, Fruit Tree, Rose & Flower, Starter Mix"
+     products3="Tree & Shrub, Vegan Mix, Vegetable Garden" />
 
      <Item src={biobizzlogo}
-     href="https://www.biobizz.com/products/" />
+     href="https://www.biobizz.com/products/"
+     producttype="Liquid Nutrients"
+     products1="Microbes, CalMag, Bio-Up, Bio-Down, Fish-Mix, Bio-Grow"
+     products2="Bio-Bloom, Top-Max, Root-Juice, Alg-A-Mic, Bio-Heaven"
+     products3="Acti-Vera, Leaf Coat"
+     schedulehref={BioBizzSched}
+     schedule={biobizzsched} />
 
      <Item src={vegalogo}
-     href="https://purelifeveganix.com/" />
+     href="https://purelifeveganix.com/"
+     producttype="Liquid Nutrients"
+     products1="Grow, Bloom, Boost(CaMg), Prime Zyme, Amp-It"
+     products2="Phyre, Hypha, Hard-N-Quick, Big-N-Sticky"
+     schedulehref={VegaSched}
+     schedule={vegamatrixsched} />
 
      <Item src={millslogo}
-     href="https://millsnutrients.com/" />
+     href="https://millsnutrients.com/"
+     producttype="Liquid Nutrients"
+     products1="Basis A & B, Start R, C4, Ultimate PK, Vitalize"
+     schedulehref={MillsSched}
+     schedule={millssched} />
 
      <Item src={heavylogo}
-     href="https://www.heavy16.com/products/" />
+     href="https://www.heavy16.com/products/"
+     producttype="Liquid Nutrients"
+     products1="Veg A & B, Bud A & B, Prime, Fire, Roots, Foliar, Finish"
+     schedulehref={SixteenSched}
+     schedule={sched16} />
 
      <Item src={cycologo}
-     href="https://cycoflower.com/usa/#" />
+     href="https://cycoflower.com/usa/#"
+     producttype="Liquid Nutrients"
+     products1="Grow A & B, B1 Boost, Dr. Repair, Bloom A & B"
+     products2="Silica, Potash Plus, Swell"
+     schedulehref={CycoSched}
+     schedule={cycosched} />
 
      <Item src={botanicarelogo}
-     href="https://www.botanicare.com/nutrients/" />
+     href="https://www.botanicare.com/nutrients/"
+     producttype="Liquid Nutrients"
+     products1="Pro Bloom, Pro Grow, Rhizo Blast, Liquid Karma"
+     products2="Cal-Mag Plus, Silica Blast, Sweet, Hydroplex"
+     schedulehref={BotaniSched}
+     schedule={botanisched} />
 
      <Item src={ceslogo}
-     href="https://cuttingedgesolutions.com/nutrients/" />
+     href="https://cuttingedgesolutions.com/nutrients/"
+     producttype="Liquid Nutrients"
+     products1="Micro, Grow, Bloom, Uncle John's Blend, Bulletproof SI"
+     products2="CalMag Amplified, Sugarfree, Sour Dee"
+     schedulehref={CesSched}
+     schedule={cessched} />
 
      <Item src={culturelogo}
-     href="https://cch2o.com/cultured-solutions-premium-hydroponic-nutrients/" />
+     href="https://cch2o.com/cultured-solutions-premium-hydroponic-nutrients/"
+     producttype="Liquid Nutrients"
+     products1="UC Roots, Coco Cal, Veg A, Bloom A, Clear Line"
+     products2="Bud Booster - Early, Mid, Late"
+     schedulehref={CultSched}
+     schedule={cultsched} />
 
      <Item src={hcologo}
-     href="https://humboldtcountysown.com/" />
-
+     href="https://humboldtcountysown.com/"
+     producttype="Nutrients"
+     products1="Micro, Grow, Bloom, Magnum, Crystal Burst, Sonic Bloom"
+     products2="Deep Breath, G-10, Snow Storm Ultra, Purple Maxx, Killer Tea"
+     schedulehref={HcoSched}
+     schedule={hcosched} />
     <Footer />
     </div>
     </>

@@ -6,7 +6,10 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 import App from './App.js';
-import Products from "../src/routes/nutrients.jsx";
+import Nutrients from "../src/routes/nutrients.jsx";
+import Lighting from "../src/routes/lighting.jsx";
+import Hardware from "../src/routes/hardware.jsx";
+import Medias from "../src/routes/growing-medias.jsx";
 
 import { render } from "react-dom";
 import {
@@ -20,7 +23,13 @@ ReactDOM.render(
    <Routes>
 
     <Route path="/" element={<App />} />
-    <Route path="/nutrients" element={<Products />} />
+
+    <Route path="/nutrients" element={<Nutrients />} />
+
+    <Route path="/growing-medias" element={<Medias />} />
+
+    <Route path="/hardware" element={<Hardware />} />
+    <Route path="/lighting" element={<Lighting />} />
 
    </Routes>
   </HashRouter>,
