@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/grower-react/static/css/main.6a3c30d2.css",
-    "main.js": "/grower-react/static/js/main.fe5f70bc.js",
+    "main.css": "/grower-react/static/css/main.a4d7b6c0.css",
+    "main.js": "/grower-react/static/js/main.3a3b6128.js",
     "static/js/787.69c46001.chunk.js": "/grower-react/static/js/787.69c46001.chunk.js",
     "static/media/house-sched.pdf": "/grower-react/static/media/house-sched.0e1e5a8232f8ae785669.pdf",
     "static/media/millssched.pdf": "/grower-react/static/media/millssched.4295924c7021d1d4305f.pdf",
@@ -48,7 +48,6 @@
     "static/media/advanced2.png": "/grower-react/static/media/advanced2.7e4807c3786b08b49915.png",
     "static/media/vegamatrix.png": "/grower-react/static/media/vegamatrix.891f8b6b3706f9519a49.png",
     "static/media/athena.png": "/grower-react/static/media/athena.72faeb8f723c68d62042.png",
-    "static/media/lux.png": "/grower-react/static/media/lux.2f3aa80a7a3462092aa2.png",
     "static/media/roots.png": "/grower-react/static/media/roots.a5a018594eb47969c547.png",
     "static/media/cyco-logo.png": "/grower-react/static/media/cyco-logo.addf5e8ea6d66acdb08f.png",
     "static/media/growers-choice.png": "/grower-react/static/media/growers-choice.3937e82a2512b04117cd.png",
@@ -60,16 +59,17 @@
     "static/media/com.png": "/grower-react/static/media/com.e975eaaacad2b6668927.png",
     "static/media/mother-earth.png": "/grower-react/static/media/mother-earth.ddd2ffc60b11a16c02a4.png",
     "static/media/heavy16logo.png": "/grower-react/static/media/heavy16logo.fd41fac7f69263bc4606.png",
+    "static/media/luxx.png": "/grower-react/static/media/luxx.8d5ab88f94052f03e8ef.png",
     "static/media/promix.png": "/grower-react/static/media/promix.7f69e78594ccd4208987.png",
     "static/media/mammoth-recolor.png": "/grower-react/static/media/mammoth-recolor.67afeace5b3b9f0291f4.png",
     "static/media/current-culture-logo.png": "/grower-react/static/media/current-culture-logo.24e9955d36efd787ceed.png",
     "index.html": "/grower-react/index.html",
-    "main.6a3c30d2.css.map": "/grower-react/static/css/main.6a3c30d2.css.map",
-    "main.fe5f70bc.js.map": "/grower-react/static/js/main.fe5f70bc.js.map",
+    "main.a4d7b6c0.css.map": "/grower-react/static/css/main.a4d7b6c0.css.map",
+    "main.3a3b6128.js.map": "/grower-react/static/js/main.3a3b6128.js.map",
     "787.69c46001.chunk.js.map": "/grower-react/static/js/787.69c46001.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a3c30d2.css",
-    "static/js/main.fe5f70bc.js"
+    "static/css/main.a4d7b6c0.css",
+    "static/js/main.3a3b6128.js"
   ]
 }
