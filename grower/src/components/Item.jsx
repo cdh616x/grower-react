@@ -19,6 +19,7 @@ export default function Item(props) {
        <p className="info">{props.products1}</p>
        <p className="info">{props.products2}</p>
        <p className="info">{props.products3}</p>
+       <p className="info">{props.products4}</p>
        <h5 className="product-type">{props.producttype2}</h5>
        <p className="info">{props.products21}</p>
        <p className="info">{props.products22}</p>

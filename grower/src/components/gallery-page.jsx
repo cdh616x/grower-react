@@ -10,10 +10,18 @@ import Flip from "./GalleryFlipItem1.jsx";
 import Item from "./Item.jsx";
 
 import spartan from "../schedules/spartan.png";
-import SpartanPDF from "../schedules/spartan.pdf";
 import foxsched from "../schedules/fox-sched1.png";
 import housesched from "../schedules/house-garden.png";
+import emeraldsched from "../schedules/emerald.png";
+import advancedsched from "../schedules/advanced.png";
+import athenasched from "../schedules/athena.png";
+
+import SpartanPDF from "../schedules/spartan.pdf";
+import HouseSchedule from "../schedules/house-sched.pdf";
 import FoxSchedule from "../schedules/fox-sched.jpeg";
+import EmeraldSched from "../schedules/emerald-sched.pdf";
+import AdvancedSched from "../schedules/advanced-sched.pdf";
+import AthenaSched from "../schedules/athena-sched.pdf";
 
 import mammothlogo from "../images/logos/mammoth-recolor.png";
 import nectarlogo from "../images/logos/ooo.png";
@@ -77,7 +85,9 @@ export default function GalleryPage(props) {
      href="https://www.emeraldharvest.co/"
      producttype="Liquid Nutrients"
      products1="Cali Pro, Grow Micro Bloom, Honey Chome, Root Wizard"
-     products2="Sturdy Stalk, Hydra Clear, Emerald Goddess, King Kola" />
+     products2="Sturdy Stalk, Hydra Clear, Emerald Goddess, King Kola"
+     schedulehref={EmeraldSched}
+     schedule={emeraldsched} />
 
      <Item src={houselogo}
      href="https://house-garden.us/"
@@ -88,14 +98,25 @@ export default function GalleryPage(props) {
      products21="Multi Zen, Drip Clean, Roots Excelurator, Magin Green, Starter Kits"
      products22="Algen Extract, Amino Treatment, Nitrogen Boost Bud-XL, Rhizo Force"
      products23="Top Booster, Shooting Powder, Top Shooter, PH Stabilizer, Magnesium Boost"
-     schedulehref="https://house-garden.us/feeding-schedules/"
+     schedulehref={HouseSchedule}
      schedule={housesched} />
 
      <Item src={advancedlogo}
-     href="https://www.advancednutrients.com/products/all-products/" />
+     href="https://www.advancednutrients.com/products/all-products/"
+     producttype="Liquid Nutrients"
+     products1="Ancient Earth, B-52 Fertilizer Booster, Big Bud, Coco, Bud Candy, Sensizym, Tarantula"
+     products2="Bud Factor X, Bug Ignitor, Flawless Finish, Grandma Enggy's F-1, Iguana Juice Bloom, Voodoo Juice"
+     products3="Iguana Juice Grow, Mother Earth Super Tea, Nirvana, Overdrive, ph Perfect Connoiseur"
+     products4="Sensei Bloom, Sensei Growth, Piranha Beneficial Fungi, Revive, Rhino Skin, Cal-Mag Xtra"
+     schedulehref={AdvancedSched}
+     schedule={advancedsched} />
 
      <Item src={athenalogo}
-     href="https://www.athenaproducts.com/pro-line?page=1" />
+     href="https://www.athenaproducts.com/pro-line?page=1"
+     producttype="Liquid Nutrients"
+     products1=""
+     schedulehref={AthenaSched}
+     schedule={athenasched} />
 
      <Item src={gaialogo}
      href="https://www.gaiagreen.com/" />
