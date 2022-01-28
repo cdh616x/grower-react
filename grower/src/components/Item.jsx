@@ -31,8 +31,8 @@ export default function Item(props) {
         <h5>To Website</h5>
         </a>
       </div>
-      <hr />
      </div>
+     <hr />
     </div>
     </>
   );

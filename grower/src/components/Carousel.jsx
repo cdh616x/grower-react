@@ -27,7 +27,7 @@ import gavita from "../images/logos/gavita.png";
 import grochoi from "../images/logos/growers-choice.png";
 import sixteen from "../images/logos/heavy16logo.png";
 import hortilux from "../images/logos/hortilux-logo.png";
-import lux from "../images/logos/lux.png";
+import lux from "../images/logos/luxx.png";
 import earth from "../images/logos/mother-earth.png";
 import oregon from "../images/logos/ooo.png";
 import phantom from "../images/logos/phantom.png";

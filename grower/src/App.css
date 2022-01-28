@@ -118,6 +118,7 @@ body {
 .product-link {
   color: black;
   text-decoration: underline;
+  text-align: right;
 }
 
 .product-info {
