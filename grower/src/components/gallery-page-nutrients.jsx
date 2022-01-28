@@ -43,7 +43,7 @@ import CultSched from "../schedules/culture.pdf";
 import HcoSched from "../schedules/hco-full.jpeg";
 
 import mammothlogo from "../images/logos/mammoth-recolor.png";
-import nectarlogo from "../images/logos/ooo.png";
+import nectarlogo from "../images/logos/nectarlogo1.png";
 import hydrologo from "../images/logos/general-hydro.png";
 import rootslogo from "../images/logos/roots-logo.png";
 import foxlogo from "../images/logos/fox.png";
@@ -63,6 +63,8 @@ import biobizzlogo from "../images/logos/biobizz-logo-dark.png";
 import vegalogo from "../images/logos/vegamatrix.png";
 import heavylogo from "../images/logos/heavy16logo.png";
 
+import organic from "../images/logos/organic.png";
+
 export default function GalleryPageNutrients(props) {
   return(
     <>
@@ -72,18 +74,20 @@ export default function GalleryPageNutrients(props) {
 
      <Item src={nectarlogo}
      title="Nectar for the Gods"
+     organic={organic}
      href="https://www.oregonsonly.com/nectar-for-the-gods-products/"
      producttype="Liquid Nutrients"
      products1="Medusa's Magic, Gaia Mania, Athena's Aminas, Demeter's Destiny, Hygeia's Hydration"
      products2="Olympus Up, The Kraken, Mega Morpheus, Zeus Juice Herculean Harvest, Aphrodite's Extraction"
      products3="Poseidonzime, Triton's Trawl, Pegasus Potion, Persephone's Palate, Bloom Khaos, Hades Down"
      producttype2="Granular Nutrients"
-     products21="One Shot from the Gods"
+     products21="One Shot"
      schedulehref={SpartanPDF}
      schedule={spartan} />
 
      <Item src={mammothlogo}
      title="Mammoth P"
+     organic={organic}
      href="https://mammothmicrobes.com/product/mammoth-p/"
      producttype="Liquid Nutrients"
      products1="Mammoth P, Mammoth Canncontrol, Mammoth SI"
@@ -91,6 +95,7 @@ export default function GalleryPageNutrients(props) {
 
      <Item src={foxlogo}
      href="https://foxfarm.com/product-category/liquid-fertilizers"
+     organic={organic}
      producttype="Brands"
      products1="Fox Farms, Tiger Bloom, Cultivation Nation, Bush Doctor"
      producttype2="Liquid Nutrients"
@@ -122,6 +127,7 @@ export default function GalleryPageNutrients(props) {
 
      <Item src={advancedlogo}
      href="https://www.advancednutrients.com/products/all-products/"
+     organic={organic}
      producttype="Liquid Nutrients"
      products1="Ancient Earth, B-52 Fertilizer Booster, Big Bud, Coco, Bud Candy, Sensizym, Tarantula"
      products2="Bud Factor X, Bug Ignitor, Flawless Finish, Grandma Enggy's F-1, Iguana Juice Bloom, Voodoo Juice"
@@ -142,6 +148,7 @@ export default function GalleryPageNutrients(props) {
 
      <Item src={gaialogo}
      href="https://www.gaiagreen.com/"
+     organic={organic}
      producttype="Organic Fertilizer - Granular Nutrients"
      products1="All Purpose, Power Bloom, Soluble Seaweed Extract, Super Fly Insect Frass"
      products2="Living Soil, Greensand, Mineralized Phosphate, Gypsum, Bone Meal"
@@ -159,6 +166,7 @@ export default function GalleryPageNutrients(props) {
 
      <Item src={rootslogo}
      href="https://www.aurorainnovations.com/roots-organics-liquid-nutrients"
+     organic={organic}
      producttype="Liquid Nutrients & Supplements"
      products1="Buddha Grow, Buddha Bloom, Surge, Trinity, Extreme Serene, Ancient Amber"
      products2="HP2, HPK, Rain, CalMag"
@@ -167,6 +175,7 @@ export default function GalleryPageNutrients(props) {
 
      <Item src={dtelogo}
      href="https://downtoearthfertilizer.com/"
+     organic={organic}
      producttype="Blended Fertilizer"
      products1="Acid Mix, All Purpose, Bio-Fish, Bio-Live, Bio-Turf"
      products2="Citrus Mix, Fruit Tree, Rose & Flower, Starter Mix"
@@ -174,6 +183,7 @@ export default function GalleryPageNutrients(props) {
 
      <Item src={biobizzlogo}
      href="https://www.biobizz.com/products/"
+     organic={organic}
      producttype="Liquid Nutrients"
      products1="Microbes, CalMag, Bio-Up, Bio-Down, Fish-Mix, Bio-Grow"
      products2="Bio-Bloom, Top-Max, Root-Juice, Alg-A-Mic, Bio-Heaven"
@@ -183,6 +193,7 @@ export default function GalleryPageNutrients(props) {
 
      <Item src={vegalogo}
      href="https://purelifeveganix.com/"
+     organic={organic}
      producttype="Liquid Nutrients"
      products1="Grow, Bloom, Boost(CaMg), Prime Zyme, Amp-It"
      products2="Phyre, Hypha, Hard-N-Quick, Big-N-Sticky"

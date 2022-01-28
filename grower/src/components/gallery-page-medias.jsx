@@ -18,6 +18,16 @@ import earthlogo from "../images/logos/mother-earth.png";
 import royallogo from "../images/logos/royal-gold.png";
 import hydrotonlogo from "../images/logos/hydroton.png";
 
+import strawberry from "../images/foxfarms/strawberry-fields.png";
+import ocean from "../images/foxfarms/ocean-forest.png";
+import frog from "../images/foxfarms/happy-frog.png";
+import dog from "../images/foxfarms/lucky-dog.png";
+import kokobop from "../images/foxfarms/kokobop.png";
+
+import greenfield from "../images/roots-organic/greenfield.png";
+import greenlite from "../images/roots-organic/greenlite.png";
+import sevenoseven from "../images/roots-organic/707.png";
+
 export default function GalleryPageMedias(props) {
   return (
     <>
@@ -27,11 +37,19 @@ export default function GalleryPageMedias(props) {
     <Item src={foxfalogo}
     href="https://foxfarm.com/product-category/soil-soil-conditioners"
     producttype="Brands"
-    products1="Happy Frog, Strawberry Fields, Salamander Soil, Lucky Dog, Bushdoctor"
+    products1="Happy Frog, Strawberry Fields, Lucky Dog, Ocean Forest, KokoBop"
     producttype2="Medium Types"
-    products21="Coco Coir, Perlite, Soil Conditioner, Earthworm Castings" />
+    products21="Coco Coir, Perlite, Soil Conditioner, Earthworm Castings"
+    media_img={frog}
+    media_img1={ocean}
+    media_img2={dog}
+    media_img3={strawberry}
+    media_img4={kokobop} />
 
-    <Item src={rootslogo} />
+    <Item src={rootslogo}
+    media_img={greenfield}
+    media_img1={greenlite}
+    media_img2={sevenoseven} />
 
     <Item src={nectrlogo}
     title="Oregon's Only" />
@@ -44,7 +62,10 @@ export default function GalleryPageMedias(props) {
 
     <Item src={sungrlogo} />
 
-    <Item src={comailogo} />
+    <Item src={comailogo}
+    href="https://coastofmaine.com/"
+    producttype="Growing Medias"
+    products1="Stonington, Lobster Compost" />
 
     <Item src={earthlogo} />
 
@@ -52,6 +73,9 @@ export default function GalleryPageMedias(props) {
 
     <Item src={hydrotonlogo}
     title="Hydroton" />
+
+    <Item
+    title="Wiggle Worm" />
 
     <Footer />
     </>

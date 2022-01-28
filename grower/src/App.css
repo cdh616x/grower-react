@@ -121,6 +121,16 @@ body {
   text-align: right;
 }
 
+.organic {
+  height: 50px;
+  width: auto;
+}
+
+.dirt {
+  height: 40vh;
+  width: auto;
+}
+
 .product-info {
   text-align: left;
   font-size: 1.4vw;
