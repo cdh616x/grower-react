@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/grower-react/static/css/main.a4d7b6c0.css",
-    "main.js": "/grower-react/static/js/main.3a3b6128.js",
+    "main.css": "/grower-react/static/css/main.c14737ac.css",
+    "main.js": "/grower-react/static/js/main.0c430929.js",
     "static/js/787.69c46001.chunk.js": "/grower-react/static/js/787.69c46001.chunk.js",
     "static/media/house-sched.pdf": "/grower-react/static/media/house-sched.0e1e5a8232f8ae785669.pdf",
     "static/media/millssched.pdf": "/grower-react/static/media/millssched.4295924c7021d1d4305f.pdf",
@@ -29,6 +29,7 @@
     "static/media/hco.png": "/grower-react/static/media/hco.0a799757a03599e69548.png",
     "static/media/gaia-green.webp": "/grower-react/static/media/gaia-green.466fa9a93fa26902252e.webp",
     "static/media/fox.png": "/grower-react/static/media/fox.620cbd3bad77389373cf.png",
+    "static/media/organic.png": "/grower-react/static/media/organic.2a9816243238dada7cf2.png",
     "static/media/botanicare.png": "/grower-react/static/media/botanicare.07b3910a113127435122.png",
     "static/media/advanced.png": "/grower-react/static/media/advanced.33733c09718d97cd8744.png",
     "static/media/16.png": "/grower-react/static/media/16.b7fe0377a623a868f60e.png",
@@ -64,12 +65,12 @@
     "static/media/mammoth-recolor.png": "/grower-react/static/media/mammoth-recolor.67afeace5b3b9f0291f4.png",
     "static/media/current-culture-logo.png": "/grower-react/static/media/current-culture-logo.24e9955d36efd787ceed.png",
     "index.html": "/grower-react/index.html",
-    "main.a4d7b6c0.css.map": "/grower-react/static/css/main.a4d7b6c0.css.map",
-    "main.3a3b6128.js.map": "/grower-react/static/js/main.3a3b6128.js.map",
+    "main.c14737ac.css.map": "/grower-react/static/css/main.c14737ac.css.map",
+    "main.0c430929.js.map": "/grower-react/static/js/main.0c430929.js.map",
     "787.69c46001.chunk.js.map": "/grower-react/static/js/787.69c46001.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4d7b6c0.css",
-    "static/js/main.3a3b6128.js"
+    "static/css/main.c14737ac.css",
+    "static/js/main.0c430929.js"
   ]
 }
