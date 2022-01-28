@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/grower-react/static/css/main.c14737ac.css",
-    "main.js": "/grower-react/static/js/main.a333b640.js",
+    "main.css": "/grower-react/static/css/main.f52acfa1.css",
+    "main.js": "/grower-react/static/js/main.e4bb00ce.js",
     "static/js/787.69c46001.chunk.js": "/grower-react/static/js/787.69c46001.chunk.js",
     "static/media/house-sched.pdf": "/grower-react/static/media/house-sched.0e1e5a8232f8ae785669.pdf",
     "static/media/millssched.pdf": "/grower-react/static/media/millssched.4295924c7021d1d4305f.pdf",
@@ -19,11 +19,16 @@
     "static/media/cyco.pdf": "/grower-react/static/media/cyco.2bab102dc2353c90c225.pdf",
     "static/media/fox-sched.jpeg": "/grower-react/static/media/fox-sched.b73fe6a3298395d3015a.jpeg",
     "static/media/mills.png": "/grower-react/static/media/mills.f6acd82d25ae4ac8dc25.png",
+    "static/media/kokobop.png": "/grower-react/static/media/kokobop.bdb0aa4a5e51d950c370.png",
+    "static/media/ocean-forest.png": "/grower-react/static/media/ocean-forest.6526e8466870700fd29f.png",
+    "static/media/strawberry-fields.png": "/grower-react/static/media/strawberry-fields.02cdb7b370fc903eb872.png",
     "static/media/emerald.png": "/grower-react/static/media/emerald.11cfcda5adeb62d2877b.png",
     "static/media/potters-gold.png": "/grower-react/static/media/potters-gold.a8fa8e36afdd4e4c274f.png",
+    "static/media/happy-frog.png": "/grower-react/static/media/happy-frog.809c56ff0015afc3e415.png",
     "static/media/ces-img.png": "/grower-react/static/media/ces-img.39f4973245ae3d547ebd.png",
     "static/media/botanicare.pdf": "/grower-react/static/media/botanicare.7f06dd4c624e1f64ae1f.pdf",
     "static/media/shop-front.jpeg": "/grower-react/static/media/shop-front.4e1d2a5e002160ccd10d.jpeg",
+    "static/media/lucky-dog.png": "/grower-react/static/media/lucky-dog.7ec6d497e50196217a54.png",
     "static/media/ces-full.png": "/grower-react/static/media/ces-full.5cad74c8475d6837c4c6.png",
     "static/media/hydrofarm.png": "/grower-react/static/media/hydrofarm.e0d72c1c98009b2605c3.png",
     "static/media/hco.png": "/grower-react/static/media/hco.0a799757a03599e69548.png",
@@ -66,12 +71,12 @@
     "static/media/mammoth-recolor.png": "/grower-react/static/media/mammoth-recolor.67afeace5b3b9f0291f4.png",
     "static/media/current-culture-logo.png": "/grower-react/static/media/current-culture-logo.24e9955d36efd787ceed.png",
     "index.html": "/grower-react/index.html",
-    "main.c14737ac.css.map": "/grower-react/static/css/main.c14737ac.css.map",
-    "main.a333b640.js.map": "/grower-react/static/js/main.a333b640.js.map",
+    "main.f52acfa1.css.map": "/grower-react/static/css/main.f52acfa1.css.map",
+    "main.e4bb00ce.js.map": "/grower-react/static/js/main.e4bb00ce.js.map",
     "787.69c46001.chunk.js.map": "/grower-react/static/js/787.69c46001.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c14737ac.css",
-    "static/js/main.a333b640.js"
+    "static/css/main.f52acfa1.css",
+    "static/js/main.e4bb00ce.js"
   ]
 }
