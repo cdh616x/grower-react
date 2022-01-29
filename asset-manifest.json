@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/grower-react/static/css/main.fd94f86b.css",
-    "main.js": "/grower-react/static/js/main.bcba0535.js",
+    "main.css": "/grower-react/static/css/main.6f1fd0d8.css",
+    "main.js": "/grower-react/static/js/main.4824e9f8.js",
     "static/js/787.69c46001.chunk.js": "/grower-react/static/js/787.69c46001.chunk.js",
     "static/media/house-sched.pdf": "/grower-react/static/media/house-sched.0e1e5a8232f8ae785669.pdf",
     "static/media/millssched.pdf": "/grower-react/static/media/millssched.4295924c7021d1d4305f.pdf",
@@ -74,12 +74,12 @@
     "static/media/mammoth-recolor.png": "/grower-react/static/media/mammoth-recolor.67afeace5b3b9f0291f4.png",
     "static/media/current-culture-logo.png": "/grower-react/static/media/current-culture-logo.24e9955d36efd787ceed.png",
     "index.html": "/grower-react/index.html",
-    "main.fd94f86b.css.map": "/grower-react/static/css/main.fd94f86b.css.map",
-    "main.bcba0535.js.map": "/grower-react/static/js/main.bcba0535.js.map",
+    "main.6f1fd0d8.css.map": "/grower-react/static/css/main.6f1fd0d8.css.map",
+    "main.4824e9f8.js.map": "/grower-react/static/js/main.4824e9f8.js.map",
     "787.69c46001.chunk.js.map": "/grower-react/static/js/787.69c46001.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd94f86b.css",
-    "static/js/main.bcba0535.js"
+    "static/css/main.6f1fd0d8.css",
+    "static/js/main.4824e9f8.js"
   ]
 }
