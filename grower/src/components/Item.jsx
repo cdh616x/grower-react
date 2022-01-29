@@ -25,7 +25,7 @@ export default function Item(props) {
        <p className="info">{props.products21}</p>
        <p className="info">{props.products22}</p>
        <p className="info">{props.products23}</p>
-       <div className="container-fluid">
+       <div className="container-fluid d">
        <img className="img-fluid dirt" src={props.media_img} />
        <img className="img-fluid dirt" src={props.media_img1} />
        <img className="img-fluid dirt" src={props.media_img2} />
