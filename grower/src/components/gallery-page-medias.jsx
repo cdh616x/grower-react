@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import Navbar from "./Navbar.jsx";
+import Navbar from "./Navbar2.jsx";
 import Footer from "./Footer.jsx";
 import DirtItem from "./DirtItem.jsx";
 

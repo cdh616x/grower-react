@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import Navbar from "./Navbar.jsx";
+import Navbar from "./Navbar2.jsx";
 import Footer from "./Footer.jsx";
 import Item from "./Item.jsx";
 
@@ -164,10 +164,10 @@ export default function GalleryPageNutrients(props) {
 
      <Item src={hydrologo}
      href="https://generalhydroponics.com/products/categories/nutrients/"
-     producttype="BioThrive - Liquid Nutrients"
-     products1="Grow, Bloom"
-     producttype2="FloraGro - Liquid Nutrients"
-     products21="Gro, Micro, Bloom"
+     producttype="Liquid Nutrients: BioThrive | FloraGro"
+     products1="Grow, Bloom | Gro, Micro, Bloom"
+     producttype2="General Organics"
+     products21="Organic nutrients"
      schedulehref={FloraSched}
      schedule={florasched} />
 

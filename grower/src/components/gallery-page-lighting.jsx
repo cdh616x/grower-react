@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import Navbar from "./Navbar.jsx";
+import Navbar from "./Navbar2.jsx";
 import Footer from "./Footer.jsx";
 import DirtItem from "./DirtItem.jsx";
 import Item from "./Item.jsx";
@@ -24,6 +24,7 @@ import blue from "../images/hortilux/blue.png";
 import double from "../images/hydrofarm/double-sided.png";
 import sodium from "../images/hydrofarm/sodium.png";
 import white from "../images/hydrofarm/natural-white.png";
+import powerveg from "../images/hydrofarm/powerveg.png";
 
 export default function GalleryPageLighting(props) {
   return (
@@ -41,13 +42,15 @@ export default function GalleryPageLighting(props) {
 
     <DirtItem src={hortilogo}
     href="https://eyehortilux.com/"
-    producttype="PowerVeg Series - 420, 460, 633, 660, FS + UV"
+    producttype="PowerVeg Series"
+    products1="420, 460, 633, 660, FS + UV"
     producttype2="Grow Lamps"
     products21="HTL Blue 1000W, 600W, 400W"
     products22="Super HPS 1000W, 600W, 400W"
     products23="MH 1000W"
     media_img={superhps}
-    media_img1={blue} />
+    media_img1={blue}
+    media_img2={powerveg} />
 
     <DirtItem src={hydrologo}
     href=""
