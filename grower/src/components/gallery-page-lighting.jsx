@@ -18,6 +18,13 @@ import phantomlogo from "../images/logos/phantom.png";
 import optired from "../images/ushio/optired.png";
 import optiblue from "../images/ushio/optiblue.png";
 
+import superhps from "../images/hortilux/superhps.png";
+import blue from "../images/hortilux/blue.png";
+
+import double from "../images/hydrofarm/double-sided.png";
+import sodium from "../images/hydrofarm/sodium.png";
+import white from "../images/hydrofarm/natural-white.png";
+
 export default function GalleryPageLighting(props) {
   return (
     <>
@@ -32,13 +39,25 @@ export default function GalleryPageLighting(props) {
     media_img={optired}
     media_img1={optiblue} />
 
-    <Item src={hortilogo}
-    href="https://eyehortilux.com/" />
+    <DirtItem src={hortilogo}
+    href="https://eyehortilux.com/"
+    producttype="PowerVeg Series - 420, 460, 633, 660, FS + UV"
+    producttype2="Grow Lamps"
+    products21="HTL Blue 1000W, 600W, 400W"
+    products22="Super HPS 1000W, 600W, 400W"
+    products23="MH 1000W"
+    media_img={superhps}
+    media_img1={blue} />
 
-    <Item src={hydrologo}
+    <DirtItem src={hydrologo}
     href=""
-    producttype="Brands"
-    products1="AgroSun, XtraSun" />
+    producttype="AgroSun"
+    products1="Double-ended 750W, Red Sodium 1000W"
+    producttype2="XtraSun"
+    products21="Natural White 1000W, Sky Blue 400W"
+    media_img={double}
+    media_img1={sodium}
+    media_img2={white} />
 
     <Item src={grochlogo}
     title="Grower's Choice"
