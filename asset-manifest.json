@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/grower-react/static/css/main.5f6207da.css",
-    "main.js": "/grower-react/static/js/main.7d3ef9ee.js",
+    "main.js": "/grower-react/static/js/main.4bba8a8a.js",
     "static/js/787.69c46001.chunk.js": "/grower-react/static/js/787.69c46001.chunk.js",
     "static/media/house-sched.pdf": "/grower-react/static/media/house-sched.0e1e5a8232f8ae785669.pdf",
     "static/media/emerald-harvest-feed.pdf": "/grower-react/static/media/emerald-harvest-feed.63ae31d7ba13d1240089.pdf",
@@ -48,6 +48,7 @@
     "static/media/hydrofarm.png": "/grower-react/static/media/hydrofarm.e0d72c1c98009b2605c3.png",
     "static/media/number-four.png": "/grower-react/static/media/number-four.744ff86f189a7041629a.png",
     "static/media/hco.png": "/grower-react/static/media/hco.0a799757a03599e69548.png",
+    "static/media/powerveg.png": "/grower-react/static/media/powerveg.2d0b5fc65274ea22e3ca.png",
     "static/media/optiblue.png": "/grower-react/static/media/optiblue.ad14aab1839527370528.png",
     "static/media/gaia-green.webp": "/grower-react/static/media/gaia-green.466fa9a93fa26902252e.webp",
     "static/media/superhps.png": "/grower-react/static/media/superhps.dfa506698ef3a7feaeb7.png",
@@ -95,11 +96,11 @@
     "static/media/current-culture-logo.png": "/grower-react/static/media/current-culture-logo.24e9955d36efd787ceed.png",
     "index.html": "/grower-react/index.html",
     "main.5f6207da.css.map": "/grower-react/static/css/main.5f6207da.css.map",
-    "main.7d3ef9ee.js.map": "/grower-react/static/js/main.7d3ef9ee.js.map",
+    "main.4bba8a8a.js.map": "/grower-react/static/js/main.4bba8a8a.js.map",
     "787.69c46001.chunk.js.map": "/grower-react/static/js/787.69c46001.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5f6207da.css",
-    "static/js/main.7d3ef9ee.js"
+    "static/js/main.4bba8a8a.js"
   ]
 }
