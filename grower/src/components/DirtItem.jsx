@@ -32,11 +32,6 @@ export default function DirtItem(props) {
        <img className="img-fluid dirt" src={props.media_img3} />
        <img className="img-fluid dirt" src={props.media_img4} />
        </div>
-       <h5 className="schedule">
-       <a href={props.schedulehref} target="_blank">
-       <img className="img-fluid" style={{height: "auto"}} src={props.schedule} />
-       </a>
-       </h5>
        <a className="product-link" href={props.href} target="_blank">
         <h5>To Website</h5>
         </a>
