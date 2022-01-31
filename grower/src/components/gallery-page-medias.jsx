@@ -17,6 +17,7 @@ import comailogo from "../images/logos/com.png";
 import earthlogo from "../images/logos/mother-earth.png";
 import royallogo from "../images/logos/royal-gold.png";
 import hydrotonlogo from "../images/logos/hydroton.png";
+import wigglelogo from "../images/logos/wiggle-worm.png";
 
 import strawberry from "../images/foxfarms/strawberry-fields.png";
 import ocean from "../images/foxfarms/ocean-forest.png";
@@ -27,6 +28,12 @@ import kokobop from "../images/foxfarms/kokobop.png";
 import greenfield from "../images/roots-organic/greenfield.png";
 import greenlite from "../images/roots-organic/greenlite.png";
 import sevenoseven from "../images/roots-organic/707.png";
+
+import four from "../images/nectar/number-four.png";
+
+import basement from "../images/royal-gold/basement-mix.png";
+import mendo from "../images/royal-gold/mendo-mix.png";
+import tupur from "../images/royal-gold/tupur.png";
 
 export default function GalleryPageMedias(props) {
   return (
@@ -47,12 +54,16 @@ export default function GalleryPageMedias(props) {
     media_img4={kokobop} />
 
     <DirtItem src={rootslogo}
+    products1="Greenfields, Greenlight, Formula 707"
     media_img={greenfield}
     media_img1={greenlite}
     media_img2={sevenoseven} />
 
     <DirtItem src={nectrlogo}
-    title="Oregon's Only" />
+    href="https://www.oregonsonly.com/nectar-soil-3/"
+    title="Oregon's Only"
+    products1="Blend #4"
+    media_img={four} />
 
     <DirtItem src={potgologo} />
 
@@ -69,12 +80,17 @@ export default function GalleryPageMedias(props) {
 
     <DirtItem src={earthlogo} />
 
-    <DirtItem src={royallogo} />
+    <DirtItem src={royallogo}
+    href="https://royalgoldcoco.com/soils/"
+    products1="Mendo Mix, Basement Mix, Tupur"
+    media_img={basement}
+    media_img1={mendo}
+    media_img2={tupur} />
 
     <DirtItem src={hydrotonlogo}
     title="Hydroton" />
 
-    <DirtItem
+    <DirtItem src={wigglelogo}
     title="Wiggle Worm" />
 
     <Footer />

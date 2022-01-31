@@ -24,10 +24,10 @@ import cessched from "../schedules/ces-img.png";
 import cultsched from "../schedules/culture.png";
 import hcosched from "../schedules/hco.png";
 
-import SpartanPDF from "../schedules/spartan.pdf";
+import OregonPDF from "../schedules/oregons-only-schedules.pdf";
 import HouseSchedule from "../schedules/house-sched.pdf";
 import FoxSchedule from "../schedules/fox-sched.jpeg";
-import EmeraldSched from "../schedules/emerald-sched.pdf";
+import EmeraldSched from "../schedules/emerald-harvest-feed.pdf";
 import AdvancedSched from "../schedules/advanced-sched.pdf";
 import AthenaSched from "../schedules/athena-sched.pdf";
 import FloraSched from "../schedules/flora-sched.pdf";
@@ -62,6 +62,12 @@ import dtelogo from "../images/logos/dte.png";
 import biobizzlogo from "../images/logos/biobizz-logo-dark.png";
 import vegalogo from "../images/logos/vegamatrix.png";
 import heavylogo from "../images/logos/heavy16logo.png";
+import bioaglogo from "../images/logos/bioag.png";
+import supremelogo from "../images/logos/supreme.png";
+import earthlogo from "../images/logos/earth-juice.png";
+import microbelogo from "../images/logos/microbe-life.png";
+import reallogo from "../images/logos/real-growers.png";
+import greatwhitelogo from "../images/logos/great-white.png";
 
 import organic from "../images/logos/organic.png";
 
@@ -82,7 +88,7 @@ export default function GalleryPageNutrients(props) {
      products3="Poseidonzime, Triton's Trawl, Pegasus Potion, Persephone's Palate, Bloom Khaos, Hades Down"
      producttype2="Granular Nutrients"
      products21="One Shot"
-     schedulehref={SpartanPDF}
+     schedulehref={OregonPDF}
      schedule={spartan} />
 
      <Item src={mammothlogo}
@@ -253,6 +259,27 @@ export default function GalleryPageNutrients(props) {
      products2="Deep Breath, G-10, Snow Storm Ultra, Purple Maxx, Killer Tea"
      schedulehref={HcoSched}
      schedule={hcosched} />
+
+     <Item src={bioaglogo}
+     organic={organic} />
+
+     <Item src={supremelogo}
+     organic={organic} />
+
+     <Item src={earthlogo}
+     organic={organic} />
+
+     <Item src={microbelogo}
+     organic={organic} />
+
+     <Item src={reallogo}
+     organic={organic} />
+
+     <Item src={greatwhitelogo}
+     href="https://plantrevolution.com/products/great-white"
+     products1="Great White Premium Mycorrhizae® - with Beneficial Bacteria and Trichoderma"
+     organic={organic} />
+
     <Footer />
     </div>
     </>
