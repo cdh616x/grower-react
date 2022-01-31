@@ -4,7 +4,7 @@ import React from "react";
 
 import Navbar from "./Navbar.jsx";
 import Footer from "./Footer.jsx";
-import Item from "./Item.jsx";
+import DirtItem from "./DirtItem.jsx";
 
 import foxfalogo from "../images/logos/fox.png";
 import rootslogo from "../images/logos/roots-logo.png";
@@ -34,7 +34,7 @@ export default function GalleryPageMedias(props) {
     <Navbar />
     <h1 className="page-title">{props.pagetitle}</h1>
 
-    <Item src={foxfalogo}
+    <DirtItem src={foxfalogo}
     href="https://foxfarm.com/product-category/soil-soil-conditioners"
     producttype="Brands"
     products1="Happy Frog, Strawberry Fields, Lucky Dog, Ocean Forest, KokoBop"
@@ -46,35 +46,35 @@ export default function GalleryPageMedias(props) {
     media_img3={strawberry}
     media_img4={kokobop} />
 
-    <Item src={rootslogo}
+    <DirtItem src={rootslogo}
     media_img={greenfield}
     media_img1={greenlite}
     media_img2={sevenoseven} />
 
-    <Item src={nectrlogo}
+    <DirtItem src={nectrlogo}
     title="Oregon's Only" />
 
-    <Item src={potgologo} />
+    <DirtItem src={potgologo} />
 
-    <Item src={atamilogo} />
+    <DirtItem src={atamilogo} />
 
-    <Item src={promxlogo} />
+    <DirtItem src={promxlogo} />
 
-    <Item src={sungrlogo} />
+    <DirtItem src={sungrlogo} />
 
-    <Item src={comailogo}
+    <DirtItem src={comailogo}
     href="https://coastofmaine.com/"
     producttype="Growing Medias"
     products1="Stonington, Lobster Compost" />
 
-    <Item src={earthlogo} />
+    <DirtItem src={earthlogo} />
 
-    <Item src={royallogo} />
+    <DirtItem src={royallogo} />
 
-    <Item src={hydrotonlogo}
+    <DirtItem src={hydrotonlogo}
     title="Hydroton" />
 
-    <Item
+    <DirtItem
     title="Wiggle Worm" />
 
     <Footer />
