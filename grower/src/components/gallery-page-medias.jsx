@@ -35,6 +35,12 @@ import basement from "../images/royal-gold/basement-mix.png";
 import mendo from "../images/royal-gold/mendo-mix.png";
 import tupur from "../images/royal-gold/tupur.png";
 
+import stonington from "../images/coast-of-maine/stonington.png";
+import lobster from "../images/coast-of-maine/lobster.png";
+
+import coco from "../images/mother-earth/coco.png";
+import terracraft from "../images/mother-earth/terracraft.png";
+
 export default function GalleryPageMedias(props) {
   return (
     <>
@@ -76,9 +82,15 @@ export default function GalleryPageMedias(props) {
     <DirtItem src={comailogo}
     href="https://coastofmaine.com/"
     producttype="Growing Medias"
-    products1="Stonington, Lobster Compost" />
+    products1="Stonington, Lobster Compost"
+    media_img={stonington}
+    media_img1={lobster} />
 
-    <DirtItem src={earthlogo} />
+    <DirtItem src={earthlogo}
+    href="https://www.mother-earthproducts.com/products/soils-and-amendments/"
+    producttype="Coco, Terracraft, Worm Castings"
+    media_img={coco}
+    media_img1={terracraft} />
 
     <DirtItem src={royallogo}
     href="https://royalgoldcoco.com/soils/"

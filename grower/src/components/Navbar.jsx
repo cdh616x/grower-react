@@ -4,7 +4,7 @@ import React from "react";
 
 import icon from "../web-images/logo.png";
 
-export default function Navbar() {
+export default function Navbar(props) {
   return (
     <>
     <nav className="navbar navbar-expand-lg navbar-dark bg-#097969" style={{backgroundColor: "#097969"}}>

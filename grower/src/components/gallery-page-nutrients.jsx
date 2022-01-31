@@ -76,6 +76,7 @@ export default function GalleryPageNutrients(props) {
     <>
     <div className="gallery">
     <Navbar />
+
     <h1 className="page-title">{props.pagetitle}</h1>
 
      <Item src={nectarlogo}
