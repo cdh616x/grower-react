@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/grower-react/static/css/main.6f1fd0d8.css",
-    "main.js": "/grower-react/static/js/main.2fd686c6.js",
+    "main.js": "/grower-react/static/js/main.e9d53680.js",
     "static/js/787.69c46001.chunk.js": "/grower-react/static/js/787.69c46001.chunk.js",
     "static/media/house-sched.pdf": "/grower-react/static/media/house-sched.0e1e5a8232f8ae785669.pdf",
     "static/media/emerald-harvest-feed.pdf": "/grower-react/static/media/emerald-harvest-feed.63ae31d7ba13d1240089.pdf",
@@ -27,7 +27,9 @@
     "static/media/kokobop.png": "/grower-react/static/media/kokobop.bdb0aa4a5e51d950c370.png",
     "static/media/ocean-forest.png": "/grower-react/static/media/ocean-forest.6526e8466870700fd29f.png",
     "static/media/strawberry-fields.png": "/grower-react/static/media/strawberry-fields.02cdb7b370fc903eb872.png",
+    "static/media/lobster.png": "/grower-react/static/media/lobster.719e35405e7f69af3f0e.png",
     "static/media/emerald.png": "/grower-react/static/media/emerald.11cfcda5adeb62d2877b.png",
+    "static/media/stonington.png": "/grower-react/static/media/stonington.f9b13ffb1aa1a6f22804.png",
     "static/media/great-white.png": "/grower-react/static/media/great-white.9cf3b2ebf6a7ea36e3fc.png",
     "static/media/potters-gold.png": "/grower-react/static/media/potters-gold.a8fa8e36afdd4e4c274f.png",
     "static/media/happy-frog.png": "/grower-react/static/media/happy-frog.809c56ff0015afc3e415.png",
@@ -84,11 +86,11 @@
     "static/media/current-culture-logo.png": "/grower-react/static/media/current-culture-logo.24e9955d36efd787ceed.png",
     "index.html": "/grower-react/index.html",
     "main.6f1fd0d8.css.map": "/grower-react/static/css/main.6f1fd0d8.css.map",
-    "main.2fd686c6.js.map": "/grower-react/static/js/main.2fd686c6.js.map",
+    "main.e9d53680.js.map": "/grower-react/static/js/main.e9d53680.js.map",
     "787.69c46001.chunk.js.map": "/grower-react/static/js/787.69c46001.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6f1fd0d8.css",
-    "static/js/main.2fd686c6.js"
+    "static/js/main.e9d53680.js"
   ]
 }
