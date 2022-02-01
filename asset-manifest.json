@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/grower-react/static/css/main.5f6207da.css",
-    "main.js": "/grower-react/static/js/main.65368b77.js",
+    "main.js": "/grower-react/static/js/main.e400fd31.js",
     "static/js/787.69c46001.chunk.js": "/grower-react/static/js/787.69c46001.chunk.js",
     "static/media/house-sched.pdf": "/grower-react/static/media/house-sched.0e1e5a8232f8ae785669.pdf",
     "static/media/emerald-harvest-feed.pdf": "/grower-react/static/media/emerald-harvest-feed.63ae31d7ba13d1240089.pdf",
@@ -51,11 +51,16 @@
     "static/media/powerveg.png": "/grower-react/static/media/powerveg.2d0b5fc65274ea22e3ca.png",
     "static/media/optiblue.png": "/grower-react/static/media/optiblue.ad14aab1839527370528.png",
     "static/media/gaia-green.webp": "/grower-react/static/media/gaia-green.466fa9a93fa26902252e.webp",
+    "static/media/hpcc.png": "/grower-react/static/media/hpcc.d549d102c6663301cc59.png",
     "static/media/superhps.png": "/grower-react/static/media/superhps.dfa506698ef3a7feaeb7.png",
+    "static/media/advanced4.png": "/grower-react/static/media/advanced4.a0b189ba4206cf41c9a1.png",
+    "static/media/hp.png": "/grower-react/static/media/hp.0d2f7a03e22023e31924.png",
     "static/media/fox.png": "/grower-react/static/media/fox.620cbd3bad77389373cf.png",
     "static/media/optired.png": "/grower-react/static/media/optired.9172e814298ff68065b4.png",
+    "static/media/bx.png": "/grower-react/static/media/bx.73af202931e974cc5c2d.png",
     "static/media/nectarlogo1.png": "/grower-react/static/media/nectarlogo1.ba73b7bf21d62a144af7.png",
     "static/media/organic.png": "/grower-react/static/media/organic.2a9816243238dada7cf2.png",
+    "static/media/sunshine4.png": "/grower-react/static/media/sunshine4.dfac5953b0297bf7289e.png",
     "static/media/botanicare.png": "/grower-react/static/media/botanicare.07b3910a113127435122.png",
     "static/media/advanced.png": "/grower-react/static/media/advanced.33733c09718d97cd8744.png",
     "static/media/16.png": "/grower-react/static/media/16.b7fe0377a623a868f60e.png",
@@ -65,12 +70,12 @@
     "static/media/logo.png": "/grower-react/static/media/logo.84178e6fa869af83bca9.png",
     "static/media/open.jpeg": "/grower-react/static/media/open.d5524d7777b8a031dd76.jpeg",
     "static/media/roots-logo.png": "/grower-react/static/media/roots-logo.359a499b8fe93efcd4a6.png",
+    "static/media/mad-farmer.png": "/grower-react/static/media/mad-farmer.dc36923ea7b4aefc8025.png",
     "static/media/sodium.png": "/grower-react/static/media/sodium.f164b812893863c16250.png",
     "static/media/biobizz.png": "/grower-react/static/media/biobizz.9b4cea73a6909db750c8.png",
     "static/media/culture.png": "/grower-react/static/media/culture.7d236178424cf3c58709.png",
     "static/media/cyco.png": "/grower-react/static/media/cyco.080c116c5d0896b555c9.png",
     "static/media/flora-sched.png": "/grower-react/static/media/flora-sched.43e707c003fdc68b6e72.png",
-    "static/media/hydroton.png": "/grower-react/static/media/hydroton.c504cd8ffd0861fd4f35.png",
     "static/media/sungro.png": "/grower-react/static/media/sungro.506b55321cdc6dd1c8be.png",
     "static/media/double-sided.png": "/grower-react/static/media/double-sided.8ab90b1506178e8f3fef.png",
     "static/media/advanced2.png": "/grower-react/static/media/advanced2.7e4807c3786b08b49915.png",
@@ -94,13 +99,14 @@
     "static/media/promix.png": "/grower-react/static/media/promix.7f69e78594ccd4208987.png",
     "static/media/mammoth-recolor.png": "/grower-react/static/media/mammoth-recolor.67afeace5b3b9f0291f4.png",
     "static/media/current-culture-logo.png": "/grower-react/static/media/current-culture-logo.24e9955d36efd787ceed.png",
+    "static/media/organics.png": "/grower-react/static/media/organics.0b729948bbe99d04c264.png",
     "index.html": "/grower-react/index.html",
     "main.5f6207da.css.map": "/grower-react/static/css/main.5f6207da.css.map",
-    "main.65368b77.js.map": "/grower-react/static/js/main.65368b77.js.map",
+    "main.e400fd31.js.map": "/grower-react/static/js/main.e400fd31.js.map",
     "787.69c46001.chunk.js.map": "/grower-react/static/js/787.69c46001.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5f6207da.css",
-    "static/js/main.65368b77.js"
+    "static/js/main.e400fd31.js"
   ]
 }
