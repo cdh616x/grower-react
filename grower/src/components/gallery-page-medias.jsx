@@ -16,7 +16,6 @@ import sungrlogo from "../images/logos/sungro.png";
 import comailogo from "../images/logos/com.png";
 import earthlogo from "../images/logos/mother-earth.png";
 import royallogo from "../images/logos/royal-gold.png";
-import hydrotonlogo from "../images/logos/hydroton.png";
 import wigglelogo from "../images/logos/wiggle-worm.png";
 
 import strawberry from "../images/foxfarms/strawberry-fields.png";
@@ -40,6 +39,13 @@ import lobster from "../images/coast-of-maine/lobster.png";
 
 import coco from "../images/mother-earth/coco.png";
 import terracraft from "../images/mother-earth/terracraft.png";
+
+import bx from "../images/pro-mix/bx.png";
+import hp from "../images/pro-mix/hp.png";
+import cc from "../images/pro-mix/hpcc.png";
+
+import sun4 from "../images/sun-gro/sunshine4.png";
+import adv4 from "../images/sun-gro/advanced4.png";
 
 export default function GalleryPageMedias(props) {
   return (
@@ -68,16 +74,26 @@ export default function GalleryPageMedias(props) {
     <DirtItem src={nectrlogo}
     href="https://www.oregonsonly.com/nectar-soil-3/"
     title="Oregon's Only"
-    products1="Blend #4"
+    producttype="Blend #4"
     media_img={four} />
 
     <DirtItem src={potgologo} />
 
     <DirtItem src={atamilogo} />
 
-    <DirtItem src={promxlogo} />
+    <DirtItem src={promxlogo}
+    href="https://www.hydrofarm.com/p/pro-mix-hp-chunk-coir-mycorrhizae-3-8-cu-ft/pt2038130"
+    products1="HP, BX, HPCC"
+    media_img={hp}
+    media_img1={bx}
+    media_img2={cc} />
 
-    <DirtItem src={sungrlogo} />
+    <DirtItem src={sungrlogo}
+    href="https://www.sungro.com/retail-products/sunshine-mix-4/"
+    producttype="Growing Medias"
+    products1="Sunshine #4, Advanced #4"
+    media_img={sun4}
+    media_img1={adv4} />
 
     <DirtItem src={comailogo}
     href="https://coastofmaine.com/"
@@ -98,9 +114,6 @@ export default function GalleryPageMedias(props) {
     media_img={basement}
     media_img1={mendo}
     media_img2={tupur} />
-
-    <DirtItem src={hydrotonlogo}
-    title="Hydroton" />
 
     <DirtItem src={wigglelogo}
     title="Wiggle Worm" />

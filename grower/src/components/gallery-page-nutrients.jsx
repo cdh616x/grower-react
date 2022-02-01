@@ -68,6 +68,8 @@ import earthlogo from "../images/logos/earth-juice.png";
 import microbelogo from "../images/logos/microbe-life.png";
 import reallogo from "../images/logos/real-growers.png";
 import greatwhitelogo from "../images/logos/great-white.png";
+import madlogo from "../images/logos/mad-farmer.png";
+import ghorglogo from "../images/logos/organics.png";
 
 import organic from "../images/logos/organic.png";
 
@@ -162,12 +164,19 @@ export default function GalleryPageNutrients(props) {
      products3="Diatomaceous Earth, Oyster Shell Flour, Alfalfa Meal, Blood Meal, Feather Meal"
      products4="Fishbone Mean, Kelp Meal, Glacial Rock Dust, Rock Phosphate, Basalt Rock Dust" />
 
+     <Item src={ghorglogo}
+      href="https://www.hawthornegc.com/"
+      organic={organic}
+      producttype="Liquid Nutrients"
+      products1="BioThrive Grow, BioThrive Bloom, BioRoot, BioBud, BioWeed"
+      products2="Diamond Black, BioMarine, CaMg+, pH Up, pH Down" />
+
      <Item src={hydrologo}
      href="https://generalhydroponics.com/products/categories/nutrients/"
      producttype="Liquid Nutrients: BioThrive | FloraGro"
      products1="Grow, Bloom | Gro, Micro, Bloom"
-     producttype2="General Organics"
-     products21="Organic nutrients"
+     producttype2="Liquid Supplements"
+     products21="PH Up, PH Down"
      schedulehref={FloraSched}
      schedule={florasched} />
 
@@ -262,9 +271,16 @@ export default function GalleryPageNutrients(props) {
      schedule={hcosched} />
 
      <Item src={bioaglogo}
+     href="https://www.bioag.com/products-biostimulant-fertilizers/"
+     producttype="Grandular Nutrients"
+     products1="CytoPlus"
+     producttype2="Liquid Supplements"
+     products21="Full Power"
      organic={organic} />
 
      <Item src={supremelogo}
+     href="https://supremegrowers.us/simply-silica-8oz.html"
+     producttype="Simply Silica"
      organic={organic} />
 
      <Item src={earthlogo}
@@ -274,12 +290,24 @@ export default function GalleryPageNutrients(props) {
      organic={organic} />
 
      <Item src={reallogo}
+     href="https://www.realgrowers.com/"
+     producttype="Microbes"
+     products1="Recharge"
+     producttype2="Granular Nutrients"
+     products21="Grow Dots"
      organic={organic} />
 
      <Item src={greatwhitelogo}
      href="https://plantrevolution.com/products/great-white"
      products1="Great White Premium Mycorrhizae® - with Beneficial Bacteria and Trichoderma"
      organic={organic} />
+
+     <Item src={madlogo}
+     title="Mad Farmer"
+     href="https://www.madfarmerproducts.com/"
+     producttype="Products"
+     products1="N.U.T.S, M.O.A.B."
+      />
 
     <Footer />
     </div>
