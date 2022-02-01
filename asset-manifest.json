@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/grower-react/static/css/main.5f6207da.css",
-    "main.js": "/grower-react/static/js/main.e400fd31.js",
+    "main.css": "/grower-react/static/css/main.275ee6f5.css",
+    "main.js": "/grower-react/static/js/main.69233600.js",
     "static/js/787.69c46001.chunk.js": "/grower-react/static/js/787.69c46001.chunk.js",
     "static/media/house-sched.pdf": "/grower-react/static/media/house-sched.0e1e5a8232f8ae785669.pdf",
     "static/media/emerald-harvest-feed.pdf": "/grower-react/static/media/emerald-harvest-feed.63ae31d7ba13d1240089.pdf",
@@ -59,7 +59,6 @@
     "static/media/optired.png": "/grower-react/static/media/optired.9172e814298ff68065b4.png",
     "static/media/bx.png": "/grower-react/static/media/bx.73af202931e974cc5c2d.png",
     "static/media/nectarlogo1.png": "/grower-react/static/media/nectarlogo1.ba73b7bf21d62a144af7.png",
-    "static/media/organic.png": "/grower-react/static/media/organic.2a9816243238dada7cf2.png",
     "static/media/sunshine4.png": "/grower-react/static/media/sunshine4.dfac5953b0297bf7289e.png",
     "static/media/botanicare.png": "/grower-react/static/media/botanicare.07b3910a113127435122.png",
     "static/media/advanced.png": "/grower-react/static/media/advanced.33733c09718d97cd8744.png",
@@ -82,6 +81,7 @@
     "static/media/vegamatrix.png": "/grower-react/static/media/vegamatrix.891f8b6b3706f9519a49.png",
     "static/media/microbe-life.png": "/grower-react/static/media/microbe-life.8965557d3fbf14d7e3b3.png",
     "static/media/athena.png": "/grower-react/static/media/athena.72faeb8f723c68d62042.png",
+    "static/media/cdfa.png": "/grower-react/static/media/cdfa.348ec8efee31fc74d8c2.png",
     "static/media/roots.png": "/grower-react/static/media/roots.a5a018594eb47969c547.png",
     "static/media/cyco-logo.png": "/grower-react/static/media/cyco-logo.addf5e8ea6d66acdb08f.png",
     "static/media/real-growers.png": "/grower-react/static/media/real-growers.3ad6ac5cca2f4bc39bb9.png",
@@ -101,12 +101,12 @@
     "static/media/current-culture-logo.png": "/grower-react/static/media/current-culture-logo.24e9955d36efd787ceed.png",
     "static/media/organics.png": "/grower-react/static/media/organics.0b729948bbe99d04c264.png",
     "index.html": "/grower-react/index.html",
-    "main.5f6207da.css.map": "/grower-react/static/css/main.5f6207da.css.map",
-    "main.e400fd31.js.map": "/grower-react/static/js/main.e400fd31.js.map",
+    "main.275ee6f5.css.map": "/grower-react/static/css/main.275ee6f5.css.map",
+    "main.69233600.js.map": "/grower-react/static/js/main.69233600.js.map",
     "787.69c46001.chunk.js.map": "/grower-react/static/js/787.69c46001.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f6207da.css",
-    "static/js/main.e400fd31.js"
+    "static/css/main.275ee6f5.css",
+    "static/js/main.69233600.js"
   ]
 }
