@@ -71,7 +71,7 @@ import greatwhitelogo from "../images/logos/great-white.png";
 import madlogo from "../images/logos/mad-farmer.png";
 import ghorglogo from "../images/logos/organics.png";
 
-import organic from "../images/logos/organic.png";
+import organic from "../images/cdfa.png";
 
 export default function GalleryPageNutrients(props) {
   return(

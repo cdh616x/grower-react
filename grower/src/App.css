@@ -122,8 +122,10 @@ body {
 }
 
 .organic {
-  height: 40px;
+  height: 5.5vw;
   width: auto;
+  margin: 0;
+  padding: 0;
 }
 
 .dirt {
