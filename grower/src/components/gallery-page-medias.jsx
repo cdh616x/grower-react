@@ -19,6 +19,7 @@ import comailogo from "../images/logos/com.png";
 import earthlogo from "../images/logos/mother-earth.png";
 import royallogo from "../images/logos/royal-gold.png";
 import wigglelogo from "../images/logos/wiggle-worm.png";
+import grodanlogo from "../images/logos/grodan.png";
 
 import strawberry from "../images/foxfarms/strawberry-fields.png";
 import ocean from "../images/foxfarms/ocean-forest.png";
@@ -49,6 +50,8 @@ import cc from "../images/pro-mix/hpcc.png";
 import sun4 from "../images/sun-gro/sunshine4.png";
 import adv4 from "../images/sun-gro/advanced4.png";
 
+import atamicocs from "../images/atami/cocos.png";
+
 export default function GalleryPageMedias(props) {
   return (
     <>
@@ -69,7 +72,9 @@ export default function GalleryPageMedias(props) {
 
     <DirtItem src={rootslogo}
     producttype="Growing Medias"
-    products1="Greenfields, Greenlight, Formula 707"
+    products1="Greenfields"
+    products2="Greenlight"
+    products3="Formula 707"
     media_img={greenfield}
     media_img1={greenlite}
     media_img2={sevenoseven} />
@@ -81,14 +86,24 @@ export default function GalleryPageMedias(props) {
     products1="Blend #4"
     media_img={four} />
 
-    <DirtItem src={potgologo} />
+    <DirtItem
+    title="Potter's Gold"
+    producttype="Growing Media"
+    products1="Premium Potting Soil"
+    media_img={potgologo} />
 
-    <DirtItem src={atamilogo} />
+    <DirtItem src={atamilogo}
+    href="https://atami.com/brands/atami-substrates/"
+    producttype="Growing Media"
+    products1="Cocos Substrate"
+    media_img={atamicocs} />
 
     <DirtItem src={promxlogo}
     href="https://www.hydrofarm.com/p/pro-mix-hp-chunk-coir-mycorrhizae-3-8-cu-ft/pt2038130"
     producttype="Growing Medias"
-    products1="HP, BX, HPCC"
+    products1="HP"
+    products2="BX"
+    products3="HPCC"
     media_img={hp}
     media_img1={bx}
     media_img2={cc} />
@@ -96,36 +111,48 @@ export default function GalleryPageMedias(props) {
     <DirtItem src={sungrlogo}
     href="https://www.sungro.com/retail-products/sunshine-mix-4/"
     producttype="Growing Medias"
-    products1="Sunshine #4, Advanced #4"
+    products1="Sunshine #4"
+    products2="Advanced #4"
     media_img={sun4}
     media_img1={adv4} />
 
     <DirtItem src={comailogo}
     href="https://coastofmaine.com/"
     producttype="Growing Medias"
-    products1="Stonington, Lobster Compost"
+    products1="Stonington"
+    products2="Lobster Compost"
     media_img={stonington}
     media_img1={lobster}
     organic={omri} />
 
+    <DirtItem src={grodanlogo}
+    href="https://www.grodan.com/product-overview/propagation-solutions/"
+    producttype="Stonewool Block" />
+
     <DirtItem src={earthlogo}
     href="https://www.mother-earthproducts.com/products/soils-and-amendments/"
     producttype="Growing Medias"
-    products1="Coco, Terracraft, Worm Castings"
+    products1="Coco"
+    products2="Terracraft & Worm Castings"
     media_img={coco}
     media_img1={terracraft} />
 
     <DirtItem src={royallogo}
     href="https://royalgoldcoco.com/soils/"
     producttype="Growing Medias"
-    products1="Mendo Mix, Basement Mix, Tupur"
+    products1="Mendo Mix"
+    products2="Basement Mix"
+    products3="Tupur"
     media_img={basement}
     media_img1={mendo}
     media_img2={tupur} />
 
-    <DirtItem src={wigglelogo}
+    <DirtItem
     title="Wiggle Worm"
-    organic={omri} />
+    producttype="Soil Supplement"
+    products1="Wiggle Worm"
+    organic={omri}
+    media_img={wigglelogo} />
 
     <Footer />
     </>
