@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/grower-react/static/css/main.b5788b17.css",
-    "main.js": "/grower-react/static/js/main.4c3e66d3.js",
+    "main.css": "/grower-react/static/css/main.1fcf8954.css",
+    "main.js": "/grower-react/static/js/main.8ff1d58f.js",
     "static/js/787.69c46001.chunk.js": "/grower-react/static/js/787.69c46001.chunk.js",
     "static/media/house-sched.pdf": "/grower-react/static/media/house-sched.0e1e5a8232f8ae785669.pdf",
     "static/media/emerald-harvest-feed.pdf": "/grower-react/static/media/emerald-harvest-feed.63ae31d7ba13d1240089.pdf",
     "static/media/millssched.pdf": "/grower-react/static/media/millssched.4295924c7021d1d4305f.pdf",
     "static/media/oregons-only-schedules.pdf": "/grower-react/static/media/oregons-only-schedules.b6d90a82d25b1085f7e8.pdf",
     "static/media/16.pdf": "/grower-react/static/media/16.cd8ebabdfec391ed774b.pdf",
+    "static/media/mx.png": "/grower-react/static/media/mx.6e2f5c1207eb8c21cf21.png",
     "static/media/culture.pdf": "/grower-react/static/media/culture.53007c144ae1b1532977.pdf",
     "static/media/flora-sched.pdf": "/grower-react/static/media/flora-sched.ba90926de27dc37f98bb.pdf",
     "static/media/fox-sched1.png": "/grower-react/static/media/fox-sched1.fc7fc2ccdda3231c3948.png",
@@ -66,6 +67,7 @@
     "static/media/16.png": "/grower-react/static/media/16.b7fe0377a623a868f60e.png",
     "static/media/advanced-sched.pdf": "/grower-react/static/media/advanced-sched.97ebc3de22bb379dc7d6.pdf",
     "static/media/closed.jpeg": "/grower-react/static/media/closed.f64c8540f5569a408dd3.jpeg",
+    "static/media/sun-system.png": "/grower-react/static/media/sun-system.d5304f6153d5e4994c99.png",
     "static/media/vegamatrix.pdf": "/grower-react/static/media/vegamatrix.2bd751c037d684f87228.pdf",
     "static/media/logo.png": "/grower-react/static/media/logo.84178e6fa869af83bca9.png",
     "static/media/open.jpeg": "/grower-react/static/media/open.d5524d7777b8a031dd76.jpeg",
@@ -76,6 +78,7 @@
     "static/media/culture.png": "/grower-react/static/media/culture.7d236178424cf3c58709.png",
     "static/media/cyco.png": "/grower-react/static/media/cyco.080c116c5d0896b555c9.png",
     "static/media/flora-sched.png": "/grower-react/static/media/flora-sched.43e707c003fdc68b6e72.png",
+    "static/media/pro1000e.png": "/grower-react/static/media/pro1000e.41211a21419e23630a63.png",
     "static/media/sungro.png": "/grower-react/static/media/sungro.506b55321cdc6dd1c8be.png",
     "static/media/double-sided.png": "/grower-react/static/media/double-sided.8ab90b1506178e8f3fef.png",
     "static/media/advanced2.png": "/grower-react/static/media/advanced2.7e4807c3786b08b49915.png",
@@ -88,6 +91,7 @@
     "static/media/real-growers.png": "/grower-react/static/media/real-growers.3ad6ac5cca2f4bc39bb9.png",
     "static/media/growers-choice.png": "/grower-react/static/media/growers-choice.3937e82a2512b04117cd.png",
     "static/media/supreme.png": "/grower-react/static/media/supreme.e09d9659b0d8b446ff0f.png",
+    "static/media/lec630.png": "/grower-react/static/media/lec630.8559e04b7493a61962b9.png",
     "static/media/dte.png": "/grower-react/static/media/dte.6fb226543be7bf072bca.png",
     "static/media/general-hydro.png": "/grower-react/static/media/general-hydro.8adae9891dc47b64d2bd.png",
     "static/media/roots.pdf": "/grower-react/static/media/roots.87019bd35da5cf2bddaa.pdf",
@@ -103,12 +107,12 @@
     "static/media/current-culture-logo.png": "/grower-react/static/media/current-culture-logo.24e9955d36efd787ceed.png",
     "static/media/organics.png": "/grower-react/static/media/organics.0b729948bbe99d04c264.png",
     "index.html": "/grower-react/index.html",
-    "main.b5788b17.css.map": "/grower-react/static/css/main.b5788b17.css.map",
-    "main.4c3e66d3.js.map": "/grower-react/static/js/main.4c3e66d3.js.map",
+    "main.1fcf8954.css.map": "/grower-react/static/css/main.1fcf8954.css.map",
+    "main.8ff1d58f.js.map": "/grower-react/static/js/main.8ff1d58f.js.map",
     "787.69c46001.chunk.js.map": "/grower-react/static/js/787.69c46001.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5788b17.css",
-    "static/js/main.4c3e66d3.js"
+    "static/css/main.1fcf8954.css",
+    "static/js/main.8ff1d58f.js"
   ]
 }
