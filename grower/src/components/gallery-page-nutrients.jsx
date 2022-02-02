@@ -299,6 +299,7 @@ export default function GalleryPageNutrients(props) {
 
      <Item src={greatwhitelogo}
      href="https://plantrevolution.com/products/great-white"
+     producttype="From Plant Success:"
      products1="Great White Premium Mycorrhizae® - with Beneficial Bacteria and Trichoderma"
      organic={organic} />
 

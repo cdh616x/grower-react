@@ -155,3 +155,10 @@ body {
 .carousel-item {
   margin: 0;
 }
+
+hr {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 2%;
+}

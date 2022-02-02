@@ -124,7 +124,8 @@ export default function GalleryPageMedias(props) {
     media_img2={tupur} />
 
     <DirtItem src={wigglelogo}
-    title="Wiggle Worm" />
+    title="Wiggle Worm"
+    organic={omri} />
 
     <Footer />
     </>
