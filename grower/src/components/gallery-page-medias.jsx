@@ -6,6 +6,8 @@ import Navbar from "./Navbar2.jsx";
 import Footer from "./Footer.jsx";
 import DirtItem from "./DirtItem.jsx";
 
+import omri from "../images/omri.png";
+
 import foxfalogo from "../images/logos/fox.png";
 import rootslogo from "../images/logos/roots-logo.png";
 import nectrlogo from "../images/logos/ooo.png";
@@ -66,6 +68,7 @@ export default function GalleryPageMedias(props) {
     media_img4={kokobop} />
 
     <DirtItem src={rootslogo}
+    producttype="Growing Medias"
     products1="Greenfields, Greenlight, Formula 707"
     media_img={greenfield}
     media_img1={greenlite}
@@ -74,7 +77,8 @@ export default function GalleryPageMedias(props) {
     <DirtItem src={nectrlogo}
     href="https://www.oregonsonly.com/nectar-soil-3/"
     title="Oregon's Only"
-    producttype="Blend #4"
+    producttype="Growing Medias"
+    products1="Blend #4"
     media_img={four} />
 
     <DirtItem src={potgologo} />
@@ -83,6 +87,7 @@ export default function GalleryPageMedias(props) {
 
     <DirtItem src={promxlogo}
     href="https://www.hydrofarm.com/p/pro-mix-hp-chunk-coir-mycorrhizae-3-8-cu-ft/pt2038130"
+    producttype="Growing Medias"
     products1="HP, BX, HPCC"
     media_img={hp}
     media_img1={bx}
@@ -100,16 +105,19 @@ export default function GalleryPageMedias(props) {
     producttype="Growing Medias"
     products1="Stonington, Lobster Compost"
     media_img={stonington}
-    media_img1={lobster} />
+    media_img1={lobster}
+    organic={omri} />
 
     <DirtItem src={earthlogo}
     href="https://www.mother-earthproducts.com/products/soils-and-amendments/"
-    producttype="Coco, Terracraft, Worm Castings"
+    producttype="Growing Medias"
+    products1="Coco, Terracraft, Worm Castings"
     media_img={coco}
     media_img1={terracraft} />
 
     <DirtItem src={royallogo}
     href="https://royalgoldcoco.com/soils/"
+    producttype="Growing Medias"
     products1="Mendo Mix, Basement Mix, Tupur"
     media_img={basement}
     media_img1={mendo}
