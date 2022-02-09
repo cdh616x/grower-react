@@ -5,6 +5,7 @@ import React from "react";
 import Navbar from "./Navbar2.jsx";
 import Footer from "./Footer.jsx";
 import DirtItem from "./DirtItem.jsx";
+import LightItem from "./LightItem.jsx";
 import Item from "./Item.jsx";
 
 import ushiologo from "../images/logos/ushio.png";
@@ -33,6 +34,8 @@ import dominator from "../images/sun-system/dominator.png";
 
 import pro1000 from "../images/gavita/pro1000e.png";
 import pro750 from "../images/gavita/pro750.png";
+import e1700 from "../images/gavita/1700e.png";
+import e1930 from "../images/gavita/1930e.png";
 
 import ballast from "../images/phantom/mx.png";
 import phb2010 from "../images/phantom/phb2010.png";
@@ -47,7 +50,7 @@ export default function GalleryPageLighting(props) {
     <Navbar />
     <h1 className="page-title">{props.pagetitle}</h1>
 
-    <DirtItem src={ushiologo}
+    <LightItem src={ushiologo}
     href="https://www.ushio.com/leds/#led-lighting"
     producttype="HiLux Gro"
     products1="Opti-Red 1000W, 600W, 400W"
@@ -55,7 +58,7 @@ export default function GalleryPageLighting(props) {
     media_img={optired}
     media_img1={optiblue} />
 
-    <DirtItem src={sunsyslogo}
+    <LightItem src={sunsyslogo}
     href="https://www.sunsystemlights.com/"
     producttype="Lamp & Reflector"
     products1="LEC 630 Watt Fixture"
@@ -63,7 +66,7 @@ export default function GalleryPageLighting(props) {
     media_img={lec630}
     media_img1={dominator} />
 
-    <DirtItem src={hortilogo}
+    <LightItem src={hortilogo}
     href="https://eyehortilux.com/"
     producttype="PowerVeg Series"
     products1="420, 460, 633, 660, FS + UV"
@@ -75,7 +78,7 @@ export default function GalleryPageLighting(props) {
     media_img1={blue}
     media_img2={powerveg} />
 
-    <DirtItem src={hydrologo}
+    <LightItem src={hydrologo}
     href=""
     producttype="AgroSun"
     products1="Double-ended 750W, Red Sodium 1000W"
@@ -90,7 +93,7 @@ export default function GalleryPageLighting(props) {
     media_img2={white}
     media_img3={qt1000} />
 
-    <DirtItem src={grochlogo}
+    <LightItem src={grochlogo}
     title="Grower's Choice"
     href="https://www.growersc.com/"
     producttype="LED Fixtures"
@@ -98,19 +101,23 @@ export default function GalleryPageLighting(props) {
     media_img={roi7}
     media_img1={roi6} />
 
-    <DirtItem src={gavitlogo}
+    <LightItem src={gavitlogo}
     href="https://gavita.com/retail/"
-    producttype="Grow Lamp, Hardware & Reflector"
-    products1="Pro 1000e DE 277-347/400"
-    producttype2="Bulbs"
-    products21="Pro 750 Watt Grow Lamp"
-    media_img={pro1000}
-    media_img1={pro750} />
+    producttype="LEDs and Fixtures"
+    products1="Gavita Pro 1700e LED"
+    products2="CT1930e LED"
+    producttype2="Grow Lamp, Hardware & Reflector"
+    products21="Pro 1000e DE 277-347/400"
+    products22="Pro 750 Watt Grow Lamp"
+    media_img={e1700}
+    media_img1={e1930}
+    media_img2={pro1000}
+    media_img3={pro750} />
 
     <Item src={luxxlogo}
     href="https://www.luxxlighting.com/" />
 
-    <DirtItem src={phantomlogo}
+    <LightItem src={phantomlogo}
     href="https://www.phantombio.com/"
     producttype="PhotoBio"
     products1="S4 Spectrum 680W - LED Fixture"

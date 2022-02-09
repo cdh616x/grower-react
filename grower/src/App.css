@@ -91,6 +91,7 @@ body {
 
 .info {
   font-family: "D-DIN", sans-serif;
+  font-size: 1.5vw;
   margin-bottom: 0;
 }
 
@@ -131,6 +132,11 @@ body {
 .dirt {
   height: 20vw;
   width: auto;
+}
+
+.light {
+  height: auto;
+  width: 50%;
 }
 
 .product-info {
