@@ -52,6 +52,11 @@ import adv4 from "../images/sun-gro/advanced4.png";
 
 import atamicocs from "../images/atami/cocos.png";
 
+import clone from "../images/grodan/clone.png";
+import delta from "../images/grodan/delta.png";
+import hugo from "../images/grodan/hugo.png";
+import mini from "../images/grodan/mini.png";
+
 export default function GalleryPageMedias(props) {
   return (
     <>
@@ -127,7 +132,12 @@ export default function GalleryPageMedias(props) {
 
     <DirtItem src={grodanlogo}
     href="https://www.grodan.com/product-overview/propagation-solutions/"
-    producttype="Stonewool Block" />
+    producttype="Stonewool Blocks"
+    products1="Hugo Block, Delta 10 Cubes, Mini Cubes"
+    products2="A-OK Cloning Plugs"
+    media_img={hugo}
+    media_img1={delta}
+    media_img2={clone} />
 
     <DirtItem src={earthlogo}
     href="https://www.mother-earthproducts.com/products/soils-and-amendments/"

@@ -26,13 +26,20 @@ import double from "../images/hydrofarm/double-sided.png";
 import sodium from "../images/hydrofarm/sodium.png";
 import white from "../images/hydrofarm/natural-white.png";
 import powerveg from "../images/hydrofarm/powerveg.png";
+import qt1000 from "../images/hydrofarm/qt1000.png";
 
 import lec630 from "../images/sun-system/lec630.png";
+import dominator from "../images/sun-system/dominator.png";
 
 import pro1000 from "../images/gavita/pro1000e.png";
 import pro750 from "../images/gavita/pro750.png";
 
 import ballast from "../images/phantom/mx.png";
+import phb2010 from "../images/phantom/phb2010.png";
+
+import roi2 from "../images/growers-choice/roi2001.png";
+import roi6 from "../images/growers-choice/roi680.png";
+import roi7 from "../images/growers-choice/roi720.png";
 
 export default function GalleryPageLighting(props) {
   return (
@@ -52,7 +59,9 @@ export default function GalleryPageLighting(props) {
     href="https://www.sunsystemlights.com/"
     producttype="Lamp & Reflector"
     products1="LEC 630 Watt Fixture"
-    media_img={lec630} />
+    products2="Dominator XXL"
+    media_img={lec630}
+    media_img1={dominator} />
 
     <DirtItem src={hortilogo}
     href="https://eyehortilux.com/"
@@ -74,13 +83,20 @@ export default function GalleryPageLighting(props) {
     products21="Natural White 1000W, Sky Blue 400W"
     producttype3="agrobrite"
     products31="Flourescent Grow Lights"
+    producttype4="Quantum"
+    products41="600W Digital Ballast, 1000W Digital Ballast"
     media_img={double}
     media_img1={sodium}
-    media_img2={white} />
+    media_img2={white}
+    media_img3={qt1000} />
 
-    <Item src={grochlogo}
+    <DirtItem src={grochlogo}
     title="Grower's Choice"
-    href="https://www.growersc.com/" />
+    href="https://www.growersc.com/"
+    producttype="LED Fixtures"
+    products1="LED 720W, LED 680W, LED 200W"
+    media_img={roi7}
+    media_img1={roi6} />
 
     <DirtItem src={gavitlogo}
     href="https://gavita.com/retail/"
@@ -97,8 +113,10 @@ export default function GalleryPageLighting(props) {
     <DirtItem src={phantomlogo}
     href="https://www.phantombio.com/"
     producttype="PhotoBio"
-    products1="S4 Spectrum 340W - LED Fixture"
-    media_img={ballast} />
+    products1="S4 Spectrum 680W - LED Fixture"
+    products2="Phantom II Digital Ballast"
+    media_img={ballast}
+    media_img1={phb2010} />
 
     <Footer />
     </>
