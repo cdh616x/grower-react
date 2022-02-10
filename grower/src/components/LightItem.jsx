@@ -29,7 +29,8 @@ export default function LightItem(props) {
        <p className="info">{props.products31}</p>
        <h5 className="product-type">{props.producttype4}</h5>
        <p className="info">{props.products41}</p>
-       <div className="container-fluid d">
+       <hr className="item-hr"/>
+       <div className="container-fluid l">
        <img className="img-fluid light" src={props.media_img} />
        <img className="img-fluid light" src={props.media_img1} />
        <img className="img-fluid light" src={props.media_img2} />

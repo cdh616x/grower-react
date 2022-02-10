@@ -99,7 +99,8 @@ export default function GalleryPageLighting(props) {
     producttype="LED Fixtures"
     products1="LED 720W, LED 680W, LED 200W"
     media_img={roi7}
-    media_img1={roi6} />
+    media_img1={roi6}
+    media_img2={roi2} />
 
     <LightItem src={gavitlogo}
     href="https://gavita.com/retail/"

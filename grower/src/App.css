@@ -89,12 +89,6 @@ body {
   color: #0bb5f4;
 }
 
-.info {
-  font-family: "D-DIN", sans-serif;
-  font-size: 1.5vw;
-  margin-bottom: 0;
-}
-
 .container{
   width: 33%;
 }
@@ -111,8 +105,17 @@ body {
   margin: 0;
 }
 
-.product-type {
+.info {
+  font-family: "D-DIN", sans-serif;
+  font-size: 2vw;
   margin-bottom: 0;
+  text-align: center;
+}
+
+.product-type {
+  font-size: 2vw;
+  margin-bottom: 0;
+  text-align: center;
   text-decoration: underline;
 }
 
@@ -167,4 +170,15 @@ hr {
   text-align: center;
   margin: auto;
   margin-bottom: 2%;
+}
+
+.item-hr {
+  background: linear-gradient(to right, brown, green);
+  width: 100%;
+}
+
+.container-fluid .l {
+  background: linear-gradient(to right, white, #097969);
+  border-radius: 10px;
+  padding-top: 2%;
 }
