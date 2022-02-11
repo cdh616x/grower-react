@@ -29,6 +29,7 @@ export default function Navbar(props) {
             <li><a className="dropdown-item" href="#/growing-medias">Growing Medias</a></li>
             <li><a className="dropdown-item" href="#/lighting">Lighting</a></li>
             <li><a className="dropdown-item" href="#/nutrients">Nutrients</a></li>
+            <li><a className="dropdown-item" href="#/pesticides">Pesticides</a></li>
           </ul>
         </li>
 
