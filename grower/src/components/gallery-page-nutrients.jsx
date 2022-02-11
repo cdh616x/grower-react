@@ -87,8 +87,8 @@ export default function GalleryPageNutrients(props) {
      href="https://www.oregonsonly.com/nectar-for-the-gods-products/"
      producttype="Liquid Nutrients"
      products1="Medusa's Magic, Gaia Mania, Athena's Aminas, Demeter's Destiny, Hygeia's Hydration"
-     products2="Olympus Up, The Kraken, Mega Morpheus, Zeus Juice Herculean Harvest, Aphrodite's Extraction"
-     products3="Poseidonzime, Triton's Trawl, Pegasus Potion, Persephone's Palate, Bloom Khaos, Hades Down"
+     products2="The Kraken, Mega Morpheus, Zeus Juice Herculean Harvest, Aphrodite's Extraction"
+     products3="Poseidonzime, Triton's Trawl, Pegasus Potion, Persephone's Palate, Bloom Khaos"
      producttype2="Granular Nutrients"
      products21="One Shot"
      schedulehref={OregonPDF}
@@ -99,7 +99,7 @@ export default function GalleryPageNutrients(props) {
      organic={organic}
      href="https://mammothmicrobes.com/product/mammoth-p/"
      producttype="Liquid Nutrients"
-     products1="Mammoth P, Mammoth Canncontrol, Mammoth SI"
+     products1="Mammoth P, Mammoth SI"
      products2="Mammoth Starter Plugs, Mammoth Biocontrol-PI" />
 
      <Item src={foxlogo}
@@ -169,14 +169,12 @@ export default function GalleryPageNutrients(props) {
       organic={organic}
       producttype="Liquid Nutrients"
       products1="BioThrive Grow, BioThrive Bloom, BioRoot, BioBud, BioWeed"
-      products2="Diamond Black, BioMarine, CaMg+, pH Up, pH Down" />
+      products2="Diamond Black, BioMarine, CaMg+" />
 
      <Item src={hydrologo}
      href="https://generalhydroponics.com/products/categories/nutrients/"
      producttype="Liquid Nutrients: BioThrive | FloraGro"
      products1="Grow, Bloom | Gro, Micro, Bloom"
-     producttype2="Liquid Supplements"
-     products21="PH Up, PH Down"
      schedulehref={FloraSched}
      schedule={florasched} />
 
