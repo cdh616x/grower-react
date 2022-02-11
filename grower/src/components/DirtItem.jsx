@@ -29,7 +29,7 @@ export default function DirtItem(props) {
        <p className="info">{props.products31}</p>
        <h5 className="product-type">{props.producttype4}</h5>
        <p className="info">{props.products41}</p>
-       <div className="container-fluid d">
+       <div className="container-fluid">
        <img className="img-fluid dirt" src={props.media_img} />
        <img className="img-fluid dirt" src={props.media_img1} />
        <img className="img-fluid dirt" src={props.media_img2} />

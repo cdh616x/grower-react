@@ -284,10 +284,16 @@ export default function GalleryPageNutrients(props) {
      organic={organic} />
 
      <Item src={earthlogo}
-     organic={organic} />
+     organic={organic}
+     producttype="Liquid Nutrients"
+     products1= "Microblast, Meta-K, Xatalyst the Crucial Link"
+     products2= "Bloom Original Formula, Grow Original Formula" />
 
      <Item src={microbelogo}
-     organic={organic} />
+     organic={organic}
+     producttype="Premium Liquid Nutrients"
+     products1="Nourish-L, Veg/Fruit Yield Enhancer, Photosynthesis Plus"
+     products2="PH Down, BMC Biological Mosquito Control" />
 
      <Item src={reallogo}
      href="https://www.realgrowers.com/"
