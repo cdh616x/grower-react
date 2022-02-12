@@ -86,9 +86,10 @@ export default function GalleryPageNutrients(props) {
      organic={organic}
      href="https://www.oregonsonly.com/nectar-for-the-gods-products/"
      producttype="Liquid Nutrients"
-     products1="Medusa's Magic, Gaia Mania, Athena's Aminas, Demeter's Destiny, Hygeia's Hydration"
-     products2="The Kraken, Mega Morpheus, Zeus Juice Herculean Harvest, Aphrodite's Extraction"
-     products3="Poseidonzime, Triton's Trawl, Pegasus Potion, Persephone's Palate, Bloom Khaos"
+     products1="Medusa's Magic, Gaia Mania, Athena's Aminas, Demeter's Destiny"
+     products2="The Kraken, Mega Morpheus, Zeus Juice Herculean Harvest"
+     products3="Triton's Trawl, Pegasus Potion, Persephone's Palate, Bloom Khaos"
+     products4="Poseidonzime, Hygeia's Hydration, Aphrodite's Extraction"
      producttype2="Granular Nutrients"
      products21="One Shot"
      schedulehref={OregonPDF}
