@@ -42,7 +42,7 @@ import CesSched from "../schedules/ces-full.png";
 import CultSched from "../schedules/culture.pdf";
 import HcoSched from "../schedules/hco-full.jpeg";
 
-import mammothlogo from "../images/logos/mammoth-recolor.png";
+import mammothlogo from "../images/logos/mammoth.png";
 import nectarlogo from "../images/logos/nectarlogo1.png";
 import hydrologo from "../images/logos/general-hydro.png";
 import rootslogo from "../images/logos/roots-logo.png";
@@ -87,7 +87,7 @@ export default function GalleryPageNutrients(props) {
      href="https://www.oregonsonly.com/nectar-for-the-gods-products/"
      producttype="Liquid Nutrients"
      products1="Medusa's Magic, Gaia Mania, Athena's Aminas, Demeter's Destiny"
-     products2="The Kraken, Mega Morpheus, Zeus Juice Herculean Harvest"
+     products2="The Kraken, Mega Morpheus, Zeus Juice, Herculean Harvest"
      products3="Triton's Trawl, Pegasus Potion, Persephone's Palate, Bloom Khaos"
      products4="Poseidonzime, Hygeia's Hydration, Aphrodite's Extraction"
      producttype2="Granular Nutrients"
@@ -96,7 +96,6 @@ export default function GalleryPageNutrients(props) {
      schedule={spartan} />
 
      <Item src={mammothlogo}
-     title="Mammoth P"
      organic={organic}
      href="https://mammothmicrobes.com/product/mammoth-p/"
      producttype="Liquid Nutrients"

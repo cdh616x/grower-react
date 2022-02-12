@@ -6,20 +6,30 @@ import Navbar from "./Navbar2.jsx";
 import Footer from "./Footer.jsx";
 import Item from "./Item.jsx";
 
+import DirtItem from "./DirtItem.jsx";
+
+import omri from "../images/omri.png";
+
+import mammothlogo from "../images/logos/mammoth.png";
+import athenalogo from "../images/logos/athena.png";
+
 export default function Pesticides(props) {
   return (
     <>
     <Navbar />
 
     <h1 className="page-title">{props.pagetitle}</h1>
+
     <Item
-    title="SaferGro"/>
+    title="SaferGro"
+    organic={omri} />
 
     <Item
     title="AzaMax" />
 
     <Item
-    title="Safer Brand" />
+    title="Safer Brand"
+    organic={omri} />
 
     <Item
     title="goGnato" />
@@ -28,19 +38,19 @@ export default function Pesticides(props) {
     title="BioGreen" />
 
     <Item
-    title="Monterey" />
+    title="Monterey"
+    organic={omri} />
 
     <Item
-    title="Flying Skull Plant Products" />
+    title="Flying Skull Plant Products"
+    organic={omri} />
 
     <Item
     title="Plant Wash" />
 
-    <Item
-    title="Athena" />
+    <Item src={athenalogo} />
 
-    <Item
-    title="Mammoth P" />
+    <Item src={mammothlogo} />
 
     <Item
     title="Wipe Out" />
@@ -49,10 +59,19 @@ export default function Pesticides(props) {
     title="NPK Industries" />
 
     <Item
-    title="Regalia" />
+    title="Regalia"
+    organic={omri} />
 
     <Item
     title="BigTime" />
+
+    <Item
+    title="BushDoctor"
+    organic={omri} />
+
+    <Item
+    title="Organicide"
+    organic={omri} />
 
     <Item
     title="Supreme Growers" />
