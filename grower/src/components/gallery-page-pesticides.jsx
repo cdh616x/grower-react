@@ -12,6 +12,16 @@ import omri from "../images/omri.png";
 
 import mammothlogo from "../images/logos/mammoth.png";
 import athenalogo from "../images/logos/athena.png";
+import cycologo from "../images/logos/cyco-logo.png";
+import ooologo from "../images/logos/ooo.png";
+import saferlogo from "../images/logos/safergro.png";
+import hydrologo from "../images/logos/general-hydro.png";
+import saferbrandlogo from "../images/logos/safer-brand.png";
+import foxlogo from "../images/logos/fox.png";
+import earjuilogo from "../images/logos/earth-juice.png";
+
+import pestout from "../images/safergro/pestout.png";
+import dont_bug from "../images/foxfarms/dont-bug-me.png";
 
 export default function Pesticides(props) {
   return (
@@ -20,19 +30,28 @@ export default function Pesticides(props) {
 
     <h1 className="page-title">{props.pagetitle}</h1>
 
-    <Item
-    title="SaferGro"
-    organic={omri} />
+    <DirtItem src={saferlogo}
+    producttype="Pest Out"
+    products1="Broad spectrum Pesticide"
+    organic={omri}
+    media_img={pestout} />
 
-    <Item
-    title="AzaMax" />
+    <Item src={hydrologo}
+    producttype="Azamax"
+    products1="Botanical Insecticide, Miticide, & Nematicide" />
 
-    <Item
+    <Item src={saferbrandlogo}
     title="Safer Brand"
     organic={omri} />
 
-    <Item
-    title="goGnato" />
+    <DirtItem src={foxlogo}
+    producttype="Don't Bug Me"
+    products1="Insect Spray"
+    media_img={dont_bug} />
+
+    <Item src={earjuilogo}
+    producttype="goGnats Insect Control"
+    products1="Alternative Liquid Concentrate" />
 
     <Item
     title="BioGreen" />
@@ -79,8 +98,7 @@ export default function Pesticides(props) {
     <Item
     title="DynaGrow" />
 
-    <Item
-    title="Fox Farm" />
+
 
     <Item
     title="Doktor Doom" />
@@ -97,16 +115,15 @@ export default function Pesticides(props) {
     <Item
     title="The Amazing Doctor Zymes" />
 
-    <Item
-    title="General Hydroponics" />
+
 
     <Item
     title="General Organics" />
 
-    <Item
+    <Item src={cycologo}
     title="Cyco" />
 
-    <Item
+    <Item src={ooologo}
     title="Nectar for the Gods" />
 
     <Footer />
