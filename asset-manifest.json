@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/grower-react/static/css/main.5d35a78e.css",
-    "main.js": "/grower-react/static/js/main.95fe1072.js",
+    "main.js": "/grower-react/static/js/main.1dac564e.js",
     "static/js/787.69c46001.chunk.js": "/grower-react/static/js/787.69c46001.chunk.js",
     "static/media/house-sched.pdf": "/grower-react/static/media/house-sched.0e1e5a8232f8ae785669.pdf",
     "static/media/emerald-harvest-feed.pdf": "/grower-react/static/media/emerald-harvest-feed.63ae31d7ba13d1240089.pdf",
@@ -64,6 +64,7 @@
     "static/media/pestout.png": "/grower-react/static/media/pestout.5fdbcde99876b073926d.png",
     "static/media/spartan.png": "/grower-react/static/media/spartan.e8c3fa7f042b82d9b620.png",
     "static/media/roi720.png": "/grower-react/static/media/roi720.b150cac4b061383366d5.png",
+    "static/media/olympus.png": "/grower-react/static/media/olympus.3c263690f864c6b09c0a.png",
     "static/media/fungicide.png": "/grower-react/static/media/fungicide.802456222f506d33e13a.png",
     "static/media/ces-full.png": "/grower-react/static/media/ces-full.5cad74c8475d6837c4c6.png",
     "static/media/hydrofarm.png": "/grower-react/static/media/hydrofarm.e0d72c1c98009b2605c3.png",
@@ -158,11 +159,11 @@
     "static/media/npk.png": "/grower-react/static/media/npk.31ce8a5a18c0416aa13c.png",
     "index.html": "/grower-react/index.html",
     "main.5d35a78e.css.map": "/grower-react/static/css/main.5d35a78e.css.map",
-    "main.95fe1072.js.map": "/grower-react/static/js/main.95fe1072.js.map",
+    "main.1dac564e.js.map": "/grower-react/static/js/main.1dac564e.js.map",
     "787.69c46001.chunk.js.map": "/grower-react/static/js/787.69c46001.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5d35a78e.css",
-    "static/js/main.95fe1072.js"
+    "static/js/main.1dac564e.js"
   ]
 }
