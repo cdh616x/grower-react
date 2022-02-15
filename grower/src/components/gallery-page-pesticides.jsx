@@ -20,11 +20,12 @@ import hydrologo from "../images/logos/general-hydro.png";
 import saferbrandlogo from "../images/logos/safer-brand.png";
 import foxlogo from "../images/logos/fox.png";
 import earjuilogo from "../images/logos/earth-juice.png";
+import biogreenlogo from "../images/logos/biogreen.png";
 
 import pestout from "../images/safergro/pestout.png";
 import dont_bug from "../images/foxfarms/dont-bug-me.png";
-import safe_fung from "../images/safer-brand/fungicide.png";
-import safe_sol from "../images/safer-brand/fungsol.png";
+import safe_fung from "../images/safer-brand/saferbrand.png";
+import bioclean from "../images/biogreen/clean.png";
 
 export default function Pesticides(props) {
   return (
@@ -47,8 +48,7 @@ export default function Pesticides(props) {
     producttype="Garden Fungicide"
     products1="Spray & Concentrate"
     organic={omri}
-    media_img={safe_fung}
-    media_img1={safe_sol} />
+    media_img={safe_fung} />
 
     <PestItem src={foxlogo}
     producttype="Don't Bug Me"
@@ -59,8 +59,10 @@ export default function Pesticides(props) {
     producttype="goGnats Insect Control"
     products1="Alternative Liquid Concentrate" />
 
-    <Item
-    title="BioGreen" />
+    <PestItem src={biogreenlogo}
+    producttype="Clean"
+    products1="Natural Cleaner, Spray & Concentrate"
+    media_img={bioclean} />
 
     <Item
     title="Monterey"
