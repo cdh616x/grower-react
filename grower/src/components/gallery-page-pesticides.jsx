@@ -5,8 +5,6 @@ import React from "react";
 import Navbar from "./Navbar2.jsx";
 import Footer from "./Footer.jsx";
 import Item from "./Item.jsx";
-
-import DirtItem from "./DirtItem.jsx";
 import PestItem from "./PestItem.jsx";
 
 import omri from "../images/omri.png";
@@ -29,6 +27,12 @@ import marronelogo from "../images/logos/marrone.png";
 import bigtimelogo from "../images/logos/bigtime.png";
 import supremelogo from "../images/logos/supreme.png";
 import dynalogo from "../images/logos/dynagro.png";
+import orglablogo from "../images/logos/organic-labs.png";
+import doomlogo from "../images/logos/doom.png";
+import summitlogo from "../images/logos/summit.gif";
+import seabrightlogo from "../images/logos/seabright.png";
+import snslogo from "../images/logos/sns.png";
+import zymeslogo from "../images/logos/zymes.png";
 
 import pestout from "../images/safergro/pestout.png";
 import dont_bug from "../images/foxfarms/fox-pesticide.png";
@@ -46,6 +50,14 @@ import regalia from "../images/regalia/fungicide.png";
 import exterminator from "../images/bigtime/exterminator.png";
 import banish_smite from "../images/supreme/supreme-bottles.png";
 import neemoil from "../images/dynagro/neem.png";
+import organicide from "../images/organicide/organicide.png";
+import dokdoom from "../images/doom/doktor-doom.png";
+import musquito from "../images/summit/musquito.png";
+import sticky from "../images/seabright/sticky-traps.png";
+import sns from "../images/sns/sns-prod.png";
+import eliminator from "../images/zymes/eliminator1.png";
+import cycoph from "../images/cyco/ph.png";
+import olympus from "../images/nectar/olympus.png";
 
 export default function Pesticides(props) {
   return (
@@ -65,6 +77,7 @@ export default function Pesticides(props) {
     href="https://generalhydroponics.com/products/azamax/"
     producttype="Azamax"
     products1="Botanical Insecticide, Miticide, & Nematicide"
+    producttype2="PH UP & PH DOWN"
     media_img={azamax} />
 
     <PestItem src={saferbrandlogo}
@@ -151,13 +164,14 @@ export default function Pesticides(props) {
     href="https://bigtimezyme.com/shop/product/exterminator/"
     media_img={exterminator} />
 
-    <Item
-    title="BushDoctor"
-    organic={omri} />
-
-    <Item
-    title="Organicide"
-    organic={omri} />
+    <PestItem src={orglablogo}
+    href="https://organiclabs.com/o/organocide-bee-safe-3-in-1-garden-spray/"
+    producttype="BeeSafe 3-1 Pesticide"
+    products1="Spray & Concentrate"
+    producttype2="Plant Doctor"
+    products21="Systemic Fungicide"
+    organic={omri}
+    media_img={organicide} />
 
     <PestItem src={supremelogo}
     href="https://supremegrowers.us/natural-pesticides.html"
@@ -173,28 +187,56 @@ export default function Pesticides(props) {
     products1="Leaf Polish"
     media_img={neemoil} />
 
-    <Item
-    title="Doktor Doom" />
+    <PestItem src={doomlogo}
+    href="https://www.hawthornegc.com/shop/bybrand/doktor-doom"
+    producttype="Sprays"
+    products1="Total Release Fogger, Spider Mite Knock-Out"
+    producttype2="Formula 420"
+    products21="Professional 3-1 Pesticide Concentrate"
+    media_img={dokdoom} />
 
-    <Item
-    title="Summit" />
+    <PestItem src={summitlogo}
+    href="https://summitchemical.com/mosquito-solutions/"
+    producttype="Mosquito Solutions"
+    products1="Mosquito Dunks"
+    products2="Musquito Bits"
+    media_img={musquito} />
 
-    <Item
-    title="Seabright Laboratories" />
+    <PestItem src={seabrightlogo}
+    href="https://www.seabrightlabs.com/"
+    producttype="Sticky Insect Traps"
+    products1="Aphid/Whitefly Paper"
+    products2="Thrip/Leafminer Paper"
+    media_img={sticky} />
 
-    <Item
-    title="Sierra Natural Science" />
+    <PestItem src={snslogo}
+    href="https://sierranaturalscience.com/shopping/"
+    producttype="OMRI Listed Pesticides"
+    products1="203 Root Drench"
+    products2="209 Systemic Pest Control"
+    products3="217c Spider Mite Control"
+    organic={omri}
+    media_img={sns} />
 
-    <Item
-    title="The Amazing Doctor Zymes" />
+    <PestItem src={zymeslogo}
+    href="https://doctorzymes.com/pesticide-free-insecticide.php"
+    producttype="Eliminator"
+    products1="Insecticide & Fungicide Concentrate"
+    products2="Insecticide & Fungicide Spray"
+    media_img={eliminator} />
 
-    <Item
-    title="General Organics" />
+    <PestItem src={cycologo}
+    producttype="PH UP & PH DOWN"
+    href="https://cycoflower.com/usa/ph-up-down/"
+    media_img={cycoph} />
 
-    <Item src={cycologo} />
-
-    <Item src={ooologo}
-    title="Nectar for the Gods" />
+    <PestItem src={ooologo}
+    title="Nectar for the Gods"
+    producttype="Olympus Up"
+    products1="PH Increaser (Basify)"
+    producttype2="Hades Down"
+    products21="PH Decreaser (Acidify)"
+    media_img={olympus} />
 
     <Footer />
     </>
