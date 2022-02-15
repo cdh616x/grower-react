@@ -32,6 +32,8 @@ import bioclean from "../images/biogreen/clean.png";
 import montespray from "../images/monterey/insect-spray.png";
 import nuke from "../images/flying-skull/nuke.png";
 import plantwash from "../images/lost-coast/plant-wash.png";
+import ipm from "../images/athena/athena-pest.png";
+import canncontrol from "../images/mammoth/canncontrol.png";
 
 export default function Pesticides(props) {
   return (
@@ -87,9 +89,16 @@ export default function Pesticides(props) {
     products1="Broad Spectrum Insecticide & Fungicide"
     media_img={plantwash}/>
 
-    <Item src={athenalogo} />
+    <PestItem src={athenalogo}
+    producttype="IPM"
+    products1="Broad Spectrum Insecticide and Pesticide"
+    producttype2="Milldew Control"
+    media_img={ipm} />
 
-    <Item src={mammothlogo} />
+    <PestItem src={mammothlogo}
+    producttype="CannControl"
+    products1="Effective against mold, mildew, mites & insects"
+    media_img={canncontrol} />
 
     <Item
     title="Wipe Out" />
@@ -118,8 +127,6 @@ export default function Pesticides(props) {
     <Item
     title="DynaGrow" />
 
-
-
     <Item
     title="Doktor Doom" />
 
@@ -134,8 +141,6 @@ export default function Pesticides(props) {
 
     <Item
     title="The Amazing Doctor Zymes" />
-
-
 
     <Item
     title="General Organics" />
