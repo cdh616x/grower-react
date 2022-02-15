@@ -28,9 +28,10 @@ import npklogo from "../images/logos/npk.png";
 import marronelogo from "../images/logos/marrone.png";
 import bigtimelogo from "../images/logos/bigtime.png";
 import supremelogo from "../images/logos/supreme.png";
+import dynalogo from "../images/logos/dynagro.png";
 
 import pestout from "../images/safergro/pestout.png";
-import dont_bug from "../images/foxfarms/dont-bug-me.png";
+import dont_bug from "../images/foxfarms/fox-pesticide.png";
 import safe_fung from "../images/safer-brand/saferbrand.png";
 import bioclean from "../images/biogreen/clean.png";
 import montespray from "../images/monterey/insect-spray.png";
@@ -43,6 +44,8 @@ import gognats from "../images/earth-juice/gognats.png";
 import npk from "../images/npk-industries/npk-industries.png";
 import regalia from "../images/regalia/fungicide.png";
 import exterminator from "../images/bigtime/exterminator.png";
+import banish_smite from "../images/supreme/supreme-bottles.png";
+import neemoil from "../images/dynagro/neem.png";
 
 export default function Pesticides(props) {
   return (
@@ -75,6 +78,8 @@ export default function Pesticides(props) {
     href="https://foxfarm.com/product/dont-bug-me-insecticide"
     producttype="Don't Bug Me"
     products1="Insect Spray"
+    producttype2="BushDoctor: Force of Nature"
+    products21="OMRI Listed Fungicide"
     media_img={dont_bug} />
 
     <PestItem src={earjuilogo}
@@ -154,15 +159,19 @@ export default function Pesticides(props) {
     title="Organicide"
     organic={omri} />
 
-    <Item src={supremelogo}
+    <PestItem src={supremelogo}
     href="https://supremegrowers.us/natural-pesticides.html"
     producttype="Banish"
     products1="Fungicide Concentrate"
     producttype2="Smite"
-    products21="Spider Miticide Concentrate" />
+    products21="Spider Miticide Concentrate"
+    media_img={banish_smite} />
 
-    <Item
-    title="DynaGrow" />
+    <PestItem src={dynalogo}
+    href="https://dyna-gro.com/product/neem-oil/"
+    producttype="Neem Oil"
+    products1="Leaf Polish"
+    media_img={neemoil} />
 
     <Item
     title="Doktor Doom" />
