@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/grower-react/static/css/main.dd4a0604.css",
-    "main.js": "/grower-react/static/js/main.c9158aee.js",
+    "main.js": "/grower-react/static/js/main.fba10783.js",
     "static/js/787.69c46001.chunk.js": "/grower-react/static/js/787.69c46001.chunk.js",
     "static/media/house-sched.pdf": "/grower-react/static/media/house-sched.0e1e5a8232f8ae785669.pdf",
     "static/media/emerald-harvest-feed.pdf": "/grower-react/static/media/emerald-harvest-feed.63ae31d7ba13d1240089.pdf",
     "static/media/millssched.pdf": "/grower-react/static/media/millssched.4295924c7021d1d4305f.pdf",
     "static/media/oregons-only-schedules.pdf": "/grower-react/static/media/oregons-only-schedules.b6d90a82d25b1085f7e8.pdf",
     "static/media/16.pdf": "/grower-react/static/media/16.cd8ebabdfec391ed774b.pdf",
+    "static/media/flying-skull.png": "/grower-react/static/media/flying-skull.9717abaf949b066a1ec5.png",
     "static/media/mx.png": "/grower-react/static/media/mx.6e2f5c1207eb8c21cf21.png",
     "static/media/culture.pdf": "/grower-react/static/media/culture.53007c144ae1b1532977.pdf",
     "static/media/flora-sched.pdf": "/grower-react/static/media/flora-sched.ba90926de27dc37f98bb.pdf",
@@ -50,6 +51,7 @@
     "static/media/greenlite.png": "/grower-react/static/media/greenlite.280078ce228462dc6369.png",
     "static/media/clone.png": "/grower-react/static/media/clone.dd1184d0991c74776b45.png",
     "static/media/coco.png": "/grower-react/static/media/coco.7e34099a74a2dc4a22c0.png",
+    "static/media/insect-spray.png": "/grower-react/static/media/insect-spray.56dca1121c624e3a523a.png",
     "static/media/pestout.png": "/grower-react/static/media/pestout.5fdbcde99876b073926d.png",
     "static/media/spartan.png": "/grower-react/static/media/spartan.e8c3fa7f042b82d9b620.png",
     "static/media/roi720.png": "/grower-react/static/media/roi720.b150cac4b061383366d5.png",
@@ -71,6 +73,7 @@
     "static/media/optired.png": "/grower-react/static/media/optired.9172e814298ff68065b4.png",
     "static/media/bx.png": "/grower-react/static/media/bx.73af202931e974cc5c2d.png",
     "static/media/nectarlogo1.png": "/grower-react/static/media/nectarlogo1.ba73b7bf21d62a144af7.png",
+    "static/media/nuke.png": "/grower-react/static/media/nuke.320912907d2bf122eb71.png",
     "static/media/sunshine4.png": "/grower-react/static/media/sunshine4.dfac5953b0297bf7289e.png",
     "static/media/roi680.png": "/grower-react/static/media/roi680.2acd3d9e5afc0a563064.png",
     "static/media/botanicare.png": "/grower-react/static/media/botanicare.07b3910a113127435122.png",
@@ -78,6 +81,7 @@
     "static/media/1700e.png": "/grower-react/static/media/1700e.5dccb05afcc9440aac01.png",
     "static/media/closed.jpeg": "/grower-react/static/media/closed.f64c8540f5569a408dd3.jpeg",
     "static/media/sun-system.png": "/grower-react/static/media/sun-system.d5304f6153d5e4994c99.png",
+    "static/media/plant-wash.png": "/grower-react/static/media/plant-wash.1bad694fe266bf27e81a.png",
     "static/media/1930e.png": "/grower-react/static/media/1930e.f9e948846271eb64908d.png",
     "static/media/vegamatrix.pdf": "/grower-react/static/media/vegamatrix.2bd751c037d684f87228.pdf",
     "static/media/logo.png": "/grower-react/static/media/logo.84178e6fa869af83bca9.png",
@@ -107,8 +111,10 @@
     "static/media/real-growers.png": "/grower-react/static/media/real-growers.3ad6ac5cca2f4bc39bb9.png",
     "static/media/growers-choice.png": "/grower-react/static/media/growers-choice.3937e82a2512b04117cd.png",
     "static/media/supreme.png": "/grower-react/static/media/supreme.e09d9659b0d8b446ff0f.png",
+    "static/media/monterey.png": "/grower-react/static/media/monterey.3b31e6ce0d52ab74ed0e.png",
     "static/media/lec630.png": "/grower-react/static/media/lec630.8559e04b7493a61962b9.png",
     "static/media/dte.png": "/grower-react/static/media/dte.6fb226543be7bf072bca.png",
+    "static/media/lost-coast.png": "/grower-react/static/media/lost-coast.f35f72310ff0f4f28c94.png",
     "static/media/general-hydro.png": "/grower-react/static/media/general-hydro.8adae9891dc47b64d2bd.png",
     "static/media/roots.pdf": "/grower-react/static/media/roots.87019bd35da5cf2bddaa.pdf",
     "static/media/gavita.png": "/grower-react/static/media/gavita.ff6e9619fbc839808201.png",
@@ -127,11 +133,11 @@
     "static/media/mammoth.png": "/grower-react/static/media/mammoth.bd0d549d80d545df99b7.png",
     "index.html": "/grower-react/index.html",
     "main.dd4a0604.css.map": "/grower-react/static/css/main.dd4a0604.css.map",
-    "main.c9158aee.js.map": "/grower-react/static/js/main.c9158aee.js.map",
+    "main.fba10783.js.map": "/grower-react/static/js/main.fba10783.js.map",
     "787.69c46001.chunk.js.map": "/grower-react/static/js/787.69c46001.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dd4a0604.css",
-    "static/js/main.c9158aee.js"
+    "static/js/main.fba10783.js"
   ]
 }
