@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/grower-react/static/css/main.dd4a0604.css",
-    "main.js": "/grower-react/static/js/main.7991c5ac.js",
+    "main.js": "/grower-react/static/js/main.3f238b81.js",
     "static/js/787.69c46001.chunk.js": "/grower-react/static/js/787.69c46001.chunk.js",
     "static/media/house-sched.pdf": "/grower-react/static/media/house-sched.0e1e5a8232f8ae785669.pdf",
     "static/media/emerald-harvest-feed.pdf": "/grower-react/static/media/emerald-harvest-feed.63ae31d7ba13d1240089.pdf",
@@ -16,6 +16,7 @@
     "static/media/athena-sched.pdf": "/grower-react/static/media/athena-sched.c1f554e2936660263988.pdf",
     "static/media/biobizz.pdf": "/grower-react/static/media/biobizz.0590919a7d3710e24338.pdf",
     "static/media/hco-full.jpeg": "/grower-react/static/media/hco-full.56ea7ca11272c2818225.jpeg",
+    "static/media/canncontrol.png": "/grower-react/static/media/canncontrol.de73fdad462e2af37782.png",
     "static/media/royal-gold.png": "/grower-react/static/media/royal-gold.0a769c8b7ad62b7da8a7.png",
     "static/media/house-garden.png": "/grower-react/static/media/house-garden.5856b8f380ba030c758a.png",
     "static/media/cyco.pdf": "/grower-react/static/media/cyco.2bab102dc2353c90c225.pdf",
@@ -134,11 +135,11 @@
     "static/media/mammoth.png": "/grower-react/static/media/mammoth.bd0d549d80d545df99b7.png",
     "index.html": "/grower-react/index.html",
     "main.dd4a0604.css.map": "/grower-react/static/css/main.dd4a0604.css.map",
-    "main.7991c5ac.js.map": "/grower-react/static/js/main.7991c5ac.js.map",
+    "main.3f238b81.js.map": "/grower-react/static/js/main.3f238b81.js.map",
     "787.69c46001.chunk.js.map": "/grower-react/static/js/787.69c46001.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dd4a0604.css",
-    "static/js/main.7991c5ac.js"
+    "static/js/main.3f238b81.js"
   ]
 }
