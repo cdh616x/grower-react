@@ -23,6 +23,8 @@ import earjuilogo from "../images/logos/earth-juice.png";
 
 import pestout from "../images/safergro/pestout.png";
 import dont_bug from "../images/foxfarms/dont-bug-me.png";
+import safe_fung from "../images/safer-brand/fungicide.png";
+import safe_sol from "../images/safer-brand/fungsol.png";
 
 export default function Pesticides(props) {
   return (
@@ -41,9 +43,12 @@ export default function Pesticides(props) {
     producttype="Azamax"
     products1="Botanical Insecticide, Miticide, & Nematicide" />
 
-    <Item src={saferbrandlogo}
-    title="Safer Brand"
-    organic={omri} />
+    <PestItem src={saferbrandlogo}
+    producttype="Garden Fungicide"
+    products1="Spray & Concentrate"
+    organic={omri}
+    media_img={safe_fung}
+    media_img1={safe_sol} />
 
     <PestItem src={foxlogo}
     producttype="Don't Bug Me"
