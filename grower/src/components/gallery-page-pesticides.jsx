@@ -7,6 +7,7 @@ import Footer from "./Footer.jsx";
 import Item from "./Item.jsx";
 
 import DirtItem from "./DirtItem.jsx";
+import PestItem from "./PestItem.jsx";
 
 import omri from "../images/omri.png";
 
@@ -30,7 +31,7 @@ export default function Pesticides(props) {
 
     <h1 className="page-title">{props.pagetitle}</h1>
 
-    <DirtItem src={saferlogo}
+    <PestItem src={saferlogo}
     producttype="Pest Out"
     products1="Broad spectrum Pesticide"
     organic={omri}
@@ -44,7 +45,7 @@ export default function Pesticides(props) {
     title="Safer Brand"
     organic={omri} />
 
-    <DirtItem src={foxlogo}
+    <PestItem src={foxlogo}
     producttype="Don't Bug Me"
     products1="Insect Spray"
     media_img={dont_bug} />
