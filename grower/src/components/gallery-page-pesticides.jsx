@@ -24,6 +24,10 @@ import biogreenlogo from "../images/logos/biogreen.png";
 import montlogo from "../images/logos/monterey.png";
 import flyinglogo from "../images/logos/flying-skull.png";
 import loscoslogo from "../images/logos/lost-coast.png";
+import npklogo from "../images/logos/npk.png";
+import marronelogo from "../images/logos/marrone.png";
+import bigtimelogo from "../images/logos/bigtime.png";
+import supremelogo from "../images/logos/supreme.png";
 
 import pestout from "../images/safergro/pestout.png";
 import dont_bug from "../images/foxfarms/dont-bug-me.png";
@@ -34,6 +38,11 @@ import nuke from "../images/flying-skull/nuke.png";
 import plantwash from "../images/lost-coast/plant-wash.png";
 import ipm from "../images/athena/athena-pest.png";
 import canncontrol from "../images/mammoth/canncontrol.png";
+import azamax from "../images/general-hydroponics/azamax1.png";
+import gognats from "../images/earth-juice/gognats.png";
+import npk from "../images/npk-industries/npk-industries.png";
+import regalia from "../images/regalia/fungicide.png";
+import exterminator from "../images/bigtime/exterminator.png";
 
 export default function Pesticides(props) {
   return (
@@ -43,59 +52,72 @@ export default function Pesticides(props) {
     <h1 className="page-title">{props.pagetitle}</h1>
 
     <PestItem src={saferlogo}
+    href="https://safergro.com/products/pest-out"
     producttype="Pest Out"
     products1="Broad spectrum Pesticide"
     organic={omri}
     media_img={pestout} />
 
-    <Item src={hydrologo}
+    <PestItem src={hydrologo}
+    href="https://generalhydroponics.com/products/azamax/"
     producttype="Azamax"
-    products1="Botanical Insecticide, Miticide, & Nematicide" />
+    products1="Botanical Insecticide, Miticide, & Nematicide"
+    media_img={azamax} />
 
     <PestItem src={saferbrandlogo}
+    href="https://www.saferbrand.com/store/garden/plant-disease-prevention-fungicide"
     producttype="Garden Fungicide"
     products1="Spray & Concentrate"
     organic={omri}
     media_img={safe_fung} />
 
     <PestItem src={foxlogo}
+    href="https://foxfarm.com/product/dont-bug-me-insecticide"
     producttype="Don't Bug Me"
     products1="Insect Spray"
     media_img={dont_bug} />
 
-    <Item src={earjuilogo}
+    <PestItem src={earjuilogo}
+    href="https://www.earthjuice.com/products/gognats-liquid-poison-free-pest-control"
     producttype="goGnats Insect Control"
-    products1="Alternative Liquid Concentrate" />
+    products1="Alternative Liquid Concentrate"
+    media_img={gognats} />
 
     <PestItem src={biogreenlogo}
+    href="https://biogreenclean.com/"
     producttype="Clean"
     products1="Natural Cleaner, Spray & Concentrate"
     media_img={bioclean} />
 
     <PestItem src={montlogo}
+    href="https://www.montereylawngarden.com/product/monterey-garden-insect-spray/"
     producttype="Broad Spectrum Insecticide"
     products1="Garden Insect Spray"
     organic={omri}
     media_img={montespray} />
 
     <PestItem src={flyinglogo}
+    href="https://www.flyingskull.net/NukeEm.html"
     producttype="Nuke Em"
     products1="Insecticide & Fungicide"
     organic={omri}
     media_img={nuke} />
 
     <PestItem src={loscoslogo}
+    href="https://www.lostcoastplanttherapy.com/collections/home-page"
     producttype="Plant Wash Concentrate"
     products1="Broad Spectrum Insecticide & Fungicide"
     media_img={plantwash}/>
 
     <PestItem src={athenalogo}
+    href="https://www.athenaproducts.com/ipm"
     producttype="IPM"
     products1="Broad Spectrum Insecticide and Pesticide"
-    producttype2="Milldew Control"
+    producttype2="Mildew Control"
     media_img={ipm} />
 
     <PestItem src={mammothlogo}
+    href="https://mammothmicrobes.com/product/mammoth-canncontrol/"
     producttype="CannControl"
     products1="Effective against mold, mildew, mites & insects"
     media_img={canncontrol} />
@@ -103,15 +125,26 @@ export default function Pesticides(props) {
     <Item
     title="Wipe Out" />
 
-    <Item
-    title="NPK Industries" />
+    <PestItem src={npklogo}
+    href="https://npk-industries.com/collections/controls"
+    producttype="Mighty"
+    products1="Spider Miticide Concentrate"
+    producttype2="PM Wash"
+    products21="Plant Cleaner Concentrate"
+    media_img={npk} />
 
-    <Item
-    title="Regalia"
-    organic={omri} />
+    <PestItem src={marronelogo}
+    href="https://marronebio.com/products/regalia/"
+    producttype="Regalia"
+    products1="Bio-Fungicide"
+    organic={omri}
+    media_img={regalia} />
 
-    <Item
-    title="BigTime" />
+    <PestItem src={bigtimelogo}
+    producttype="Exterminator"
+    products1="Pesticide Concentrate"
+    href="https://bigtimezyme.com/shop/product/exterminator/"
+    media_img={exterminator} />
 
     <Item
     title="BushDoctor"
@@ -121,8 +154,12 @@ export default function Pesticides(props) {
     title="Organicide"
     organic={omri} />
 
-    <Item
-    title="Supreme Growers" />
+    <Item src={supremelogo}
+    href="https://supremegrowers.us/natural-pesticides.html"
+    producttype="Banish"
+    products1="Fungicide Concentrate"
+    producttype2="Smite"
+    products21="Spider Miticide Concentrate" />
 
     <Item
     title="DynaGrow" />
