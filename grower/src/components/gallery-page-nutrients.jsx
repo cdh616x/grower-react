@@ -83,6 +83,7 @@ export default function GalleryPageNutrients(props) {
 
      <Item src={nectarlogo}
      title="Nectar for the Gods"
+     logo_alt="Nectar for the Gods"
      organic={organic}
      href="https://www.oregonsonly.com/nectar-for-the-gods-products/"
      producttype="Liquid Nutrients"
@@ -97,12 +98,14 @@ export default function GalleryPageNutrients(props) {
 
      <Item src={mammothlogo}
      organic={organic}
+     logo_alt="Mammoth Microbes"
      href="https://mammothmicrobes.com/product/mammoth-p/"
      producttype="Liquid Nutrients"
      products1="Mammoth P, Mammoth SI"
      products2="Mammoth Starter Plugs, Mammoth Biocontrol-PI" />
 
      <Item src={foxlogo}
+     logo_alt="Fox Farm"
      href="https://foxfarm.com/product-category/liquid-fertilizers"
      organic={organic}
      producttype="Brands"
@@ -115,6 +118,7 @@ export default function GalleryPageNutrients(props) {
      schedule={foxsched} />
 
      <Item src={emeraldlogo}
+     logo_alt="Emerald Harvest"
      href="https://www.emeraldharvest.co/"
      producttype="Liquid Nutrients"
      products1="Cali Pro, Grow Micro Bloom, Honey Chome, Root Wizard"
@@ -123,6 +127,7 @@ export default function GalleryPageNutrients(props) {
      schedule={emeraldsched} />
 
      <Item src={houselogo}
+     logo_alt="House & Garden"
      href="https://house-garden.us/"
      producttype="Liquid Nutrients"
      products1="Aqua Flakes A&B, Hydro A&B, Cocos A&B, Soil A&B"
@@ -135,6 +140,7 @@ export default function GalleryPageNutrients(props) {
      schedule={housesched} />
 
      <Item src={advancedlogo}
+     logo_alt="Advanced Nutrients"
      href="https://www.advancednutrients.com/products/all-products/"
      organic={organic}
      producttype="Liquid Nutrients"
@@ -146,6 +152,7 @@ export default function GalleryPageNutrients(props) {
      schedule={advancedsched} />
 
      <Item src={athenalogo}
+     logo_alt="Athena"
      href="https://www.athenaproducts.com/pro-line?page=1"
      producttype="Blended Line - Liquid Nutrients"
      products1="Cleance, CaMg, PK, Grow A, Grow B"
@@ -156,6 +163,7 @@ export default function GalleryPageNutrients(props) {
      schedule={athenasched} />
 
      <Item src={gaialogo}
+     logo_alt="Gaia Green"
      href="https://www.gaiagreen.com/"
      organic={organic}
      producttype="Organic Fertilizer - Granular Nutrients"
@@ -165,6 +173,7 @@ export default function GalleryPageNutrients(props) {
      products4="Fishbone Mean, Kelp Meal, Glacial Rock Dust, Rock Phosphate, Basalt Rock Dust" />
 
      <Item src={ghorglogo}
+      logo_alt="General Organics"
       href="https://www.hawthornegc.com/"
       organic={organic}
       producttype="Liquid Nutrients"
@@ -172,6 +181,7 @@ export default function GalleryPageNutrients(props) {
       products2="Diamond Black, BioMarine, CaMg+" />
 
      <Item src={hydrologo}
+     logo_alt="General Hydroponics"
      href="https://generalhydroponics.com/products/categories/nutrients/"
      producttype="Liquid Nutrients: BioThrive | FloraGro"
      products1="Grow, Bloom | Gro, Micro, Bloom"
@@ -179,6 +189,7 @@ export default function GalleryPageNutrients(props) {
      schedule={florasched} />
 
      <Item src={rootslogo}
+     logo_alt="Roots Organic"
      href="https://www.aurorainnovations.com/roots-organics-liquid-nutrients"
      organic={organic}
      producttype="Liquid Nutrients & Supplements"
@@ -188,6 +199,7 @@ export default function GalleryPageNutrients(props) {
      schedule={rootssched} />
 
      <Item src={dtelogo}
+     logo_alt="Down to Earth"
      href="https://downtoearthfertilizer.com/"
      organic={organic}
      producttype="Blended Fertilizer"
@@ -196,6 +208,7 @@ export default function GalleryPageNutrients(props) {
      products3="Tree & Shrub, Vegan Mix, Vegetable Garden" />
 
      <Item src={biobizzlogo}
+     logo_alt="BioBizz"
      href="https://www.biobizz.com/products/"
      organic={organic}
      producttype="Liquid Nutrients"
@@ -206,6 +219,7 @@ export default function GalleryPageNutrients(props) {
      schedule={biobizzsched} />
 
      <Item src={vegalogo}
+     logo_alt="Vegamatrix"
      href="https://purelifeveganix.com/"
      organic={organic}
      producttype="Liquid Nutrients"
@@ -215,6 +229,7 @@ export default function GalleryPageNutrients(props) {
      schedule={vegamatrixsched} />
 
      <Item src={millslogo}
+     logo_alt="Mills Nutrients"
      href="https://millsnutrients.com/"
      producttype="Liquid Nutrients"
      products1="Basis A & B, Start R, C4, Ultimate PK, Vitalize"
@@ -222,6 +237,7 @@ export default function GalleryPageNutrients(props) {
      schedule={millssched} />
 
      <Item src={heavylogo}
+     logo_alt="Heavy 16"
      href="https://www.heavy16.com/products/"
      producttype="Liquid Nutrients"
      products1="Veg A & B, Bud A & B, Prime, Fire, Roots, Foliar, Finish"
@@ -229,6 +245,7 @@ export default function GalleryPageNutrients(props) {
      schedule={sched16} />
 
      <Item src={cycologo}
+     logo_alt="Cyco"
      href="https://cycoflower.com/usa/#"
      producttype="Liquid Nutrients"
      products1="Grow A & B, B1 Boost, Dr. Repair, Bloom A & B"
@@ -237,6 +254,7 @@ export default function GalleryPageNutrients(props) {
      schedule={cycosched} />
 
      <Item src={botanicarelogo}
+     logo_alt="Botanicare"
      href="https://www.botanicare.com/nutrients/"
      producttype="Liquid Nutrients"
      products1="Pro Bloom, Pro Grow, Rhizo Blast, Liquid Karma"
@@ -245,6 +263,7 @@ export default function GalleryPageNutrients(props) {
      schedule={botanisched} />
 
      <Item src={ceslogo}
+     logo_alt="Cutting Edge Solutions"
      href="https://cuttingedgesolutions.com/nutrients/"
      producttype="Liquid Nutrients"
      products1="Micro, Grow, Bloom, Uncle John's Blend, Bulletproof SI"
@@ -253,6 +272,7 @@ export default function GalleryPageNutrients(props) {
      schedule={cessched} />
 
      <Item src={culturelogo}
+     logo_alt="Current Culture Solutions"
      href="https://cch2o.com/cultured-solutions-premium-hydroponic-nutrients/"
      producttype="Liquid Nutrients"
      products1="UC Roots, Coco Cal, Veg A, Bloom A, Clear Line"
@@ -261,6 +281,7 @@ export default function GalleryPageNutrients(props) {
      schedule={cultsched} />
 
      <Item src={hcologo}
+     logo_alt="Humboldt County's Own"
      href="https://humboldtcountysown.com/"
      producttype="Nutrients"
      products1="Micro, Grow, Bloom, Magnum, Crystal Burst, Sonic Bloom"
@@ -269,6 +290,7 @@ export default function GalleryPageNutrients(props) {
      schedule={hcosched} />
 
      <Item src={bioaglogo}
+     logo_alt="BioAG"
      href="https://www.bioag.com/products-biostimulant-fertilizers/"
      producttype="Grandular Nutrients"
      products1="CytoPlus"
@@ -277,23 +299,27 @@ export default function GalleryPageNutrients(props) {
      organic={organic} />
 
      <Item src={supremelogo}
+     logo_alt="Supreme Growers"
      href="https://supremegrowers.us/simply-silica-8oz.html"
      producttype="Simply Silica"
      organic={organic} />
 
      <Item src={earthlogo}
+     logo_alt="Earth Juice"
      organic={organic}
      producttype="Liquid Nutrients"
      products1= "Microblast, Meta-K, Xatalyst the Crucial Link"
      products2= "Bloom Original Formula, Grow Original Formula" />
 
      <Item src={microbelogo}
+     logo_alt="Microbe Life"
      organic={organic}
      producttype="Premium Liquid Nutrients"
      products1="Nourish-L, Veg/Fruit Yield Enhancer, Photosynthesis Plus"
      products2="PH Down, BMC Biological Mosquito Control" />
 
      <Item src={reallogo}
+     logo_alt="Real Growers"
      href="https://www.realgrowers.com/"
      producttype="Microbes"
      products1="Recharge"
@@ -302,12 +328,14 @@ export default function GalleryPageNutrients(props) {
      organic={organic} />
 
      <Item src={greatwhitelogo}
+     logo_alt="Plant Success: Great White"
      href="https://plantrevolution.com/products/great-white"
      producttype="From Plant Success:"
      products1="Great White Premium Mycorrhizae® - with Beneficial Bacteria and Trichoderma"
      organic={organic} />
 
      <Item src={madlogo}
+     logo_alt="Mad Farmer"
      title="Mad Farmer"
      href="https://www.madfarmerproducts.com/"
      producttype="Products"
