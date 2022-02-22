@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/grower-react/static/css/main.5d35a78e.css",
-    "main.js": "/grower-react/static/js/main.97e8e046.js",
+    "main.css": "/grower-react/static/css/main.3dd4c0a6.css",
+    "main.js": "/grower-react/static/js/main.e45e8a45.js",
     "static/js/787.69c46001.chunk.js": "/grower-react/static/js/787.69c46001.chunk.js",
     "static/media/house-sched.pdf": "/grower-react/static/media/house-sched.0e1e5a8232f8ae785669.pdf",
     "static/media/emerald-harvest-feed.pdf": "/grower-react/static/media/emerald-harvest-feed.63ae31d7ba13d1240089.pdf",
@@ -101,6 +101,7 @@
     "static/media/doom.png": "/grower-react/static/media/doom.95b1dc7f5207549ec3f0.png",
     "static/media/zymes.png": "/grower-react/static/media/zymes.828f0b66146d298bfaaa.png",
     "static/media/sun-system.png": "/grower-react/static/media/sun-system.d5304f6153d5e4994c99.png",
+    "static/media/clearrez.png": "/grower-react/static/media/clearrez.26339eec7ac395c80225.png",
     "static/media/plant-wash.png": "/grower-react/static/media/plant-wash.1bad694fe266bf27e81a.png",
     "static/media/1930e.png": "/grower-react/static/media/1930e.f9e948846271eb64908d.png",
     "static/media/vegamatrix.pdf": "/grower-react/static/media/vegamatrix.2bd751c037d684f87228.pdf",
@@ -126,6 +127,7 @@
     "static/media/hdilogo.png": "/grower-react/static/media/hdilogo.830c1e127c59c03e6acb.png",
     "static/media/neem.png": "/grower-react/static/media/neem.df29f2f55796272714f5.png",
     "static/media/vegamatrix.png": "/grower-react/static/media/vegamatrix.891f8b6b3706f9519a49.png",
+    "static/media/64.png": "/grower-react/static/media/64.a51682fc20faf0e13856.png",
     "static/media/microbe-life.png": "/grower-react/static/media/microbe-life.8965557d3fbf14d7e3b3.png",
     "static/media/athena.png": "/grower-react/static/media/athena.72faeb8f723c68d62042.png",
     "static/media/cdfa.png": "/grower-react/static/media/cdfa.348ec8efee31fc74d8c2.png",
@@ -169,12 +171,12 @@
     "static/media/mammoth.png": "/grower-react/static/media/mammoth.bd0d549d80d545df99b7.png",
     "static/media/npk.png": "/grower-react/static/media/npk.31ce8a5a18c0416aa13c.png",
     "index.html": "/grower-react/index.html",
-    "main.5d35a78e.css.map": "/grower-react/static/css/main.5d35a78e.css.map",
-    "main.97e8e046.js.map": "/grower-react/static/js/main.97e8e046.js.map",
+    "main.3dd4c0a6.css.map": "/grower-react/static/css/main.3dd4c0a6.css.map",
+    "main.e45e8a45.js.map": "/grower-react/static/js/main.e45e8a45.js.map",
     "787.69c46001.chunk.js.map": "/grower-react/static/js/787.69c46001.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d35a78e.css",
-    "static/js/main.97e8e046.js"
+    "static/css/main.3dd4c0a6.css",
+    "static/js/main.e45e8a45.js"
   ]
 }
