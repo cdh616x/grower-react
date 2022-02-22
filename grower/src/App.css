@@ -150,6 +150,22 @@ body {
   margin-right: auto;
 }
 
+.clone {
+  height: auto;
+  width: 50%;
+  margin: 0;
+}
+
+.cloneh {
+  height: 10%;
+  width: auto;
+}
+
+.clone100 {
+  width: 100%;
+  padding: 1% 20% 2%;
+}
+
 .light {
   height: auto;
   width: 50%;
@@ -170,7 +186,7 @@ body {
 
 .schedule {
   color: black;
-  text-decoration: underline;
+  text-decoration: none;
   padding-top: 5%;
 }
 

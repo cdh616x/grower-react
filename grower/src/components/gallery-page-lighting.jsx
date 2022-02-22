@@ -50,6 +50,38 @@ export default function GalleryPageLighting(props) {
     <Navbar />
     <h1 className="page-title">{props.pagetitle}</h1>
 
+    <LightItem src={gavitlogo}
+    href="https://gavita.com/retail/"
+    producttype="LEDs and Fixtures"
+    products1="Gavita Pro 1700e LED"
+    products2="CT1930e LED"
+    producttype2="Grow Lamp, Hardware & Reflector"
+    products21="Pro 1000e DE 277-347/400"
+    products22="Pro 750 Watt Grow Lamp"
+    media_img={e1700}
+    media_img1={e1930}
+    media_img2={pro1000}
+    media_img3={pro750} />
+
+    <LightItem src={phantomlogo}
+    href="https://www.phantombio.com/"
+    producttype="PhotoBio"
+    products1="S4 Spectrum 680W - LED Fixture"
+    products2="Phantom II Digital Ballast"
+    media_img={ballast}
+    media_img1={phb2010} />
+
+    <LightItem src={grochlogo}
+    title="Grower's Choice"
+    href="https://www.growersc.com/"
+    producttype="LED Fixtures"
+    products1="LED 720W"
+    products2="LED 680W"
+    products3="LED 200W"
+    media_img={roi7}
+    media_img1={roi6}
+    media_img2={roi2} />
+
     <LightItem src={ushiologo}
     href="https://www.ushio.com/leds/#led-lighting"
     producttype="HiLux Gro"
@@ -93,38 +125,10 @@ export default function GalleryPageLighting(props) {
     media_img2={white}
     media_img3={qt1000} />
 
-    <LightItem src={grochlogo}
-    title="Grower's Choice"
-    href="https://www.growersc.com/"
-    producttype="LED Fixtures"
-    products1="LED 720W, LED 680W, LED 200W"
-    media_img={roi7}
-    media_img1={roi6}
-    media_img2={roi2} />
-
-    <LightItem src={gavitlogo}
-    href="https://gavita.com/retail/"
-    producttype="LEDs and Fixtures"
-    products1="Gavita Pro 1700e LED"
-    products2="CT1930e LED"
-    producttype2="Grow Lamp, Hardware & Reflector"
-    products21="Pro 1000e DE 277-347/400"
-    products22="Pro 750 Watt Grow Lamp"
-    media_img={e1700}
-    media_img1={e1930}
-    media_img2={pro1000}
-    media_img3={pro750} />
-
     <Item src={luxxlogo}
     href="https://www.luxxlighting.com/" />
 
-    <LightItem src={phantomlogo}
-    href="https://www.phantombio.com/"
-    producttype="PhotoBio"
-    products1="S4 Spectrum 680W - LED Fixture"
-    products2="Phantom II Digital Ballast"
-    media_img={ballast}
-    media_img1={phb2010} />
+
 
     <Footer />
     </>
