@@ -9,7 +9,7 @@ export default function CloneItem(props) {
      <div className="row product-row">
       <div className="col-5">
       <h2 className="product-title">{props.title}</h2>
-       <img className="img-fluid product" src={props.src} />
+       <img className="img-fluid product" src={props.src} alt={props.alt}/>
        <div className="row">
        <img className="organic img-fluid" src={props.organic} />
        </div>

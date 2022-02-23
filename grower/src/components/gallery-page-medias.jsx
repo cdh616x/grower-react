@@ -64,6 +64,7 @@ export default function GalleryPageMedias(props) {
     <h1 className="page-title">{props.pagetitle}</h1>
 
     <DirtItem src={foxfalogo}
+    alt="Fox Farm"
     href="https://foxfarm.com/product-category/soil-soil-conditioners"
     producttype="Brands"
     products1="Happy Frog, Strawberry Fields, Lucky Dog, Ocean Forest, KokoBop"
@@ -76,6 +77,7 @@ export default function GalleryPageMedias(props) {
     media_img4={kokobop} />
 
     <DirtItem src={rootslogo}
+    alt="Roots Organic"
     producttype="Growing Medias"
     products1="Greenfields"
     products2="Greenlight"
@@ -85,6 +87,7 @@ export default function GalleryPageMedias(props) {
     media_img2={sevenoseven} />
 
     <DirtItem src={nectrlogo}
+    alt="Oregon's Only"
     href="https://www.oregonsonly.com/nectar-soil-3/"
     title="Oregon's Only"
     producttype="Growing Medias"
@@ -92,18 +95,21 @@ export default function GalleryPageMedias(props) {
     media_img={four} />
 
     <DirtItem
+    alt="Potter's Gold"
     title="Potter's Gold"
     producttype="Growing Media"
     products1="Premium Potting Soil"
     media_img={potgologo} />
 
     <DirtItem src={atamilogo}
+    alt="Atami"
     href="https://atami.com/brands/atami-substrates/"
     producttype="Growing Media"
     products1="Cocos Substrate"
     media_img={atamicocs} />
 
     <DirtItem src={promxlogo}
+    alt="Pro Mix"
     href="https://www.hydrofarm.com/p/pro-mix-hp-chunk-coir-mycorrhizae-3-8-cu-ft/pt2038130"
     producttype="Growing Medias"
     products1="HP"
@@ -114,6 +120,7 @@ export default function GalleryPageMedias(props) {
     media_img2={cc} />
 
     <DirtItem src={sungrlogo}
+    alt="SunGro Horticulture"
     href="https://www.sungro.com/retail-products/sunshine-mix-4/"
     producttype="Growing Medias"
     products1="Sunshine #4"
@@ -122,6 +129,7 @@ export default function GalleryPageMedias(props) {
     media_img1={adv4} />
 
     <DirtItem src={comailogo}
+    alt="Coast of Maine"
     href="https://coastofmaine.com/"
     producttype="Growing Medias"
     products1="Stonington"
@@ -131,6 +139,7 @@ export default function GalleryPageMedias(props) {
     organic={omri} />
 
     <DirtItem src={grodanlogo}
+    alt="Grodan"
     href="https://www.grodan.com/product-overview/propagation-solutions/"
     producttype="Stonewool Blocks"
     products1="Hugo Block, Delta 10 Cubes, Mini Cubes"
@@ -140,6 +149,7 @@ export default function GalleryPageMedias(props) {
     media_img2={clone} />
 
     <DirtItem src={earthlogo}
+    alt="Mother Earth Expertly Crafted Medias & Amendments"
     href="https://www.mother-earthproducts.com/products/soils-and-amendments/"
     producttype="Growing Medias"
     products1="Coco"
@@ -148,6 +158,7 @@ export default function GalleryPageMedias(props) {
     media_img1={terracraft} />
 
     <DirtItem src={royallogo}
+    alt="Royal Gold"
     href="https://royalgoldcoco.com/soils/"
     producttype="Growing Medias"
     products1="Mendo Mix"
@@ -158,6 +169,7 @@ export default function GalleryPageMedias(props) {
     media_img2={tupur} />
 
     <DirtItem
+    alt="Wiggle Worm"
     title="Wiggle Worm"
     producttype="Soil Supplement"
     products1="Wiggle Worm"

@@ -4,7 +4,6 @@ import React from "react";
 
 import Navbar from "./Navbar2.jsx";
 import Footer from "./Footer.jsx";
-import DirtItem from "./DirtItem.jsx";
 import LightItem from "./LightItem.jsx";
 import Item from "./Item.jsx";
 
@@ -51,6 +50,7 @@ export default function GalleryPageLighting(props) {
     <h1 className="page-title">{props.pagetitle}</h1>
 
     <LightItem src={gavitlogo}
+    alt="Gavita"
     href="https://gavita.com/retail/"
     producttype="LEDs and Fixtures"
     products1="Gavita Pro 1700e LED"
@@ -64,6 +64,7 @@ export default function GalleryPageLighting(props) {
     media_img3={pro750} />
 
     <LightItem src={phantomlogo}
+    alt="Phantom Bio"
     href="https://www.phantombio.com/"
     producttype="PhotoBio"
     products1="S4 Spectrum 680W - LED Fixture"
@@ -72,6 +73,7 @@ export default function GalleryPageLighting(props) {
     media_img1={phb2010} />
 
     <LightItem src={grochlogo}
+    alt="Grower's Choice"
     title="Grower's Choice"
     href="https://www.growersc.com/"
     producttype="LED Fixtures"
@@ -83,6 +85,7 @@ export default function GalleryPageLighting(props) {
     media_img2={roi2} />
 
     <LightItem src={ushiologo}
+    alt="USHIO"
     href="https://www.ushio.com/leds/#led-lighting"
     producttype="HiLux Gro"
     products1="Opti-Red 1000W, 600W, 400W"
@@ -91,6 +94,7 @@ export default function GalleryPageLighting(props) {
     media_img1={optiblue} />
 
     <LightItem src={sunsyslogo}
+    alt="Sun System"
     href="https://www.sunsystemlights.com/"
     producttype="Lamp & Reflector"
     products1="LEC 630 Watt Fixture"
@@ -99,6 +103,7 @@ export default function GalleryPageLighting(props) {
     media_img1={dominator} />
 
     <LightItem src={hortilogo}
+    alt="Hortilux"
     href="https://eyehortilux.com/"
     producttype="PowerVeg Series"
     products1="420, 460, 633, 660, FS + UV"
@@ -111,7 +116,8 @@ export default function GalleryPageLighting(props) {
     media_img2={powerveg} />
 
     <LightItem src={hydrologo}
-    href=""
+    href="https://www.hydrofarm.com/lighting"
+    alt="Hydrofarm"
     producttype="AgroSun"
     products1="Double-ended 750W, Red Sodium 1000W"
     producttype2="XtraSun"

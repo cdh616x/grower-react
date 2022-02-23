@@ -4,9 +4,6 @@ import React from "react";
 
 import Navbar from "./Navbar2.jsx";
 import Footer from "./Footer.jsx";
-import DirtItem from "./DirtItem.jsx";
-import PestItem from "./PestItem.jsx";
-import Item from "./Item.jsx";
 import CloneItem from "./CloneItem.jsx";
 
 import grodanlogo from "../images/logos/grodan.png";
@@ -64,6 +61,7 @@ export default function GalleryPageCloning(props) {
      <h1 className="page-title">{props.pagetitle}</h1>
 
      <CloneItem src={ezlogo}
+     alt="EZ Clone"
      href="https://www.ezclone.com/store/"
      producttype="Plant Cloning System"
      products1="System 64"
@@ -76,11 +74,13 @@ export default function GalleryPageCloning(props) {
      media_img1={clearrez} />
 
      <CloneItem src={oxylogo}
+     alt="OxyClone"
      href="https://www.oxyclone.com/products/oxyclone-cloning-systems"
      producttype="20 Site Pro Series"
      media_img2={sys20} />
 
      <CloneItem src={hdilogo}
+     alt="Hydrodynamics International"
      href="https://www.hydrodynamicsintl.com/product-category/root-riot-plant-starter-cubes-root-riots-for-plant-propagation/"
      producttype="Root Riot"
      products1="50 Cube Tray"
@@ -89,6 +89,7 @@ export default function GalleryPageCloning(props) {
      media_img1={bag100} />
 
      <CloneItem src={jumplogo}
+     alt="Jumpstart"
      href="http://www.hydrofarmcommercial.com/products/seed-starting/products/jump-start-smart-float-55-cell-grow-tray-wplugs"
      producttype="Accelaroot"
      producttype2="Smart Float"
@@ -96,21 +97,25 @@ export default function GalleryPageCloning(props) {
      media_img1={smartfloat} />
 
      <CloneItem src={thrivelogo}
+     alt="SUPERthrive - essential vitamin solution"
      href="https://superthrive.com/"
      producttype="SUPERthrive Liquid Concentrate"
      media_img2={superthrive} />
 
      <CloneItem src={diplogo}
+     alt="Dip 'N Grow"
      href="https://dipngrow.com/buy-online/"
      producttype="Liquid Concentrate Rooting Kit"
      media_img2={rootingkit}  />
 
      <CloneItem src={hormexlogo}
+     alt="Hormex"
      href="https://hormex.com/pages/vitamin-b1-and-rooting-hormone-concentrate"
      producttype="Vitamin B-1 and Hormone Concentrate"
      media_img2={hormones} />
 
      <CloneItem src={groteclogo}
+     alt="Clonex"
      href="https://www.hydrodynamicsintl.com/product/clonex-rooting-gel/"
      producttype="Clonex"
      products1="Rooting Gel"
@@ -119,17 +124,20 @@ export default function GalleryPageCloning(props) {
      media_img2={clxgel} />
 
      <CloneItem src={technalogo}
+     alt="Root Tech"
      href="https://www.technaflora.com/product/rootech-cloning-gel/"
      producttype="Root Tech"
      products1="Rooting Gel"
      media_img2={roottech} />
 
      <CloneItem src={cycologo}
+     alt="Cyco Flower"
      href="https://cycoflower.com/usa/cyco-platinum-series-cyclone-rooting-gel/"
      producttype="Cyclone Rooting Gel"
      media_img2={cyclone} />
 
      <CloneItem src={sproutlogo}
+     alt="Super Sprouter"
      href="https://www.supersprouter.com/shop/bycategory/heat-mats-and-thermostats"
      producttype="Seedling Heat Mat"
      producttype2="Digital Heat Mat Thermostat"
@@ -137,16 +145,19 @@ export default function GalleryPageCloning(props) {
      media_img1={thermostat} />
 
      <CloneItem src={genhylogo}
+     alt="General Hydroponics"
      href="https://generalhydroponics.com/"
      producttype="Rapid Root Plant Starter"
      media_img2={ghplugs} />
 
      <CloneItem src={grodanlogo}
+     alt="Grodan"
      href="https://www.grodan101.com/product-overview/grodan-starter-plugs/"
      producttype="Starter Cubes"
      media_img2={grodanplugs} />
 
      <CloneItem src={ihortlogo}
+     alt="iHort"
      producttype="Q Plugs"
      products1="40/40 Refills"
      media_img2={qplugs}  />
