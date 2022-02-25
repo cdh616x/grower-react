@@ -12,6 +12,9 @@ import Lighting from "../src/routes/lighting.jsx";
 import Pesticides from "../src/routes/pesticides.jsx";
 import Medias from "../src/routes/growing-medias.jsx";
 import Cloning from "../src/routes/cloning.jsx";
+import Mychrize from "../src/routes/mychrize.jsx";
+import Ec from "../src/routes/ec.jsx";
+import Ph from "../src/routes/ph.jsx";
 
 import { render } from "react-dom";
 import {
@@ -31,6 +34,9 @@ ReactDOM.render(
     <Route path="/lighting" element={<Lighting />} />
     <Route path="/pesticides" element={<Pesticides />} />
     <Route path="/cloning" element={<Cloning />} />
+    <Route path="/mychrize" element={<Mychrize />} />
+    <Route path="/environment-control" element={<Ec />} />
+    <Route path="/ph" element={<Ph />} />
 
    </Routes>
   </HashRouter>,
