@@ -30,10 +30,10 @@ export default function CloneItem(props) {
        <h5 className="product-type">{props.producttype4}</h5>
        <p className="info">{props.products41}</p>
        <div className="container-fluid insect">
-       <img className="img-fluid clone" src={props.media_img} alt="malt"/>
-       <img className="img-fluid clone" src={props.media_img1} alt="malt1"/>
-       <img className="img-fluid clone100" src={props.media_img2} alt="malt2"/>
-       <img className="img-fluid cloneh" src={props.media_img3} alt="malt3" />
+       <img className="img-fluid clone" src={props.media_img} alt={props.malt} />
+       <img className="img-fluid clone" src={props.media_img1} alt={props.malt1} />
+       <img className="img-fluid clone100" src={props.media_img2} alt={props.malt2} />
+       <img className="img-fluid cloneh" src={props.media_img3} alt={props.malt3} />
        <img className="img-fluid dirt" src={props.media_img4} />
        </div>
        <a className="product-link" href={props.href} target="_blank">

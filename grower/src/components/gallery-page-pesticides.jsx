@@ -77,7 +77,6 @@ export default function Pesticides(props) {
     href="https://generalhydroponics.com/products/azamax/"
     producttype="Azamax"
     products1="Botanical Insecticide, Miticide, & Nematicide"
-    producttype2="PH UP & PH DOWN"
     media_img={azamax} />
 
     <PestItem src={saferbrandlogo}
@@ -224,19 +223,6 @@ export default function Pesticides(props) {
     products1="Insecticide & Fungicide Concentrate"
     products2="Insecticide & Fungicide Spray"
     media_img={eliminator} />
-
-    <PestItem src={cycologo}
-    producttype="PH UP & PH DOWN"
-    href="https://cycoflower.com/usa/ph-up-down/"
-    media_img={cycoph} />
-
-    <PestItem src={ooologo}
-    title="Nectar for the Gods"
-    producttype="Olympus Up"
-    products1="PH Increaser (Basify)"
-    producttype2="Hades Down"
-    products21="PH Decreaser (Acidify)"
-    media_img={olympus} />
 
     <Footer />
     </>
