@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/grower-react/static/css/main.c420cb3a.css",
-    "main.js": "/grower-react/static/js/main.1c55c919.js",
+    "main.js": "/grower-react/static/js/main.5d0b001c.js",
     "static/js/787.69c46001.chunk.js": "/grower-react/static/js/787.69c46001.chunk.js",
     "static/media/house-sched.pdf": "/grower-react/static/media/house-sched.0e1e5a8232f8ae785669.pdf",
     "static/media/emerald-harvest-feed.pdf": "/grower-react/static/media/emerald-harvest-feed.63ae31d7ba13d1240089.pdf",
@@ -110,6 +110,7 @@
     "static/media/roi680.png": "/grower-react/static/media/roi680.2acd3d9e5afc0a563064.png",
     "static/media/botanicare.png": "/grower-react/static/media/botanicare.07b3910a113127435122.png",
     "static/media/16.png": "/grower-react/static/media/16.b7fe0377a623a868f60e.png",
+    "static/media/ph-products.png": "/grower-react/static/media/ph-products.71cfc0d17096c80832d3.png",
     "static/media/1700e.png": "/grower-react/static/media/1700e.5dccb05afcc9440aac01.png",
     "static/media/closed.jpeg": "/grower-react/static/media/closed.f64c8540f5569a408dd3.jpeg",
     "static/media/technaflora.png": "/grower-react/static/media/technaflora.03a586ac27f7800783bc.png",
@@ -188,11 +189,11 @@
     "static/media/npk.png": "/grower-react/static/media/npk.31ce8a5a18c0416aa13c.png",
     "index.html": "/grower-react/index.html",
     "main.c420cb3a.css.map": "/grower-react/static/css/main.c420cb3a.css.map",
-    "main.1c55c919.js.map": "/grower-react/static/js/main.1c55c919.js.map",
+    "main.5d0b001c.js.map": "/grower-react/static/js/main.5d0b001c.js.map",
     "787.69c46001.chunk.js.map": "/grower-react/static/js/787.69c46001.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c420cb3a.css",
-    "static/js/main.1c55c919.js"
+    "static/js/main.5d0b001c.js"
   ]
 }
