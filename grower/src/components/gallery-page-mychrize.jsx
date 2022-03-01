@@ -7,22 +7,23 @@ import Footer from "./Footer.jsx";
 import PestItem from "./PestItem.jsx";
 import CloneItem from "./CloneItem.jsx";
 
-import dynalogo from "../images/logos/dynagro.png";
-import tappinlogo from "../images/logos/tappin-roots.png";
-import maxilogo from "../images/logos/maxicrop.png";
-import spraylogo from "../images/logos/sprayngrow.png";
 import successlogo from "../images/logos/plant-success.png";
 import fishlogo from "../images/logos/fishshit.png";
+import realgrowlogo from "../images/logos/real-growers.png";
+import elitelogo from "../images/logos/elite91.png";
+import supgrologo from "../images/logos/supreme.png";
+import xtremelogo from "../images/logos/xtreme-gardening.png";
 
-import kln from "../images/dynagro/kln.png";
-import stages from "../images/tappin-roots/all-stages.png";
-import seaweed from "../images/maxicrop/seaweed.png";
-import fish from "../images/maxicrop/liquid-fish.png";
-import micro from "../images/sprayngro/micronutes.png";
 import orca from "../images/plant-success/orca.png";
 import shark from "../images/plant-success/great-white.png";
 import chum from "../images/plant-success/mycochum.png";
 import fishshit from "../images/fishshit/fishpoo.png";
+import recharge from "../images/real-growers/recharge.png";
+import jordan from "../images/elite91/myco-jordan.png";
+import tea from "../images/supreme/tea.png";
+import azos from "../images/xtreme-gardening/azos.png";
+import mykos from "../images/xtreme-gardening/mykos.png";
+import mykoswp from "../images/xtreme-gardening/mykos-wp.png";
 
 import omri from "../images/omri.png";
 
@@ -34,43 +35,13 @@ export default function GalleryPageMychrize(props) {
 
       <h1 className="page-title">{props.pagetitle}</h1>
 
-      <PestItem src={dynalogo}
-      href="https://dyna-gro.com/product/k-l-n-concentrate-c/"
-      alt="Dyna-Gro Advanced Science Simplified"
-      producttype="K-L-N Rooting Concentrate"
-      media_img={kln}
-      malt="Dyna-Gro Liquid K-L-N Rooting Concentrate" />
-
-      <PestItem src={tappinlogo}
-      href="https://tappinroots.com/shop/all-stages/"
-      alt="Tappin' Roots"
-      producttype="Natual All Stages Plant Fertilizer"
-      media_img={stages}
-      malt="Tappin' Roots Natural All Stages Plant Nutrients" />
-
-      <CloneItem src={maxilogo}
-      href="https://maxicrop.com/"
-      alt="Ohrstrom's Maxicrop"
-      producttype="Liquid Fish"
-      producttype2="Liquid Seaweed"
-      media_img={seaweed}
-      malt="Liquid Seaweed"
-      media_img1={fish}
-      malt1="Liquid Fish" />
-
-      <PestItem src={spraylogo}
-      href="https://www.spray-n-growgardening.com/Spray-N-Grow-Micronutrients/products/17/"
-      alt="Spray-N-Grow"
-      producttype="Micronutrients"
-      media_img={micro}
-      malt="Spray-N-Grow Micronutrients" />
-
       <CloneItem src={successlogo}
       href="https://plantrevolution.com/products/orca"
       alt="Plant Success"
       producttype="Mycorrhizae"
       products1="Great White"
       products2="Orca"
+      products3="Myco Chum"
       media_img={orca}
       malt="Orca Premium Liquid Mycorrhizae"
       media_img1={shark}
@@ -85,6 +56,43 @@ export default function GalleryPageMychrize(props) {
       producttype="Organic Soil Conditioner"
       media_img={fishshit}
       malt="Fish Sh!t Organic Soil Fertilizer" />
+
+      <PestItem src={realgrowlogo}
+      alt="Real Growers"
+      href="https://www.realgrowers.com/"
+      producttype="Microbes"
+      products1="Recharge"
+      media_img={recharge}
+      malt="Real Growers Recharge Professional Strength Microbial Superpack" />
+
+      <PestItem src={elitelogo}
+      alt="Elite 91 - Ideal Plant Nutrients"
+      href="https://elite91.com/product/professional-mycorrhizal-inoculant/"
+      producttype="Myco Jordan"
+      media_img={jordan}
+      malt="Myco Jordan Professional Mycorrhizal Inoculant" />
+
+      <PestItem src={supgrologo}
+      alt="Supreme Growers"
+      href="https://supremegrowers.us/supre-myco-tea-5-gram-stick-bundle-makes-5-ready-to-use-gallons.html"
+      producttype="Sweet Myco Tea Sachets"
+      media_img={tea}
+      malt="Sweet Myco Tea Sachet" />
+
+      <CloneItem src={xtremelogo}
+      organic={omri}
+      alt="Xtreme Gardening"
+      href="https://www.xtreme-gardening.com/products"
+      producttype="Mycorrhizae"
+      products1="Azos Growth Promoting Bacteria"
+      products2="Mykos Mycorrhizal Inoculants"
+      products3="Mykos WP - Wettable Powder"
+      media_img={azos}
+      malt="Azos Growth Promoting Bacteria"
+      media_img1={mykos}
+      malt1="Mykos Mycorrhizal Inoculants"
+      media_img2={mykoswp}
+      malt2="Mykos WP Wettable Powder" />
 
      <Footer />
     </>

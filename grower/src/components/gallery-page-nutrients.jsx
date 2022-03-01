@@ -5,6 +5,8 @@ import React from "react";
 import Navbar from "./Navbar2.jsx";
 import Footer from "./Footer.jsx";
 import Item from "./Item.jsx";
+import PestItem from "./PestItem.jsx";
+import CloneItem from "./CloneItem.jsx";
 
 import spartan from "../schedules/spartan.png";
 import foxsched from "../schedules/fox-sched1.png";
@@ -42,6 +44,10 @@ import CesSched from "../schedules/ces-full.png";
 import CultSched from "../schedules/culture.pdf";
 import HcoSched from "../schedules/hco-full.jpeg";
 
+
+import tappinlogo from "../images/logos/tappin-roots.png";
+import maxilogo from "../images/logos/maxicrop.png";
+import spraylogo from "../images/logos/sprayngrow.png";
 import mammothlogo from "../images/logos/mammoth.png";
 import nectarlogo from "../images/logos/nectarlogo1.png";
 import hydrologo from "../images/logos/general-hydro.png";
@@ -72,6 +78,11 @@ import madlogo from "../images/logos/mad-farmer.png";
 import ghorglogo from "../images/logos/organics.png";
 
 import organic from "../images/cdfa.png";
+
+import stages from "../images/tappin-roots/all-stages.png";
+import seaweed from "../images/maxicrop/seaweed.png";
+import fish from "../images/maxicrop/liquid-fish.png";
+import micro from "../images/sprayngro/micronutes.png";
 
 export default function GalleryPageNutrients(props) {
   return(
@@ -150,6 +161,30 @@ export default function GalleryPageNutrients(props) {
      products4="Sensei Bloom, Sensei Growth, Piranha Beneficial Fungi, Revive, Rhino Skin, Cal-Mag Xtra"
      schedulehref={AdvancedSched}
      schedule={advancedsched} />
+
+     <PestItem src={tappinlogo}
+     href="https://tappinroots.com/shop/all-stages/"
+     alt="Tappin' Roots"
+     producttype="Natual All Stages Plant Fertilizer"
+     media_img={stages}
+     malt="Tappin' Roots Natural All Stages Plant Nutrients" />
+
+     <CloneItem src={maxilogo}
+     href="https://maxicrop.com/"
+     alt="Ohrstrom's Maxicrop"
+     producttype="Liquid Fish"
+     producttype2="Liquid Seaweed"
+     media_img={seaweed}
+     malt="Liquid Seaweed"
+     media_img1={fish}
+     malt1="Liquid Fish" />
+
+     <PestItem src={spraylogo}
+     href="https://www.spray-n-growgardening.com/Spray-N-Grow-Micronutrients/products/17/"
+     alt="Spray-N-Grow"
+     producttype="Micronutrients"
+     media_img={micro}
+     malt="Spray-N-Grow Micronutrients" />
 
      <Item src={athenalogo}
      logo_alt="Athena"

@@ -5,7 +5,9 @@ import React from "react";
 import Navbar from "./Navbar2.jsx";
 import Footer from "./Footer.jsx";
 import CloneItem from "./CloneItem.jsx";
+import PestItem from "./PestItem.jsx";
 
+import dynalogo from "../images/logos/dynagro.png";
 import grodanlogo from "../images/logos/grodan.png";
 import oxylogo from "../images/logos/oxyclone.png";
 import ezlogo from "../images/logos/ezclone.png";
@@ -20,6 +22,8 @@ import cycologo from "../images/logos/cyco-logo.png";
 import sproutlogo from "../images/logos/super-sprouter.png";
 import ihortlogo from "../images/logos/ihort.png";
 import genhylogo from "../images/logos/general-hydro.png";
+
+import kln from "../images/dynagro/kln.png";
 
 import ez64 from "../images/ezclone/64.png";
 import clearrez from "../images/ezclone/clearrez.png";
@@ -158,6 +162,13 @@ export default function GalleryPageCloning(props) {
      malt="Super Sprouter® Seedling Heat Mat"
      media_img1={thermostat}
      malt1="Super Sprouter® Seedling Heat Mat Digital Thermostat" />
+
+     <PestItem src={dynalogo}
+     href="https://dyna-gro.com/product/k-l-n-concentrate-c/"
+     alt="Dyna-Gro Advanced Science Simplified"
+     producttype="K-L-N Rooting Concentrate"
+     media_img={kln}
+     malt="Dyna-Gro Liquid K-L-N Rooting Concentrate" />
 
      <CloneItem src={genhylogo}
      alt="General Hydroponics"
