@@ -4,6 +4,7 @@ import React from "react";
 
 import Navbar from "./Navbar2.jsx";
 import Footer from "./Footer.jsx";
+import CloneItem from "./CloneItem.jsx";
 import PestItem from "./PestItem.jsx";
 
 import ooologo from "../images/logos/ooo.png";
@@ -12,6 +13,7 @@ import genhydrologo from "../images/logos/general-hydro.png";
 
 import cycoph from "../images/cyco/ph.png";
 import olympus from "../images/nectar/olympus.png";
+import hades from "../images/nectar/hades.png";
 import phupdown from "../images/general-hydroponics/ph-products.png";
 
 export default function GalleryPagePH(props) {
@@ -27,7 +29,7 @@ export default function GalleryPagePH(props) {
       media_img={cycoph}
       malt="Cyco Platinum Series pH Up & Down" />
 
-      <PestItem src={ooologo}
+      <CloneItem src={ooologo}
       href="https://www.oregonsonly.com/olympus-up/"
       alt="Oregon's Only Nectar for the Gods"
       title="Nectar for the Gods"
@@ -36,13 +38,16 @@ export default function GalleryPagePH(props) {
       producttype2="Hades Down"
       products21="PH Decreaser (Acidify)"
       media_img={olympus}
-      malt="Olympus Up & Hades Down Fertilizer" />
+      malt="Olympus Up Fertilizer"
+      media_img1={hades}
+      malt1="Hades Down Fertilizer" />
 
-      <PestItem src={genhydrologo}
+      <CloneItem src={genhydrologo}
       alt="General Hydroponics"
       producttype="PH Up & PH Down"
       href="https://generalhydroponics.com/products/categories/maintenance/"
-      media_img={phupdown} />
+      media_img={phupdown}
+      malt="pH Up & pH Down" />
 
      <Footer />
     </>
