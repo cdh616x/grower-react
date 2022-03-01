@@ -12,6 +12,7 @@ import tappinlogo from "../images/logos/tappin-roots.png";
 import maxilogo from "../images/logos/maxicrop.png";
 import spraylogo from "../images/logos/sprayngrow.png";
 import successlogo from "../images/logos/plant-success.png";
+import fishlogo from "../images/logos/fishshit.png";
 
 import kln from "../images/dynagro/kln.png";
 import stages from "../images/tappin-roots/all-stages.png";
@@ -20,6 +21,10 @@ import fish from "../images/maxicrop/liquid-fish.png";
 import micro from "../images/sprayngro/micronutes.png";
 import orca from "../images/plant-success/orca.png";
 import shark from "../images/plant-success/great-white.png";
+import chum from "../images/plant-success/mycochum.png";
+import fishshit from "../images/fishshit/fishpoo.png";
+
+import omri from "../images/omri.png";
 
 
 export default function GalleryPageMychrize(props) {
@@ -69,7 +74,17 @@ export default function GalleryPageMychrize(props) {
       media_img={orca}
       malt="Orca Premium Liquid Mycorrhizae"
       media_img1={shark}
-      malt1="Great White Premium Mycorrhizae" />
+      malt1="Great White Premium Mycorrhizae"
+      media_img2={chum}
+      malt2="Myco Chum Premium Microbe Food" />
+
+      <PestItem src={fishlogo}
+      organic={omri}
+      href="https://fishheadfarms.com/"
+      alt="Fish Sh!t Organic Soil Fertilizer"
+      producttype="Organic Soil Conditioner"
+      media_img={fishshit}
+      malt="Fish Sh!t Organic Soil Fertilizer" />
 
      <Footer />
     </>
