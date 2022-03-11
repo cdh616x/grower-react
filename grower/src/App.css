@@ -51,7 +51,7 @@ html, body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  background: linear-gradient(-0.25turn, #fff, #8B95C9);
+  background-color: #fff;
 }
 
 /* html {
@@ -78,15 +78,6 @@ body {
 .title {
   font-size: 3vw;
   text-decoration: underline;
-}
-
-.flip-card-back a {
-  color: white;
-  text-decoration: none;
-}
-
-.flip-card-back a:hover {
-  color: #0bb5f4;
 }
 
 .container{

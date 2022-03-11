@@ -132,7 +132,7 @@ export default function GalleryPageMedias(props) {
     alt="Coast of Maine"
     href="https://coastofmaine.com/"
     producttype="Growing Medias"
-    products1="Stonington"
+    products1="Stonington Blend"
     products2="Lobster Compost"
     media_img={stonington}
     media_img1={lobster}
@@ -169,7 +169,6 @@ export default function GalleryPageMedias(props) {
     media_img2={tupur} />
 
     <DirtItem
-    alt="Wiggle Worm"
     title="Wiggle Worm"
     producttype="Soil Supplement"
     products1="Wiggle Worm"
