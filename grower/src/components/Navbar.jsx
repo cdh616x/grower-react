@@ -34,6 +34,8 @@ export default function Navbar(props) {
             <li><a className="dropdown-item" href="#/nutrients">Nutrients</a></li>
             <li><a className="dropdown-item" href="#/pesticides">Pesticides</a></li>
             <li><a className="dropdown-item" href="#/ph">PH</a></li>
+            <li><a className="dropdown-item" href="#/potting-and-support">Potting & Plant Support</a></li>
+            <li><a className="dropdown-item" href="#/trimming">Trimming</a></li>
           </ul>
         </li>
 

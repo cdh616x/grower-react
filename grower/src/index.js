@@ -16,6 +16,8 @@ import Mychrize from "../src/routes/mychrize.jsx";
 import Ec from "../src/routes/ec.jsx";
 import Ph from "../src/routes/ph.jsx";
 import Contact from "../src/routes/contact.jsx";
+import Trimming from "../src/routes/trimming.jsx";
+import PS from "../src/routes/potting-and-support.jsx";
 
 import { render } from "react-dom";
 import {
@@ -40,6 +42,8 @@ ReactDOM.render(
     <Route path="/mychrize" element={<Mychrize />} />
     <Route path="/environment-control" element={<Ec />} />
     <Route path="/ph" element={<Ph />} />
+    <Route path="/potting-and-support" element={<PS />} />
+    <Route path="/trimming" element={<Trimming />} />
 
    </Routes>
   </HashRouter>,
