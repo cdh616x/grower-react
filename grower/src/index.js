@@ -15,6 +15,7 @@ import Cloning from "../src/routes/cloning.jsx";
 import Mychrize from "../src/routes/mychrize.jsx";
 import Ec from "../src/routes/ec.jsx";
 import Ph from "../src/routes/ph.jsx";
+import Contact from "../src/routes/contact.jsx";
 
 import { render } from "react-dom";
 import {
@@ -28,6 +29,8 @@ ReactDOM.render(
    <Routes>
 
     <Route path="/" element={<App />} />
+
+    <Route path="/contact" element={<Contact />} />
 
     <Route path="/nutrients" element={<Nutrients />} />
     <Route path="/growing-medias" element={<Medias />} />

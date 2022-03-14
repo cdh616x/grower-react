@@ -212,3 +212,32 @@ hr {
 .container-fluid  .d {
   background-color: red;
 }
+
+form {
+  font-family: "D-DIN", sans-serif;
+}
+
+input, .input {
+  padding: .5%;
+  width: 100%;
+  margin-bottom: 1%;
+  margin-left: 1%;
+}
+
+textarea {
+  margin-left: 1%;
+  padding: .5% .5% 10%;
+  width: 100%;
+}
+
+button {
+  margin-left: 1%;
+}
+
+.contact-row {
+  padding-top: 2%;
+}
+
+.submit {
+  font-family: "Profession", sans-serif;
+}
