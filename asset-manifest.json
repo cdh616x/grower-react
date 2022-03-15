@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/grower-react/static/css/main.2a1f7c2f.css",
-    "main.js": "/grower-react/static/js/main.73fbdfee.js",
+    "main.js": "/grower-react/static/js/main.ce66ac3a.js",
     "static/js/787.69c46001.chunk.js": "/grower-react/static/js/787.69c46001.chunk.js",
     "static/media/house-sched.pdf": "/grower-react/static/media/house-sched.0e1e5a8232f8ae785669.pdf",
     "static/media/emerald-harvest-feed.pdf": "/grower-react/static/media/emerald-harvest-feed.63ae31d7ba13d1240089.pdf",
@@ -171,6 +171,7 @@
     "static/media/open.jpeg": "/grower-react/static/media/open.d5524d7777b8a031dd76.jpeg",
     "static/media/jumpstart.png": "/grower-react/static/media/jumpstart.fbc8fb68f5bdb3acb71a.png",
     "static/media/twist.png": "/grower-react/static/media/twist.310eabf2785035391c12.png",
+    "static/media/nav-icon.png": "/grower-react/static/media/nav-icon.3ccbd4501c814f3bf17c.png",
     "static/media/bowl.png": "/grower-react/static/media/bowl.c5ceead6567f0d500984.png",
     "static/media/roots-logo.png": "/grower-react/static/media/roots-logo.359a499b8fe93efcd4a6.png",
     "static/media/super-thrive.png": "/grower-react/static/media/super-thrive.0e6c049aa532249f26d0.png",
@@ -260,11 +261,11 @@
     "static/media/npk.png": "/grower-react/static/media/npk.31ce8a5a18c0416aa13c.png",
     "index.html": "/grower-react/index.html",
     "main.2a1f7c2f.css.map": "/grower-react/static/css/main.2a1f7c2f.css.map",
-    "main.73fbdfee.js.map": "/grower-react/static/js/main.73fbdfee.js.map",
+    "main.ce66ac3a.js.map": "/grower-react/static/js/main.ce66ac3a.js.map",
     "787.69c46001.chunk.js.map": "/grower-react/static/js/787.69c46001.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2a1f7c2f.css",
-    "static/js/main.73fbdfee.js"
+    "static/js/main.ce66ac3a.js"
   ]
 }
