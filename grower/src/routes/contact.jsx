@@ -11,10 +11,10 @@ export default function ContactPage() {
     <>
      <Navbar />
      <div className="row contact-row">
-     <div className="col-7">
+     <div className="col-lg-7 col-sm-12">
       <Form />
       </div>
-      <div className="col-5">
+      <div className="col-lg-5 col-sm-12">
       <h1>Give us a call!</h1>
       <h1>616.863.9095</h1>
       <h2>4252 14 Mile Rd, Rockford MI</h2>

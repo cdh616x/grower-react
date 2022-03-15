@@ -43,24 +43,7 @@
   padding-bottom: 5%;
 }
 
-html, body {
-  font-family: "Profession", sans-serif;
 
-  width: 100%;
-  height: auto;
-  margin: 0px;
-  padding: 0px;
-  overflow-x: hidden;
-  background-color: #fff;
-}
-
-/* html {
-  overflow-x: initial !important;
-} */
-
-body {
-  width: 100%;
-}
 
 .gallery .row {
   padding-bottom: 2%;
@@ -240,4 +223,23 @@ button {
 
 .submit {
   font-family: "Profession", sans-serif;
+}
+
+html, body {
+  font-family: "Profession", sans-serif;
+
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+/* html {
+  overflow-x: initial !important;
+} */
+
+body {
+  width: 100%;
 }
