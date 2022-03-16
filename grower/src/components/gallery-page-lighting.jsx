@@ -6,6 +6,7 @@ import Navbar from "./Navbar2.jsx";
 import Footer from "./Footer.jsx";
 import LightItem from "./LightItem.jsx";
 import Item from "./Item.jsx";
+import ItemUpgraded from "./ItemUpgraded.jsx";
 
 import ushiologo from "../images/logos/ushio.png";
 import hortilogo from "../images/logos/hortilux-logo.png";
@@ -49,15 +50,15 @@ export default function GalleryPageLighting(props) {
     <Navbar />
     <h1 className="page-title">{props.pagetitle}</h1>
 
-    <LightItem src={gavitlogo}
+    <ItemUpgraded src={gavitlogo}
     alt="Gavita"
     href="https://gavita.com/retail/"
     producttype="LEDs and Fixtures"
-    products1="Gavita Pro 1700e LED"
-    products2="CT1930e LED"
+    item="Gavita Pro 1700e LED"
+    item1="CT1930e LED"
     producttype2="Grow Lamp, Hardware & Reflector"
-    products21="Pro 1000e DE 277-347/400"
-    products22="Pro 750 Watt Grow Lamp"
+    item2="Pro 1000e DE 277-347/400"
+    item3="Pro 750 Watt Grow Lamp"
     media_img={e1700}
     media_img1={e1930}
     media_img2={pro1000}

@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import icon from "../web-images/logo.png";
+import icon from "../web-images/nav-icon.png";
 
 export default function Navbar(props) {
   return (

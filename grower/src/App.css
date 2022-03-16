@@ -142,6 +142,12 @@
 
 .env {
   height: auto;
+  width: 100%;
+  margin: 0;
+}
+
+.env1 {
+  height: auto;
   width: 50%;
   margin: 0;
 }
@@ -154,6 +160,8 @@
 .product-info {
   text-align: left;
   font-size: 1.4vw;
+  background: linear-gradient(to right, white, #097969);
+  border-radius: 25px;
 }
 
 .product-title {
@@ -183,7 +191,7 @@ hr {
 
 .item-hr {
   background: linear-gradient(to right, brown, green);
-  width: 100%;
+  width: 85%;
 }
 
 .container-fluid .l {
@@ -194,6 +202,11 @@ hr {
 
 .container-fluid  .d {
   background-color: red;
+}
+
+.container-fluid .i {
+  background-color: red;
+  width: 50%;
 }
 
 form {

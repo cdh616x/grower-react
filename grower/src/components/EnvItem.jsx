@@ -30,10 +30,10 @@ export default function EnvItem(props) {
        <h5 className="product-type">{props.producttype4}</h5>
        <p className="info">{props.products41}</p>
        <div className="container-fluid insect">
-       <img className="img-fluid env" src={props.media_img} alt={props.malt} />
-       <img className="img-fluid env" src={props.media_img1} alt={props.malt1} />
-       <img className="img-fluid env" src={props.media_img5} alt={props.malt5} />
-       <img className="img-fluid env" src={props.media_img6} alt={props.malt6} />
+       <img className="img-fluid env1" src={props.media_img} alt={props.malt} />
+       <img className="img-fluid env1" src={props.media_img1} alt={props.malt1} />
+       <img className="img-fluid env1" src={props.media_img5} alt={props.malt5} />
+       <img className="img-fluid env1" src={props.media_img6} alt={props.malt6} />
        </div>
        <a className="product-link" href={props.href} target="_blank">
         <h5>To Website</h5>
