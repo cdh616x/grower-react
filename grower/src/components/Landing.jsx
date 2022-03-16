@@ -31,6 +31,10 @@ import cyco from "../images/logos/cyco-logo.png";
 import dynagro from "../images/logos/dynagro.png";
 import earthjuice from "../images/logos/earth-juice.png";
 import emerald from "../images/logos/emerald-harvest.png";
+import grodan from "../images/logos/grodan.png";
+import bluelab from "../images/logos/bluelab.png";
+import hands from "../images/logos/house-garden.png";
+import lostcoast from "../images/logos/lost-coast.png";
 
 export default function Landing() {
   return (
@@ -81,6 +85,12 @@ export default function Landing() {
      <ImgItem src={dynagro} />
      <ImgItem src={earthjuice} />
      <ImgItem src={emerald} />
+    </div>
+    <div className="row">
+     <ImgItem src={grodan} />
+     <ImgItem src={bluelab} />
+     <ImgItem src={hands} />
+     <ImgItem src={lostcoast} />
     </div>
     </div>
     </>
