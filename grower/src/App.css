@@ -243,6 +243,20 @@ button {
   font-family: "Profession", sans-serif;
 }
 
+.other-prods {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.item100 {
+  text-align: center;
+  font-size: 2vw;
+}
+
+.item-title {
+  font-size: 2vw
+}
+
 html, body {
   font-family: "Profession", sans-serif;
 

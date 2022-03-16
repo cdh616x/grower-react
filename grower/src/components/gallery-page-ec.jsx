@@ -5,6 +5,7 @@ import React from "react";
 import Navbar from "./Navbar2.jsx";
 import Footer from "./Footer.jsx";
 import EnvItem from "./EnvItem.jsx";
+import ItemUpgraded from "./ItemUpgraded.jsx";
 
 import titanlogo from "../images/logos/titan.png";
 import helios from "../images/titan/helios.png";
@@ -26,41 +27,44 @@ export default function GalleryPageEC(props) {
      <Navbar />
       <h1 className="page-title">{props.pagetitle}</h1>
 
-      <EnvItem src={titanlogo}
+      <ItemUpgraded src={titanlogo}
        href="https://www.titancontrols.net/"
        alt="Titan Controls"
-       producttype="Helios 11 & 12"
-       producttype2="Atlas 2"
-       producttype3="EOS-1"
+       producttype="Environmental Controllers"
+       item="Helios 11 & 12"
+       item1="Atlas 2"
+       item2="EOS-1"
        media_img={helios}
        malt="Titan Controls Helios 12 - 8 Light 240 Volt Controller w/ Dual Trigger Cords"
        media_img1={atlas}
        malt1="Titan Controls Atlas 2 - Preset CO2 Monitor/Controller"
-       media_img5={eos}
-       malt5="Titan Controls Eos Complete Humidity Controller (6/Cs)" />
+       media_img2={eos}
+       malt2="Titan Controls Eos Complete Humidity Controller (6/Cs)" />
 
-      <EnvItem src={autologo}
+      <ItemUpgraded src={autologo}
        href="https://www.autopilotcontrollers.com/Environmental-and-Master-Controllers"
        alt="autopilot Environmental Controllers"
-       producttype="Master Digital Timer"
-       producttype1="HID Controller"
-       producttype2="CO2 Generator"
-       producttype3="APC 8200 - CO2 Monitor and Controller"
+       producttype="CO2 Monitors"
+       producttype2="CO2 Burners"
+       item="Master Digital Timer"
+       item1="HID Controller"
+       item2="CO2 Generator"
+       item3="APC 8200 - CO2 Monitor and Controller"
        media_img={co2}
        malt="autopilot CO2 Generator"
        media_img1={monitor}
        malt1="autopilot Light Controller"
-       media_img5={lightCont}
-       malt5="autopilot CO2 Monitor"
-       media_img6={timer}
-       malt6="autopilot Master Digital Timer" />
+       media_img2={lightCont}
+       malt2="autopilot CO2 Monitor"
+       media_img3={timer}
+       malt3="autopilot Master Digital Timer" />
 
-      <EnvItem src={airlogo}
+      <ItemUpgraded src={airlogo}
        alt="Active Air"
        href="https://www.hydrofarm.com/p/active-air-timer/cosys20"
        producttype="CO2 System with Timer"
-       media_img={co2System}
-       malt="Active Air CO2 System with Timer, 1-20 cubic ft per hour" />
+       media_img100={co2System}
+       malt100="Active Air CO2 System with Timer, 1-20 cubic ft per hour" />
 
      <Footer />
     </>

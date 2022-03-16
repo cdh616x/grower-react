@@ -6,6 +6,7 @@ import Navbar from "./Navbar2.jsx";
 import Footer from "./Footer.jsx";
 import CloneItem from "./CloneItem.jsx";
 import PestItem from "./PestItem.jsx";
+import ItemUpgraded from "./ItemUpgraded.jsx";
 
 import dynalogo from "../images/logos/dynagro.png";
 import grodanlogo from "../images/logos/grodan.png";
@@ -64,132 +65,138 @@ export default function GalleryPageCloning(props) {
      <Navbar />
      <h1 className="page-title">{props.pagetitle}</h1>
 
-     <CloneItem src={ezlogo}
+     <ItemUpgraded src={ezlogo}
      alt="EZ-Clone"
      href="https://www.ezclone.com/store/"
      producttype="Plant Cloning System"
-     products1="System 64"
-     products2="System 32"
-     products3="System 16"
+     item="System 64"
      producttype2="Clear Rez"
-     products21="Rooting Compound"
-     products22="Water Treatment Concentrate"
+     item1="Clear Rez Cloning Solution"
      media_img={ez64}
      malt="EZ-Clone Low Pro 64, 128 Systems"
      media_img1={clearrez}
-     malt1="EZ-Clone Clear Rez" />
+     malt1="EZ-Clone Clear Rez Solution"
+     otherProducts="Other Products:"
+     otherItems="Clear Rez Cloning Gel"
+     otherItems1="EZ-Clone System 32, System 16" />
 
-     <CloneItem src={oxylogo}
+     <ItemUpgraded src={oxylogo}
      alt="Oxyclone"
-     href="https://www.oxyclone.com/products/oxyclone-cloning-systems"
+     href="https://www.hydrofarm.com/p/oxyclone-cloning-systems/ox20sys"
      producttype="20 Site Pro Series"
-     media_img2={sys20}
-     malt2="oxyCLONE 20 Site System" />
+     media_img100={sys20}
+     malt100="oxyCLONE 20 Site System" />
 
-     <CloneItem src={hdilogo}
+     <ItemUpgraded src={hdilogo}
      alt="Hydrodynamics International"
      href="https://www.hydrodynamicsintl.com/product-category/root-riot-plant-starter-cubes-root-riots-for-plant-propagation/"
      producttype="Root Riot"
-     products1="50 Cube Tray"
-     products2="100 Cube Bag"
+     item="50 Cube Tray"
+     item1="100 Cube Bag"
      media_img={tray50}
      malt="Root Riot Plant Starter Cubes | Root Riot Tray"
      media_img1={bag100}
      malt1="Root Riot Plant Starter Cubes | Root Riot Bags" />
 
-     <CloneItem src={jumplogo}
+     <ItemUpgraded src={jumplogo}
      alt="Jumpstart"
      href="http://www.hydrofarmcommercial.com/products/seed-starting/products/jump-start-smart-float-55-cell-grow-tray-wplugs"
-     producttype="Accelaroot"
-     producttype2="Smart Float"
+     producttype="50+ Cell Tray w/ Insert and Starter Plugs"
+     item="Accelaroot"
+     item1="SmartFloat"
      media_img={accelaroot}
-     malt="Jump start AccelaROOT 50-Cell Tray w/ Insert and Starter Plugs"
+     malt="Jump start AccelaROOT 50+ Cell Tray w/ Insert and Starter Plugs"
      media_img1={smartfloat}
      malt1="Jump Start Smart Float 55-Cell Grow Tray w/ Plugs" />
 
-     <CloneItem src={thrivelogo}
+     <ItemUpgraded src={thrivelogo}
      alt="SUPERthrive - essential vitamin solution"
      href="https://superthrive.com/"
      producttype="SUPERthrive Liquid Concentrate"
-     media_img2={superthrive}
-     malt2="SUPERthrive - The Original Vitamin Solution" />
+     media_img100={superthrive}
+     malt100="SUPERthrive - The Original Vitamin Solution"
+     otherProducts="Other Products:"
+     otherItems="Different sizes and configurations" />
 
-     <CloneItem src={diplogo}
+     <ItemUpgraded src={diplogo}
      alt="Dip 'N Grow"
      href="https://dipngrow.com/buy-online/"
      producttype="Liquid Concentrate Rooting Kit"
-     media_img2={rootingkit}
-     malt2="Dip'n Grow 2 Oz. Rooting Kit"  />
+     media_img100={rootingkit}
+     malt100="Dip'n Grow 2 Oz. Rooting Kit"  />
 
-     <CloneItem src={hormexlogo}
+     <ItemUpgraded src={hormexlogo}
      alt="Hormex"
      href="https://hormex.com/pages/vitamin-b1-and-rooting-hormone-concentrate"
      producttype="Vitamin B-1 and Hormone Concentrate"
-     media_img2={hormones}
-     malt2="Hormex Vitamin B1 and Hormone Concentrate" />
+     media_img100={hormones}
+     malt100="Hormex Vitamin B1 and Hormone Concentrate" />
 
-     <CloneItem src={groteclogo}
+     <ItemUpgraded src={groteclogo}
      alt="Clonex"
      href="https://www.hydrodynamicsintl.com/product/clonex-rooting-gel/"
      producttype="Clonex"
-     products1="Rooting Gel"
-     products2="Clone & Seedling Nutrients"
-     products3="Root Maximizer"
-     media_img2={clxgel}
-     malt2="Clonex Rooting Gel" />
+     item100="Rooting Gel"
+     media_img100={clxgel}
+     malt100="Clonex Rooting Gel"
+     otherProducts="Other Products:"
+     otherItems="Clone & Seedling Nutrients"
+     otherItems1="Root Maximizer" />
 
-     <CloneItem src={technalogo}
+     <ItemUpgraded src={technalogo}
      alt="Root Tech"
      href="https://www.technaflora.com/product/rootech-cloning-gel/"
      producttype="Root Tech"
-     products1="Cloning Gel"
-     media_img2={roottech}
-     malt2="Roottech Cloning Gel" />
+     item100="Cloning Gel"
+     media_img100={roottech}
+     malt100="Roottech Cloning Gel" />
 
-     <CloneItem src={cycologo}
+     <ItemUpgraded src={cycologo}
      alt="Cyco Flower"
      href="https://cycoflower.com/usa/cyco-platinum-series-cyclone-rooting-gel/"
      producttype="Cyclone Rooting Gel"
-     media_img2={cyclone}
-     malt2="Cyco Platinum Series Cyclone Rooting Gel" />
+     item100="Cloning Gel Sachets"
+     media_img100={cyclone}
+     malt100="Cyco Platinum Series Cyclone Rooting Gel" />
 
-     <CloneItem src={sproutlogo}
+     <ItemUpgraded src={sproutlogo}
      alt="Super Sprouter"
      href="https://www.supersprouter.com/shop/bycategory/heat-mats-and-thermostats"
-     producttype="Seedling Heat Mat"
-     producttype2="Digital Heat Mat Thermostat"
+     producttype="Environment Controls"
+     item="Seedling Heat Mat"
+     item1="Digital Heat Mat Thermostat"
      media_img={heatmat}
      malt="Super Sprouter® Seedling Heat Mat"
      media_img1={thermostat}
      malt1="Super Sprouter® Seedling Heat Mat Digital Thermostat" />
 
-     <PestItem src={dynalogo}
+     <ItemUpgraded src={dynalogo}
      href="https://dyna-gro.com/product/k-l-n-concentrate-c/"
      alt="Dyna-Gro Advanced Science Simplified"
      producttype="K-L-N Rooting Concentrate"
-     media_img={kln}
-     malt="Dyna-Gro Liquid K-L-N Rooting Concentrate" />
+     media_img100={kln}
+     malt100="Dyna-Gro Liquid K-L-N Rooting Concentrate" />
 
-     <CloneItem src={genhylogo}
+     <ItemUpgraded src={genhylogo}
      alt="General Hydroponics"
      href="https://generalhydroponics.com/"
      producttype="Rapid Root Plant Starter"
-     media_img2={ghplugs}
-     malt2="General Hydroponics Rapid Rooter Natural Plant Starter Plugs" />
+     media_img100={ghplugs}
+     malt100="General Hydroponics Rapid Rooter Natural Plant Starter Plugs" />
 
-     <CloneItem src={grodanlogo}
+     <ItemUpgraded src={grodanlogo}
      alt="Grodan"
      href="https://www.grodan101.com/product-overview/grodan-starter-plugs/"
      producttype="Starter Cubes"
-     media_img2={grodanplugs}
-     malt2="Grodan Starter Plugs™" />
+     media_img100={grodanplugs}
+     malt100="Grodan Starter Plugs™" />
 
-     <CloneItem src={ihortlogo}
+     <ItemUpgraded src={ihortlogo}
      alt="iHort"
      producttype="Q Plugs"
-     products1="40/40 Refills"
-     media_img2={qplugs}
-     malt2="Q Plug 40/40"  />
+     item100="40/40 Refills"
+     media_img100={qplugs}
+     malt100="Q Plug 40/40"  />
 
      <Footer />
     </>

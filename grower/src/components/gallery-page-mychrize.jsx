@@ -6,6 +6,7 @@ import Navbar from "./Navbar2.jsx";
 import Footer from "./Footer.jsx";
 import PestItem from "./PestItem.jsx";
 import CloneItem from "./CloneItem.jsx";
+import ItemUpgraded from "./ItemUpgraded.jsx";
 
 import successlogo from "../images/logos/plant-success.png";
 import fishlogo from "../images/logos/fishshit.png";
@@ -35,13 +36,13 @@ export default function GalleryPageMychrize(props) {
 
       <h1 className="page-title">{props.pagetitle}</h1>
 
-      <CloneItem src={successlogo}
+      <ItemUpgraded src={successlogo}
       href="https://plantrevolution.com/products/orca"
       alt="Plant Success"
-      producttype="Mycorrhizae"
-      products1="Great White"
-      products2="Orca"
-      products3="Myco Chum"
+      producttype="Premium Mycorrhizae"
+      item="Orca"
+      item1="Great White"
+      item2="Myco Chum"
       media_img={orca}
       malt="Orca Premium Liquid Mycorrhizae"
       media_img1={shark}
@@ -49,49 +50,51 @@ export default function GalleryPageMychrize(props) {
       media_img2={chum}
       malt2="Myco Chum Premium Microbe Food" />
 
-      <PestItem src={fishlogo}
+      <ItemUpgraded src={fishlogo}
       organic={omri}
       href="https://fishheadfarms.com/"
       alt="Fish Sh!t Organic Soil Fertilizer"
       producttype="Organic Soil Conditioner"
-      media_img={fishshit}
-      malt="Fish Sh!t Organic Soil Fertilizer" />
+      media_img100={fishshit}
+      malt100="Fish Sh!t Organic Soil Fertilizer" />
 
-      <PestItem src={realgrowlogo}
+      <ItemUpgraded src={realgrowlogo}
       alt="Real Growers"
       href="https://www.realgrowers.com/"
       producttype="Microbes"
-      products1="Recharge"
-      media_img={recharge}
-      malt="Real Growers Recharge Professional Strength Microbial Superpack" />
+      item100="Recharge"
+      media_img100={recharge}
+      malt100="Real Growers Recharge Professional Strength Microbial Superpack" />
 
-      <PestItem src={elitelogo}
+      <ItemUpgraded src={elitelogo}
       alt="Elite 91 - Ideal Plant Nutrients"
       href="https://elite91.com/product/professional-mycorrhizal-inoculant/"
-      producttype="Myco Jordan"
-      media_img={jordan}
-      malt="Myco Jordan Professional Mycorrhizal Inoculant" />
+      producttype="Professional Mycorrhizal Inoculant"
+      item100="Myco Jordan"
+      media_img100={jordan}
+      malt100="Myco Jordan Professional Mycorrhizal Inoculant" />
 
-      <PestItem src={supgrologo}
+      <ItemUpgraded src={supgrologo}
       alt="Supreme Growers"
       href="https://supremegrowers.us/supre-myco-tea-5-gram-stick-bundle-makes-5-ready-to-use-gallons.html"
-      producttype="Sweet Myco Tea Sachets"
-      media_img={tea}
-      malt="Sweet Myco Tea Sachet" />
+      producttype="Sweet Myco Tea"
+      item100="5g Sachets"
+      media_img100={tea}
+      malt100="Sweet Myco Tea Sachet" />
 
-      <CloneItem src={xtremelogo}
+      <ItemUpgraded src={xtremelogo}
       organic={omri}
       alt="Xtreme Gardening"
       href="https://www.xtreme-gardening.com/products"
       producttype="Mycorrhizae"
-      products1="Azos Growth Promoting Bacteria"
-      products2="Mykos Mycorrhizal Inoculants"
-      products3="Mykos WP - Wettable Powder"
+      item="Azos Growth Promoting Bacteria"
+      item1="Mykos Mycorrhizal Inoculants"
+      item2="Mykos WP - Wettable Powder"
       media_img={azos}
       malt="Azos Growth Promoting Bacteria"
-      media_img1={mykos}
+      media_img1={mykoswp}
       malt1="Mykos Mycorrhizal Inoculants"
-      media_img2={mykoswp}
+      media_img2={mykos}
       malt2="Mykos WP Wettable Powder" />
 
      <Footer />

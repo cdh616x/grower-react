@@ -5,6 +5,7 @@ import React from "react";
 import Navbar from "./Navbar2.jsx";
 import Footer from "./Footer.jsx";
 import EnvItem from "./EnvItem.jsx";
+import ItemUpgraded from "./ItemUpgraded.jsx";
 
 import hydrologo from "../images/logos/hydrofarm.png";
 import dirtpot from "../images/hydrofarm/dirtpot.png";
@@ -30,52 +31,51 @@ export default function GalleryPagePS(props) {
 
      <h1 className="page-title">{props.pagetitle}</h1>
 
-     <EnvItem src={hydrologo}  title="Potting Products"
+     <ItemUpgraded src={hydrologo}
      alt="Hydrofarm Horticultural Products"
      href="https://www.hydrofarm.com/pots-containers?breadcrumbs=true&specs=4636"
-     producttype="Dirt Pot"
-     products1="Flexible Portable Planter || 25gal-1gal"
-     producttype2="Pro Cal Nursery Pot"
-     products21="Plastic Planter || 25gal-1gal"
-     producttype3="SmartPot"
-     products31="Flexible Aeration Container"
-     producttype4="GROW!T"
-     products41="24 Bamboo Stakes || 4' & 8'"
+     producttype="Potting Solutions"
+     item="Dirt Pot || 25g-1g"
+     item1="Pro Cal Nursery Pot || 25g-1g"
+     item2="SmartPot Aeration Container"
+     item3="GROW!T 24 Bamboo stakes"
      media_img={dirtpot}
      malt="DirtPot Flexible Portable Container"
      media_img1={nurspot}
      malt1="Pro Cal Premium Nursery Pot"
-     media_img5={smartpot}
-     malt5="SmartPot Aeration Container"
-     media_img6={bamboo}
-     malt6="GROW!T Bamboo Stakes" />
+     media_img2={smartpot}
+     malt2="SmartPot Flexible Aeration Container"
+     media_img3={bamboo}
+     malt3="GROW!T Bamboo Stakes" />
 
-     <EnvItem src={hydrologo} title="Plant Support Products"
+     <ItemUpgraded src={hydrologo}
      alt="Hydrofarm Horticultural Products"
      href="https://www.hydrofarm.com/garden-accessories"
-     producttype="Soft Rubber Garden String, 100ft"
-     producttype2="Twist Tie"
-     producttype3="Trellis Netting"
-     products31="Mesh || Various Sizes"
+     producttype="Plant Support Solutions"
+     item="Soft Rubber Garden String, 100ft"
+     item1="Twist Tie"
+     item2="Trellis Netting"
      media_img={greenstring}
      malt="Hydrofarm Soft Rubber Garden String, 100 Feet"
      media_img1={twist}
      malt1="Hydrofarm Twist Tie"
-     media_img5={netting}
-     malt5="Hydrofarm Trellis Netting Mesh" />
+     media_img2={netting}
+     malt2="Hydrofarm Trellis Netting Mesh" />
 
-     <EnvItem src={groprologo}
+     <ItemUpgraded src={groprologo}
      alt="Gro Pro"
      href="https://www.gro-pro.net/shop/ByCategory/gropro-fabric-pots"
-     producttype="Premium Round Fabric Pots - Black"
-     media_img={grobag}
-     malt="Gro Pro Premium Round Fabric Pots - Black" />
+     producttype="Potting Solutions"
+     item100="Premium Round Fabric Pots - Black"
+     media_img100={grobag}
+     malt100="Gro Pro Premium Round Fabric Pots - Black" />
 
-     <EnvItem src={groedglogo}
+     <ItemUpgraded src={groedglogo}
      alt="Grower's Edge"
      href="https://www.growers-edge.net/shop/ByBrandCategories/growers-edge"
-     producttype="Crop Clips - 100 clips"
-     producttype2="Commercial Grade White Trellis Netting"
+     producttype="Plant Support Solutions"
+     item="Crop Clips - 100 clips"
+     item1="Commercial Grade White Trellis Netting"
      media_img={clips}
      malt="Crop Clips - 100 Clips"
      media_img1={trellisNetting}

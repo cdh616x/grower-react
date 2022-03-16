@@ -5,6 +5,7 @@ import React from "react";
 import Navbar from "./Navbar2.jsx";
 import Footer from "./Footer.jsx";
 import EnvItem from "./EnvItem.jsx";
+import ItemUpgraded from "./ItemUpgraded.jsx";
 
 import hydrologo from "../images/logos/hydrofarm.png";
 import gretrim from "../images/hydrofarm/green-trimmer.png";
@@ -42,87 +43,92 @@ export default function GalleryPageTrimming(props) {
 
      <h1 className="page-title">{props.pagetitle}</h1>
 
-     <EnvItem src={hydrologo}
+     <ItemUpgraded src={hydrologo}
      alt="Hydrofarm Horticultural Products"
      href="https://www.hydrofarm.com/search?q=trim%20fast&isc=true&sid=true&cid=0"
-     producttype="Trim Fast Precision Pruners"
-     products1="Anti-Fatigue Lightweight Pruner"
-     products2="Curved Precision Pruner"
-     products3="Bypass Heavy Duty Pruners"
-     producttype2="TrimBag"
-     producttype3="Stack!t"
-     products31="24in & 38in Drying Rack"
+     producttype="Trim Fast Pruners"
+     producttype2="Trimming Solutions"
+     item="Lightweight Precision Pruners"
+     item1="Bypass Heavy Duty Pruners"
+     item2="TrimBag"
+     item3="Stack!t Drying Racks"
      media_img={gretrim}
      malt="Trim Fast Precision Pruners"
      media_img1={blutrim}
      malt1="Trim Fast Bypass Heavy Duty Pruners"
-     media_img5={trimbag}
-     malt5="TrimBag"
-     media_img6={stackit}
-     malt6="Stack!t Drying Rack" />
+     media_img2={trimbag}
+     malt2="TrimBag"
+     media_img3={stackit}
+     malt3="Stack!t Drying Rack"
+     otherProducts="Other Products: "
+     otherItems="Trim Fast Curved Pruners"
+     otherItems1="Trim Fast Anti-Fatigue Pruners" />
 
-     <EnvItem src={tomslogo}
+     <ItemUpgraded src={tomslogo}
      alt="Tom's Tumbeler"
      href="https://www.tomstumbletrimmer.com/tumble-trimmers/trimmers-for-small-medium-harvests/"
-     producttype="Tom's Tumbeler"
-     products1="The Original Bladeless Trimmer - 1600, 1900, 3000"
-     media_img={tumbeler}
-     malt="Tom's Tumbeler Original Bladeless Trimmer - Tabletop" />
+     producttype="The Original Bladeless Trimmer"
+     item100="Handcrank - 1600"
+     media_img100={tumbeler}
+     malt100="Tom's Tumbeler Original Bladeless Trimmer - Tabletop"
+     otherProducts="Other Products:"
+     otherItems="Original Bladeless Trimmer 1900, 3000" />
 
-     <EnvItem src={harvest}
+     <ItemUpgraded src={harvest}
      alt="HarvestMore"
      href="https://www.harvest-more.com/shop/trim-bin-complete-set/"
-     producttype="TrimBin"
-     media_img={trimbin}
-     malt="HarvestMore TrimBin" />
+     producttype="Trimming Solutions"
+     item100="TrimBin"
+     media_img100={trimbin}
+     malt100="HarvestMore TrimBin" />
 
-     <EnvItem src={twister}
+     <ItemUpgraded src={twister}
      alt="Twister"
      href="https://www.twistertrimmer.com/twister-t6-trimmer/"
-     producttype="Twister Trimmer"
-     products1="T4"
-     products2="T6"
+     producttype="Machine Trimmer"
+     item="T4"
+     item1="T6"
      media_img={t4}
      malt="Twister T4 Standard with Speed Control"
      media_img1={t6}
      malt1="Twister T6 Trimmer" />
 
-     <EnvItem src={centurion}
+     <ItemUpgraded src={centurion}
      alt="Centurion Pro"
      href="https://cprosolutions.com/tabletop/"
-     producttype="Automatic Trimmer"
-     products1="Mini Wet & Dry"
-     products2="Tabletop Wet & Dry"
-     products3="Silver Bullet"
+     producttype="Machine Trimmer"
+     item="Mini Wet & Dry"
+     item1="Tabletop Wet & Dry"
+     item2="Silver Bullet"
      media_img={table}
      malt="Centurion Pro Tabletop Wet/Dry Trimmer"
      media_img1={mini}
      malt1="Centurion Pro Mini Wet/Dry Trimmer"
-     media_img5={silver}
-     malt5="Centurion Pro Silver Bullet" />
+     media_img2={silver}
+     malt2="Centurion Pro Silver Bullet" />
 
-     <EnvItem src={dl}
+     <ItemUpgraded src={dl}
      alt="DL Wholesale"
      href="https://www.dlwholesale.com/hydroponics/777181-18-bowl-trimmer-w-clear-top.asp?catid=36DD64BB676D41EDA8ACE97C130010E0"
      producttype="Bowl Trimmer"
-     products1='Clear Top 18"'
-     media_img={bowl}
-     malt="Clear Top 18in Bowl Trimmer" />
+     item100='Clear Top 18"'
+     media_img100={bowl}
+     malt100="Clear Top 18in Bowl Trimmer" />
 
-     <EnvItem title="Harvest Keeper"
+     <ItemUpgraded title="Harvest Keeper"
      href="https://www.harvest-keeper.com/shop/bycategory/Vacuum-Sealers-and-Storage-Bags"
      producttype="Storage Bags"
-     products1="Vacuum Sealer Clear Rolls"
-     media_img={vacuum}
-     malt="Harvest Keeper Heavy Duty Vacuum Sealer Roll" />
+     item100="Vacuum Sealer Clear Rolls"
+     media_img100={vacuum}
+     malt100="Harvest Keeper Heavy Duty Vacuum Sealer Roll" />
 
-     <EnvItem src={madfarmer} title="Mad Farmer"
+     <ItemUpgraded src={madfarmer} title="Mad Farmer"
      alt="Mad Farmer"
      href="https://www.hydrofarm.com/p/mad-farmer-white-nitrile-gloves-box-of-100/mfwnl"
      producttype="White Nitrile Gloves"
-     products1="Small, Medium, Large Sizes - Box of 100"
-     media_img={gloves}
-     malt="Mad Farmer White Nitrile Gloves" />
+     item100="Small, Medium, Large Sizes - Box of 100"
+     media_img100={gloves}
+     malt100="Mad Farmer White Nitrile Gloves" />
 
      <Footer />
     </>

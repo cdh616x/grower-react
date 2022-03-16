@@ -7,6 +7,7 @@ import Footer from "./Footer.jsx";
 import CloneItem from "./CloneItem.jsx";
 import PestItem from "./PestItem.jsx";
 import EnvItem from "./EnvItem.jsx";
+import ItemUpgraded from "./ItemUpgraded.jsx";
 
 import ooologo from "../images/logos/ooo.png";
 import cycologo from "../images/logos/cyco-logo.png";
@@ -32,62 +33,66 @@ export default function GalleryPagePH(props) {
      <Navbar />
       <h1 className="page-title">{props.pagetitle}</h1>
 
-      <PestItem src={cycologo}
+      <ItemUpgraded src={cycologo}
       alt="Cyco Platinum Series Pharmaceutical Grade Ingredients"
-      producttype="PH UP & PH DOWN"
+      producttype="PH Products"
       href="https://cycoflower.com/usa/ph-up-down/"
-      media_img={cycoph}
-      malt="Cyco Platinum Series pH Up & Down" />
+      item100="pH UP & pH Down"
+      media_img100={cycoph}
+      malt100="Cyco Platinum Series pH Up & Down" />
 
-      <CloneItem src={ooologo}
+      <ItemUpgraded src={ooologo}
       href="https://www.oregonsonly.com/olympus-up/"
       alt="Oregon's Only Nectar for the Gods"
       title="Nectar for the Gods"
-      producttype="Olympus Up"
-      products1="PH Increaser (Basify)"
-      producttype2="Hades Down"
-      products21="PH Decreaser (Acidify)"
+      producttype="PH Products"
+      item="PH Increaser (Basify)"
+      item1="PH Decreaser (Acidify)"
       media_img={olympus}
       malt="Olympus Up Fertilizer"
       media_img1={hades}
       malt1="Hades Down Fertilizer" />
 
-      <CloneItem src={genhydrologo}
+      <ItemUpgraded src={genhydrologo}
       alt="General Hydroponics"
-      producttype="PH Up & PH Down"
+      producttype="PH Products"
       href="https://generalhydroponics.com/products/categories/maintenance/"
-      media_img={phupdown}
-      malt="pH Up & pH Down" />
+      item100="pH Down & pH Up"
+      media_img100={phupdown}
+      malt100="pH Up & pH Down" />
 
-      <EnvItem src={bluelogo}
+      <ItemUpgraded src={bluelogo}
       alt="Bluelab"
       href="https://bluelab.com/usa/shop/parameters/ph"
-      producttype="Multimedia PH Meter w/ Leap"
-      producttype1="pH Pen, ppm Pen"
-      producttype2="Guardian Monitor"
-      producttype3="Truncheon Nutrient Meter"
+      producttype="PH Metering"
+      item="Multimedia PH Meter w/ Leap"
+      item1="pH Pen, ppm Pen"
+      item2="Guardian Monitor"
+      item3="Truncheon Nutrient Meter"
       media_img={guardian}
       malt="Bluelab Guardian Monitor"
       media_img1={multimedia}
       malt1="Bluelab Multimedia pH Meter"
-      media_img5={pen}
-      malt5="Bluelab pH Pen"
-      media_img6={truncheon}
-      malt6="Bluelab Truncheon Nutrient Meter" />
+      media_img2={pen}
+      malt2="Bluelab pH Pen"
+      media_img3={truncheon}
+      malt3="Bluelab Truncheon Nutrient Meter" />
 
-      <EnvItem src={aperalogo}
+      <ItemUpgraded src={aperalogo}
       alt="Apera Instruments - Fluid Precision since 1991"
       href="https://aperainst.com/grostar-gs1-ph-pen-tester"
-      producttype="GroStar GS1 pH Pen Tester"
-      media_img={gs1}
-      malt="GroStar GS1 pH Pen Tester" />
+      producttype="PH Metering"
+      item100="GroStar GS1 pH Pen Tester"
+      media_img100={gs1}
+      malt100="GroStar GS1 pH Pen Tester" />
 
-      <EnvItem src={milwaukeelogo}
+      <ItemUpgraded src={milwaukeelogo}
       alt="Milwaukee Instruments"
       href="https://milwaukeeinstruments.com/ph-tester/"
-      producttype="PH600AQ Digital pH Pen"
-      media_img={ph600}
-      malt="Milwaukee pH600AQ Digital pH Pen" />
+      producttype="PH Metering"
+      item100="PH600AQ Digital pH Pen"
+      media_img100={ph600}
+      malt100="Milwaukee pH600AQ Digital pH Pen" />
 
      <Footer />
     </>
