@@ -194,6 +194,11 @@ hr {
   width: 85%;
 }
 
+.item-type-hr {
+  background: linear-gradient(to right, white, black);
+  width: 100%;
+}
+
 .container-fluid .l {
   background: linear-gradient(to right, white, #097969);
   border-radius: 10px;

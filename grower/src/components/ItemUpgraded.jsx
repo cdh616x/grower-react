@@ -15,6 +15,11 @@ export default function ItemUpgraded(props) {
        </div>
       </div>
       <div className="col-7 product-info">
+      <h3>{props.producttype}</h3>
+      <h3>{props.producttype2}</h3>
+      <h3>{props.producttype3}</h3>
+      <h3>{props.producttype4}</h3>
+      <hr className="item-type-hr" />
        <div className="container-fluid">
        <div className="row">
        <div className="col-6">

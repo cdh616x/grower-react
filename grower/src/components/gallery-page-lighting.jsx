@@ -64,69 +64,69 @@ export default function GalleryPageLighting(props) {
     media_img2={pro1000}
     media_img3={pro750} />
 
-    <LightItem src={phantomlogo}
-    alt="Phantom Bio"
-    href="https://www.phantombio.com/"
-    producttype="PhotoBio"
-    products1="S4 Spectrum 680W - LED Fixture"
-    products2="Phantom II Digital Ballast"
-    media_img={ballast}
-    media_img1={phb2010} />
-
-    <LightItem src={grochlogo}
+    <ItemUpgraded src={grochlogo}
     alt="Grower's Choice"
     title="Grower's Choice"
     href="https://www.growersc.com/"
     producttype="LED Fixtures"
-    products1="LED 720W"
-    products2="LED 680W"
-    products3="LED 200W"
+    item="LED 720W"
+    item1="LED 680W"
+    item2="LED 200W"
     media_img={roi7}
     media_img1={roi6}
     media_img2={roi2} />
 
-    <LightItem src={ushiologo}
+    <ItemUpgraded src={phantomlogo}
+    alt="Phantom Bio"
+    href="https://www.phantombio.com/"
+    producttype="PhotoBio"
+    item="S4 Spectrum 680W - LED Fixture"
+    item1="Phantom II Digital Ballast"
+    media_img={ballast}
+    media_img1={phb2010} />
+
+    <ItemUpgraded src={ushiologo}
     alt="USHIO"
     href="https://www.ushio.com/leds/#led-lighting"
-    producttype="HiLux Gro"
-    products1="Opti-Red 1000W, 600W, 400W"
-    products2="AMH Opti-Blue 1000W, 600W, 400W"
+    producttype="HiLux Gro Lamps"
+    item="Opti-Red 1000W, 600W, 400W"
+    item1="AMH Opti-Blue 1000W, 600W, 400W"
     media_img={optired}
     media_img1={optiblue} />
 
-    <LightItem src={sunsyslogo}
+    <ItemUpgraded src={sunsyslogo}
     alt="Sun System"
     href="https://www.sunsystemlights.com/"
-    producttype="Lamp & Reflector"
-    products1="LEC 630 Watt Fixture"
-    products2="Dominator XXL"
+    producttype="Lamps & Reflectors"
+    item="LEC 630 Watt Fixture"
+    item1="Dominator XXL"
     media_img={lec630}
     media_img1={dominator} />
 
-    <LightItem src={hortilogo}
+    <ItemUpgraded src={hortilogo}
     alt="Hortilux"
     href="https://eyehortilux.com/"
     producttype="PowerVeg Series"
-    products1="420, 460, 633, 660, FS + UV"
+    item="420, 460, 633, 660, FS + UV"
     producttype2="Grow Lamps"
-    products21="HTL Blue 1000W, 600W, 400W"
-    products22="Super HPS 1000W, 600W, 400W"
-    products23="MH 1000W"
-    media_img={superhps}
+    item1="HTL Blue 1000W, 600W, 400W"
+    item2="Super HPS 1000W, 600W, 400W"
+    item3="MH 1000W"
+    media_img={powerveg}
     media_img1={blue}
-    media_img2={powerveg} />
+    media_img2={superhps} />
 
-    <LightItem src={hydrologo}
+    <ItemUpgraded src={hydrologo}
     href="https://www.hydrofarm.com/lighting"
     alt="Hydrofarm"
     producttype="AgroSun"
-    products1="Double-ended 750W, Red Sodium 1000W"
+    item="Double-ended 750W, Red Sodium 1000W"
     producttype2="XtraSun"
-    products21="Natural White 1000W, Sky Blue 400W"
+    item2="Natural White 1000W, Sky Blue 400W"
     producttype3="agrobrite"
     products31="Flourescent Grow Lights"
     producttype4="Quantum"
-    products41="600W Digital Ballast, 1000W Digital Ballast"
+    item3="600W Digital Ballast, 1000W Digital Ballast"
     media_img={double}
     media_img1={sodium}
     media_img2={white}
@@ -134,8 +134,6 @@ export default function GalleryPageLighting(props) {
 
     <Item src={luxxlogo}
     href="https://www.luxxlighting.com/" />
-
-
 
     <Footer />
     </>
