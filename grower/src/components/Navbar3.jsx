@@ -26,6 +26,7 @@ export default function Navbar(props) {
             Inventory
           </a>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a className="dropdown-item" href="#/air-purification">Air Purification</a></li>
             <li><a className="dropdown-item" href="#/cloning">Cloning</a></li>
             <li><a className="dropdown-item" href="#/environment-control">Environment Control</a></li>
             <li><a className="dropdown-item" href="#/growing-medias">Growing Medias</a></li>
@@ -36,6 +37,7 @@ export default function Navbar(props) {
             <li><a className="dropdown-item" href="#/ph">PH</a></li>
             <li><a className="dropdown-item" href="#/potting-and-support">Potting & Plant Support</a></li>
             <li><a className="dropdown-item" href="#/trimming">Trimming</a></li>
+            <li><a className="dropdown-item" href="#/water-purification">Water Purification</a></li>
           </ul>
         </li>
 
