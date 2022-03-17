@@ -5,6 +5,7 @@ import React from "react";
 import Navbar from "./Navbar2.jsx";
 import Footer from "./Footer.jsx";
 import DirtItem from "./DirtItem.jsx";
+import ItemUpgraded from "./ItemUpgraded.jsx";
 
 import omri from "../images/omri.png";
 
@@ -76,23 +77,27 @@ export default function GalleryPageMedias(props) {
     media_img3={strawberry}
     media_img4={kokobop} />
 
-    <DirtItem src={rootslogo}
+    <ItemUpgraded src={rootslogo}
     alt="Roots Organic"
     producttype="Growing Medias"
-    products1="Greenfields"
-    products2="Greenlight"
-    products3="Formula 707"
+    item="Greenfields"
+    item1="Greenlight"
+    item2="Formula 707"
     media_img={greenfield}
+    malt="Roots Organic Greenfields"
     media_img1={greenlite}
-    media_img2={sevenoseven} />
+    malt1="Roots Organic Greenlite"
+    media_img2={sevenoseven}
+    malt2="Roots Organic Formula 707" />
 
-    <DirtItem src={nectrlogo}
+    <ItemUpgraded src={nectrlogo}
     alt="Oregon's Only"
     href="https://www.oregonsonly.com/nectar-soil-3/"
     title="Oregon's Only"
     producttype="Growing Medias"
-    products1="Blend #4"
-    media_img={four} />
+    item100="Blend #4"
+    media_img100={four}
+    malt100="Oregon's Only Blend #4" />
 
     <DirtItem
     alt="Potter's Gold"
@@ -101,79 +106,97 @@ export default function GalleryPageMedias(props) {
     products1="Premium Potting Soil"
     media_img={potgologo} />
 
-    <DirtItem src={atamilogo}
+    <ItemUpgraded src={atamilogo}
     alt="Atami"
     href="https://atami.com/brands/atami-substrates/"
     producttype="Growing Media"
-    products1="Cocos Substrate"
-    media_img={atamicocs} />
+    item100="Cocos Substrate"
+    media_img100={atamicocs}
+    malt100="Atami Cocos Substrate" />
 
-    <DirtItem src={promxlogo}
+    <ItemUpgraded src={promxlogo}
     alt="Pro Mix"
     href="https://www.hydrofarm.com/p/pro-mix-hp-chunk-coir-mycorrhizae-3-8-cu-ft/pt2038130"
     producttype="Growing Medias"
-    products1="HP"
-    products2="BX"
-    products3="HPCC"
+    item="HP"
+    item1="BX"
+    item2="HPCC"
     media_img={hp}
+    malt="ProMix HP"
     media_img1={bx}
-    media_img2={cc} />
+    malt1="ProMix BX"
+    media_img2={cc}
+    malt2="ProMix HPCC" />
 
-    <DirtItem src={sungrlogo}
+    <ItemUpgraded src={sungrlogo}
     alt="SunGro Horticulture"
     href="https://www.sungro.com/retail-products/sunshine-mix-4/"
     producttype="Growing Medias"
-    products1="Sunshine #4"
-    products2="Advanced #4"
+    item="Sunshine #4"
+    item1="Advanced #4"
     media_img={sun4}
-    media_img1={adv4} />
+    malt="Sunshine Mix #4"
+    media_img1={adv4}
+    malt1="Sunshine Mix #4 Advanced" />
 
-    <DirtItem src={comailogo}
+    <ItemUpgraded src={comailogo}
     alt="Coast of Maine"
     href="https://coastofmaine.com/"
     producttype="Growing Medias"
-    products1="Stonington Blend"
-    products2="Lobster Compost"
+    item="Stonington Blend"
+    item1="Lobster Compost"
     media_img={stonington}
+    malt="Coast of Maine Stonington Blend"
     media_img1={lobster}
+    malt1="Coast of Maine Compost Blend with Lobster & Crab"
     organic={omri} />
 
-    <DirtItem src={grodanlogo}
+    <ItemUpgraded src={grodanlogo}
     alt="Grodan"
     href="https://www.grodan.com/product-overview/propagation-solutions/"
     producttype="Stonewool Blocks"
-    products1="Hugo Block, Delta 10 Cubes, Mini Cubes"
-    products2="A-OK Cloning Plugs"
+    item="Hugo Block"
+    item1="Delta 10 Cubes"
+    item2="A-OK Cloning Plugs"
     media_img={hugo}
+    malt="Grodan Hugo Block"
     media_img1={delta}
-    media_img2={clone} />
+    malt1="Grodan Delta 10 Cubes"
+    media_img2={clone}
+    malt2="Grodan A-OK Cloning Plugs" />
 
-    <DirtItem src={earthlogo}
+    <ItemUpgraded src={earthlogo}
     alt="Mother Earth Expertly Crafted Medias & Amendments"
     href="https://www.mother-earthproducts.com/products/soils-and-amendments/"
     producttype="Growing Medias"
-    products1="Coco"
-    products2="Terracraft & Worm Castings"
+    item="Coco"
+    item1="Terracraft & Worm Castings"
     media_img={coco}
-    media_img1={terracraft} />
+    malt="Mother Earth Coco"
+    media_img1={terracraft}
+    malt1="Mother Earth Terracraft Potting Soil" />
 
-    <DirtItem src={royallogo}
+    <ItemUpgraded src={royallogo}
     alt="Royal Gold"
     href="https://royalgoldcoco.com/soils/"
     producttype="Growing Medias"
-    products1="Mendo Mix"
-    products2="Basement Mix"
-    products3="Tupur"
+    item="Basement Mix"
+    item1="Mendo Mix"
+    item2="Tupur"
     media_img={basement}
+    malt="Royal Gold Basement Mix"
     media_img1={mendo}
-    media_img2={tupur} />
+    malt1="Royal Gold Mendo Mix"
+    media_img2={tupur}
+    malt2="Royal Gold Tupur" />
 
-    <DirtItem
+    <ItemUpgraded
     title="Wiggle Worm"
     producttype="Soil Supplement"
-    products1="Wiggle Worm"
+    item100="Organic Fertilizer"
     organic={omri}
-    media_img={wigglelogo} />
+    media_img100={wigglelogo}
+    malt100="Wiggle Worm Pure Worm Castings" />
 
     <Footer />
     </>
