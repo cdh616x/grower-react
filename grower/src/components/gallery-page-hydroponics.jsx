@@ -1,7 +1,7 @@
 //jshint esversion:6
 
 import React from "react";
-import Navbar from "./Navbar2.jsx";
+import Navbar from "./Navbar.jsx";
 import Footer from "./Footer.jsx";
 
 import ItemUpgraded from "./ItemUpgraded.jsx";
