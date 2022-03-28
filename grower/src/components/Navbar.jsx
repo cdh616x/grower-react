@@ -27,9 +27,11 @@ export default function Navbar(props) {
           </a>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a className="dropdown-item" href="#/air-purification">Air Purification</a></li>
+            <li><a className="dropdown-item" href="#/climate-control">Climate Control</a></li>
             <li><a className="dropdown-item" href="#/cloning">Cloning</a></li>
             <li><a className="dropdown-item" href="#/environment-control">Environment Control</a></li>
             <li><a className="dropdown-item" href="#/growing-medias">Growing Medias</a></li>
+            <li><a className="dropdown-item" href="#/hydroponics">Hydroponics</a></li>
             <li><a className="dropdown-item" href="#/lighting">Lighting</a></li>
             <li><a className="dropdown-item" href="#/mychrize">Mycorrhizae</a></li>
             <li><a className="dropdown-item" href="#/nutrients">Nutrients</a></li>

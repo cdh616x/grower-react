@@ -20,6 +20,8 @@ import Trimming from "../src/routes/trimming.jsx";
 import PS from "../src/routes/potting-and-support.jsx";
 import Air from "../src/routes/air-purification.jsx";
 import Water from "../src/routes/water-purification.jsx";
+import CC from "../src/routes/climate-control.jsx";
+import Hydroponics from "../src/routes/hydroponics.jsx";
 
 import { render } from "react-dom";
 import {
@@ -48,6 +50,8 @@ ReactDOM.render(
     <Route path="/trimming" element={<Trimming />} />
     <Route path="/air-purification" element={<Air />} />
     <Route path="/water-purification" element={<Water />} />
+    <Route path="/climate-control" element={<CC />} />
+    <Route path="/hydroponics" element={<Hydroponics />} />
 
    </Routes>
   </HashRouter>,
