@@ -9,6 +9,8 @@ import ItemUpgraded from "./ItemUpgraded.jsx";
 import hydrofarm from "../images/logos/anden.png";
 import anden from "../images/anden/277VAC.png";
 
+import quest from "../images/logos/quest.png";
+
 export default function CC(props) {
   return (
     <>
@@ -23,6 +25,10 @@ export default function CC(props) {
     media_img={anden}
     item="Anden 277VAC Dehumidifier"
     malt="Anden 277VAC Dehumidifier" />
+
+    <ItemUpgraded src={quest}
+    href="https://www.questclimate.com/"
+    alt="Quest" />
 
     <Footer />
     </>

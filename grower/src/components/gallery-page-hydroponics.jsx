@@ -54,7 +54,7 @@ export default function GalleryPageHydroponics(props) {
     item1="Dosatron Doser - 11 GPM"
     malt1="Dosatron Water Powered Doser 11"
     media_img2={widelip}
-    item='Wide Lip Bucket - 10"'
+    item2='Wide Lip Bucket - 10"'
     otherProducts="Other Products:"
     otherItems="Dosatron Doser - 14 GPM" />
 

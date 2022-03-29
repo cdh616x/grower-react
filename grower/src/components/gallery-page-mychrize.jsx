@@ -56,6 +56,7 @@ export default function GalleryPageMychrize(props) {
       alt="Fish Sh!t Organic Soil Fertilizer"
       producttype="Organic Soil Conditioner"
       media_img100={fishshit}
+      item100="Organic Soil Spray"
       malt100="Fish Sh!t Organic Soil Fertilizer" />
 
       <ItemUpgraded src={realgrowlogo}
