@@ -52,6 +52,26 @@ import athMild from "../images/athena/mildew.png";
 import mighty from "../images/npk-industries/mighty.png";
 import wash from "../images/npk-industries/wash.png";
 
+import beesafe from "../images/organicide/beesafe.png";
+import plntDoc from "../images/organicide/plant-doctor.png";
+
+import banish from "../images/supreme/banish.png";
+import smite from "../images/supreme/smite.png";
+
+import fogger from "../images/doom/fogger.png";
+import ko from "../images/doom/knock-out.png";
+import form420 from "../images/doom/formule420.png";
+
+import dunks from "../images/summit/dunks.png";
+import bits from "../images/summit/bits.png";
+
+import yellow from "../images/seabright/yellow.png";
+import blue from "../images/seabright/blue.png";
+
+import _203 from "../images/sns/203.png";
+import _209 from "../images/sns/209.png";
+import _217c from "../images/sns/217c.png";
+
 import montespray from "../images/monterey/insect-spray.png";
 import nuke from "../images/flying-skull/nuke.png";
 import plantwash from "../images/lost-coast/plant-wash.png";
@@ -61,12 +81,9 @@ import gognats from "../images/earth-juice/gognats.png";
 
 import regalia from "../images/regalia/fungicide.png";
 import exterminator from "../images/bigtime/exterminator.png";
-import banish_smite from "../images/supreme/supreme-bottles.png";
+
 import neemoil from "../images/dynagro/neem.png";
-import organicide from "../images/organicide/organicide.png";
-import dokdoom from "../images/doom/doktor-doom.png";
-import musquito from "../images/summit/musquito.png";
-import sticky from "../images/seabright/sticky-traps.png";
+
 import sns from "../images/sns/sns-prod.png";
 import eliminator from "../images/zymes/eliminator1.png";
 import cycoph from "../images/cyco/ph.png";
@@ -212,66 +229,95 @@ export default function Pesticides(props) {
     media_img100={exterminator}
     malt100="Big Time Exterminator" />
 
-    <PestItem src={orglablogo}
+    <ItemUpgraded src={orglablogo}
+    organic={omri}
     href="https://organiclabs.com/o/organocide-bee-safe-3-in-1-garden-spray/"
-    producttype="BeeSafe 3-1 Pesticide"
-    products1="Spray & Concentrate"
-    producttype2="Plant Doctor"
-    products21="Systemic Fungicide"
-    organic={omri}
-    media_img={organicide} />
+    producttype="Organocide Pesticide & Fungicide"
+    item="BeeSafe 3 in 1 Pesticide"
+    media_img={beesafe}
+    malt="Organocide Bee Safe 3 in 1 Pesticide"
+    item1="Plant Doctor Fungicide"
+    media_img1={plntDoc}
+    malt1="Organocide Plant Doctor" />
 
-    <PestItem src={supremelogo}
+    <ItemUpgraded src={supremelogo}
     href="https://supremegrowers.us/natural-pesticides.html"
-    producttype="Banish"
-    products1="Fungicide Concentrate"
-    producttype2="Smite"
-    products21="Spider Miticide Concentrate"
-    media_img={banish_smite} />
+    alt="Supreme Growers"
+    producttype="Natural Pesticides & Fungicides"
+    item="Fungicide Concentrate"
+    media_img={banish}
+    malt="Supreme Growers Banish Natural Fungicide Concentrate"
+    item1="Spider Miticide"
+    media_img1={smite}
+    malt1="Supreme Growers Smite Natural Miticide Concentrate" />
 
-    <PestItem src={dynalogo}
+    <ItemUpgraded src={dynalogo}
     href="https://dyna-gro.com/product/neem-oil/"
+    alt="Dyna-Gro Advanced Science Simplified"
     producttype="Neem Oil"
-    products1="Leaf Polish"
-    media_img={neemoil} />
+    item100="Natural Leaf Polish"
+    media_img100={neemoil}
+    malt100="Dyna-Gro Pure Neem Oil" />
 
-    <PestItem src={doomlogo}
+    <ItemUpgraded src={doomlogo}
     href="https://www.hawthornegc.com/shop/bybrand/doktor-doom"
-    producttype="Sprays"
-    products1="Total Release Fogger, Spider Mite Knock-Out"
-    producttype2="Formula 420"
-    products21="Professional 3-1 Pesticide Concentrate"
-    media_img={dokdoom} />
+    alt="Doktor Doom"
+    producttype="Pesticides"
+    item="Total Release Fogger"
+    media_img={fogger}
+    malt="Doktor Doom Total Release Fogger"
+    item1="Spider Mite Knock Out"
+    media_img1={ko}
+    malt1="Doktor Doom Spider Mite Knock Out Insecticide Plant Spray"
+    item2="Formule 420 3 in 1 Pesticide"
+    media_img2={form420}
+    malt2="Doktor Doom Formule 420 3 in 1 Pesticide" />
 
-    <PestItem src={summitlogo}
+    <ItemUpgraded src={summitlogo}
     href="https://summitchemical.com/mosquito-solutions/"
+    alt="Summit... responsible solutions."
     producttype="Mosquito Solutions"
-    products1="Mosquito Dunks"
-    products2="Musquito Bits"
-    media_img={musquito} />
+    item="Mosquito Dunks"
+    media_img={dunks}
+    malt="Summit Musquito Dunks"
+    item1="Musquito Bits"
+    media_img1={bits}
+    malt1="Summit Musquito Bits" />
 
-    <PestItem src={seabrightlogo}
+    <ItemUpgraded src={seabrightlogo}
     href="https://www.seabrightlabs.com/"
+    alt="Seabright Laboratories ...Earth friendly products"
     producttype="Sticky Insect Traps"
-    products1="Aphid/Whitefly Paper"
-    products2="Thrip/Leafminer Paper"
-    media_img={sticky} />
+    item="Aphid/Whitefly Trap"
+    media_img={yellow}
+    malt="Seabright Laboratories Sticky Aphid Whitefly Trap"
+    item1="Thrip/Leafminer Trap"
+    media_img1={blue}
+    malt1="Seabright Laboratories Sticky Thrip Leafminer Trap" />
 
-    <PestItem src={snslogo}
-    href="https://sierranaturalscience.com/shopping/"
-    producttype="OMRI Listed Pesticides"
-    products1="203 Root Drench"
-    products2="209 Systemic Pest Control"
-    products3="217c Spider Mite Control"
+    <ItemUpgraded src={snslogo}
     organic={omri}
-    media_img={sns} />
+    href="https://sierranaturalscience.com/shopping/"
+    alt="Sierra Natural Science - 'Science Engineered'"
+    producttype="Pesticides"
+    item="Root Drench"
+    media_img={_203}
+    malt="Sierra Natural Sciences 203 Root Drench"
+    item1="Systemic Pest Control"
+    media_img1={_209}
+    malt1="Sierra Natural Sciences 209 Systemic Pest Control"
+    item2="Spider Mite Control"
+    media_img2={_217c}
+    malt2="Sierra Natural Sciences 217c Spider Mite Control" />
 
-    <PestItem src={zymeslogo}
+    <ItemUpgraded src={zymeslogo}
+    organic={omri}
     href="https://doctorzymes.com/pesticide-free-insecticide.php"
-    producttype="Eliminator"
-    products1="Insecticide & Fungicide Concentrate"
-    products2="Insecticide & Fungicide Spray"
-    media_img={eliminator} />
+    alt="The Amazing Doctor Zymes"
+    producttype="Pesticide"
+    item100="Insecticide & Fungicide Concentrate"
+    media_img100={eliminator}
+    malt100="Doctor Zymes Eliminator Insecticide and Fungicide Concentrate" />
 
     <Footer />
     </>
