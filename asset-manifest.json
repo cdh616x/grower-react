@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/grower-react/static/css/main.5a0d694c.css",
-    "main.js": "/grower-react/static/js/main.6c430ed5.js",
+    "main.css": "/grower-react/static/css/main.86955501.css",
+    "main.js": "/grower-react/static/js/main.db424188.js",
     "static/js/787.69c46001.chunk.js": "/grower-react/static/js/787.69c46001.chunk.js",
     "static/media/house-sched.pdf": "/grower-react/static/media/house-sched.0e1e5a8232f8ae785669.pdf",
     "static/media/emerald-harvest-feed.pdf": "/grower-react/static/media/emerald-harvest-feed.63ae31d7ba13d1240089.pdf",
@@ -248,15 +248,14 @@
     "static/media/dte.png": "/grower-react/static/media/dte.6fb226543be7bf072bca.png",
     "static/media/lost-coast.png": "/grower-react/static/media/lost-coast.f35f72310ff0f4f28c94.png",
     "static/media/general-hydro.png": "/grower-react/static/media/general-hydro.8adae9891dc47b64d2bd.png",
+    "static/media/autopilot.png": "/grower-react/static/media/autopilot.82f226564cd512aebc2c.png",
     "static/media/ona.png": "/grower-react/static/media/ona.661fcbd20bedb63a9980.png",
     "static/media/roots.pdf": "/grower-react/static/media/roots.87019bd35da5cf2bddaa.pdf",
     "static/media/toms.png": "/grower-react/static/media/toms.becc9d1f4cea9416db34.png",
     "static/media/twister.png": "/grower-react/static/media/twister.2a7946c07c52c4be32d5.png",
     "static/media/gavita.png": "/grower-react/static/media/gavita.ff6e9619fbc839808201.png",
     "static/media/ces-logo.png": "/grower-react/static/media/ces-logo.27c2c06814bc1766410e.png",
-    "static/media/com.png": "/grower-react/static/media/com.e975eaaacad2b6668927.png",
     "static/media/oxyclone.png": "/grower-react/static/media/oxyclone.868815951fcdb64ce321.png",
-    "static/media/autopilot.png": "/grower-react/static/media/autopilot.15ee245b18d3725c36ae.png",
     "static/media/mother-earth.png": "/grower-react/static/media/mother-earth.ddd2ffc60b11a16c02a4.png",
     "static/media/ezclone.png": "/grower-react/static/media/ezclone.2a416896e00f56561e84.png",
     "static/media/dl-logo.png": "/grower-react/static/media/dl-logo.5f611d41a886c5c8e557.png",
@@ -272,6 +271,7 @@
     "static/media/bigtime.png": "/grower-react/static/media/bigtime.a6007eb736e0bb09595e.png",
     "static/media/mammoth-recolor.png": "/grower-react/static/media/mammoth-recolor.67afeace5b3b9f0291f4.png",
     "static/media/titan.png": "/grower-react/static/media/titan.2bb19f53f4ad6308eb35.png",
+    "static/media/com.png": "/grower-react/static/media/com.5ec49ca78cbeca86ce60.png",
     "static/media/harvestmore.png": "/grower-react/static/media/harvestmore.ee5a18bf2bf86b46a207.png",
     "static/media/phat.png": "/grower-react/static/media/phat.00044798d49a1ea20a9f.png",
     "static/media/active-aqua.png": "/grower-react/static/media/active-aqua.327ca832d6bfcdcb00c5.png",
@@ -279,17 +279,18 @@
     "static/media/ihort.png": "/grower-react/static/media/ihort.c9d5a39faa3ab9dfca8e.png",
     "static/media/ideal-air.png": "/grower-react/static/media/ideal-air.8b325f4936e457b163f2.png",
     "static/media/gropro-logo.png": "/grower-react/static/media/gropro-logo.8ba6633a46cea9a2162d.png",
+    "static/media/hortilux-logo.png": "/grower-react/static/media/hortilux-logo.59f6c2bc51f9c5033ded.png",
     "static/media/milwaukee.png": "/grower-react/static/media/milwaukee.64fb49328bb8e15f80fc.png",
     "static/media/organic-labs.png": "/grower-react/static/media/organic-labs.d36739d1335db384f900.png",
     "static/media/mammoth.png": "/grower-react/static/media/mammoth.bd0d549d80d545df99b7.png",
     "static/media/npk.png": "/grower-react/static/media/npk.31ce8a5a18c0416aa13c.png",
     "index.html": "/grower-react/index.html",
-    "main.5a0d694c.css.map": "/grower-react/static/css/main.5a0d694c.css.map",
-    "main.6c430ed5.js.map": "/grower-react/static/js/main.6c430ed5.js.map",
+    "main.86955501.css.map": "/grower-react/static/css/main.86955501.css.map",
+    "main.db424188.js.map": "/grower-react/static/js/main.db424188.js.map",
     "787.69c46001.chunk.js.map": "/grower-react/static/js/787.69c46001.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a0d694c.css",
-    "static/js/main.6c430ed5.js"
+    "static/css/main.86955501.css",
+    "static/js/main.db424188.js"
   ]
 }
