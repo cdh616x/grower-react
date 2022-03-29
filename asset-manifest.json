@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/grower-react/static/css/main.86955501.css",
-    "main.js": "/grower-react/static/js/main.de853957.js",
+    "main.js": "/grower-react/static/js/main.4107fb4a.js",
     "static/js/787.69c46001.chunk.js": "/grower-react/static/js/787.69c46001.chunk.js",
     "static/media/house-sched.pdf": "/grower-react/static/media/house-sched.0e1e5a8232f8ae785669.pdf",
     "static/media/emerald-harvest-feed.pdf": "/grower-react/static/media/emerald-harvest-feed.63ae31d7ba13d1240089.pdf",
@@ -16,7 +16,6 @@
     "static/media/athena-sched.pdf": "/grower-react/static/media/athena-sched.c1f554e2936660263988.pdf",
     "static/media/biobizz.pdf": "/grower-react/static/media/biobizz.0590919a7d3710e24338.pdf",
     "static/media/hco-full.jpeg": "/grower-react/static/media/hco-full.56ea7ca11272c2818225.jpeg",
-    "static/media/canncontrol.png": "/grower-react/static/media/canncontrol.de73fdad462e2af37782.png",
     "static/media/royal-gold.png": "/grower-react/static/media/royal-gold.0a769c8b7ad62b7da8a7.png",
     "static/media/house-garden.png": "/grower-react/static/media/house-garden.5856b8f380ba030c758a.png",
     "static/media/cyco.pdf": "/grower-react/static/media/cyco.2bab102dc2353c90c225.pdf",
@@ -42,7 +41,6 @@
     "static/media/kokobop.png": "/grower-react/static/media/kokobop.bdb0aa4a5e51d950c370.png",
     "static/media/trimbag.png": "/grower-react/static/media/trimbag.aa7b2a9a07cf2be2a657.png",
     "static/media/ocean-forest.png": "/grower-react/static/media/ocean-forest.6526e8466870700fd29f.png",
-    "static/media/npk-industries.png": "/grower-react/static/media/npk-industries.f08ccb5f0303bbdafe52.png",
     "static/media/strawberry-fields.png": "/grower-react/static/media/strawberry-fields.02cdb7b370fc903eb872.png",
     "static/media/maxfan.png": "/grower-react/static/media/maxfan.fad33b3507dfdcb70b2e.png",
     "static/media/clips.png": "/grower-react/static/media/clips.31546e6ea746c7eba8c4.png",
@@ -88,6 +86,7 @@
     "static/media/tupur.png": "/grower-react/static/media/tupur.4c79ca8390d5be0d0287.png",
     "static/media/b1.png": "/grower-react/static/media/b1.5825da208f9d5a8f803d.png",
     "static/media/trellis-netting.png": "/grower-react/static/media/trellis-netting.cccc960e631b850838b0.png",
+    "static/media/mighty.png": "/grower-react/static/media/mighty.678454f0087983e98aba.png",
     "static/media/supreme-bottles.png": "/grower-react/static/media/supreme-bottles.a30c451c488fdd9c8f32.png",
     "static/media/monitor.png": "/grower-react/static/media/monitor.3d8f7037b0de479f7500.png",
     "static/media/smart-float.png": "/grower-react/static/media/smart-float.0ad59406998db569bda9.png",
@@ -98,6 +97,7 @@
     "static/media/superthrive.png": "/grower-react/static/media/superthrive.285f98bee8c7f23d45c6.png",
     "static/media/grow-ba.png": "/grower-react/static/media/grow-ba.38bc4329060d930bfe98.png",
     "static/media/sns-prod.png": "/grower-react/static/media/sns-prod.d686ee85a99f70d4a858.png",
+    "static/media/wash.png": "/grower-react/static/media/wash.b9b2f8f823dba3b8ec62.png",
     "static/media/clone.png": "/grower-react/static/media/clone.dd1184d0991c74776b45.png",
     "static/media/dirtpot.png": "/grower-react/static/media/dirtpot.4793d5df235ea7bcbfdb.png",
     "static/media/coco.png": "/grower-react/static/media/coco.7e34099a74a2dc4a22c0.png",
@@ -107,7 +107,6 @@
     "static/media/stealthRO.png": "/grower-react/static/media/stealthRO.0b4929ea7eaf164785ff.png",
     "static/media/roi720.png": "/grower-react/static/media/roi720.b150cac4b061383366d5.png",
     "static/media/heatmat.png": "/grower-react/static/media/heatmat.499be5fbdd0ff43e9cb9.png",
-    "static/media/fungicide.png": "/grower-react/static/media/fungicide.802456222f506d33e13a.png",
     "static/media/ces-full.png": "/grower-react/static/media/ces-full.5cad74c8475d6837c4c6.png",
     "static/media/tea.png": "/grower-react/static/media/tea.8e3e1ce6a877eb108109.png",
     "static/media/waterChiller.png": "/grower-react/static/media/waterChiller.2ca067ba26ead6c41f6e.png",
@@ -127,8 +126,8 @@
     "static/media/powerveg.png": "/grower-react/static/media/powerveg.2d0b5fc65274ea22e3ca.png",
     "static/media/organicide.png": "/grower-react/static/media/organicide.ffe444c77eba71bdd936.png",
     "static/media/dwc.png": "/grower-react/static/media/dwc.c99429e0ed10bff5051b.png",
+    "static/media/fungicide.png": "/grower-react/static/media/fungicide.f40e9a4ee943e6e6db44.png",
     "static/media/optiblue.png": "/grower-react/static/media/optiblue.ad14aab1839527370528.png",
-    "static/media/athena-pest.png": "/grower-react/static/media/athena-pest.e91244b8fb4142d3e048.png",
     "static/media/tabletop.png": "/grower-react/static/media/tabletop.718b97f22148bcf1b11b.png",
     "static/media/netting.png": "/grower-react/static/media/netting.83e65a5ff086b58468e9.png",
     "static/media/co2-system.png": "/grower-react/static/media/co2-system.a85695cd24dc019a0cbd.png",
@@ -143,6 +142,7 @@
     "static/media/hpcc.png": "/grower-react/static/media/hpcc.d549d102c6663301cc59.png",
     "static/media/timer.png": "/grower-react/static/media/timer.e032ba4d8fa6cbf13c3f.png",
     "static/media/kln.png": "/grower-react/static/media/kln.daade30e79e67c546f37.png",
+    "static/media/canncontrol.png": "/grower-react/static/media/canncontrol.9de3207c2d133cd0b4a4.png",
     "static/media/superhps.png": "/grower-react/static/media/superhps.dfa506698ef3a7feaeb7.png",
     "static/media/mini.png": "/grower-react/static/media/mini.962d4b274280ef34a241.png",
     "static/media/ph.png": "/grower-react/static/media/ph.12686b91a90166e02f52.png",
@@ -167,6 +167,7 @@
     "static/media/micronutes.png": "/grower-react/static/media/micronutes.bfcef065b2ceaa38922f.png",
     "static/media/botanicare.png": "/grower-react/static/media/botanicare.07b3910a113127435122.png",
     "static/media/co2.png": "/grower-react/static/media/co2.3cdb3e752c853e831ecf.png",
+    "static/media/mildew.png": "/grower-react/static/media/mildew.4ed62a42a1b310a8c6b6.png",
     "static/media/all-stages.png": "/grower-react/static/media/all-stages.404e53675cc76c59a3f8.png",
     "static/media/orca.png": "/grower-react/static/media/orca.057422a45f5c32d5ae05.png",
     "static/media/16.png": "/grower-react/static/media/16.b7fe0377a623a868f60e.png",
@@ -184,6 +185,7 @@
     "static/media/sun-system.png": "/grower-react/static/media/sun-system.d5304f6153d5e4994c99.png",
     "static/media/hades.png": "/grower-react/static/media/hades.af21c5b865acae7c8628.png",
     "static/media/smartpot.png": "/grower-react/static/media/smartpot.9f93e68db9543a22b548.png",
+    "static/media/ipm.png": "/grower-react/static/media/ipm.d352fd5002167ce1635c.png",
     "static/media/clearrez.png": "/grower-react/static/media/clearrez.26339eec7ac395c80225.png",
     "static/media/plant-wash.png": "/grower-react/static/media/plant-wash.1bad694fe266bf27e81a.png",
     "static/media/1930e.png": "/grower-react/static/media/1930e.f9e948846271eb64908d.png",
@@ -298,11 +300,11 @@
     "static/media/npk.png": "/grower-react/static/media/npk.31ce8a5a18c0416aa13c.png",
     "index.html": "/grower-react/index.html",
     "main.86955501.css.map": "/grower-react/static/css/main.86955501.css.map",
-    "main.de853957.js.map": "/grower-react/static/js/main.de853957.js.map",
+    "main.4107fb4a.js.map": "/grower-react/static/js/main.4107fb4a.js.map",
     "787.69c46001.chunk.js.map": "/grower-react/static/js/787.69c46001.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.86955501.css",
-    "static/js/main.de853957.js"
+    "static/js/main.4107fb4a.js"
   ]
 }
