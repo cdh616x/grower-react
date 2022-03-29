@@ -225,6 +225,15 @@ input, .input {
   margin-left: 1%;
 }
 
+.onehundred {
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+.text {
+  padding-bottom: 2%;
+}
+
 textarea {
   margin-left: 1%;
   padding: .5% .5% 10%;

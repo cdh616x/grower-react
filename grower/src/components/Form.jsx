@@ -2,6 +2,8 @@
 
 import React, { useState } from "react";
 
+import {Button, TextField, TextArea } from '@mui/material/';
+
 export default function ContactForm() {
   const [title, setTitle] = useState("Send us an email!");
   const [status, setStatus] = useState("Submit");
@@ -33,16 +35,16 @@ export default function ContactForm() {
     <>
     <h1 className="input">{title}</h1>
     <form onSubmit={handleSubmit}>
-      <div>
-        <input type="text" id="name" placeholder="Name" required />
+      <div className="text">
+        <TextField className="onehundred" type="text" id="name" label="Name" variant="outlined" required />
       </div>
-      <div>
-        <input type="email" id="email" placeholder="Return email address" required />
+      <div className="text">
+        <TextField className="onehundred" type="email" id="email" label="Return email address" variant="outlined" required />
       </div>
-      <div>
-        <textarea id="message" placeholder="Please construct your message here!" required />
+      <div className="text">
+        <TextField multiline rows={5} className="onehundred" id="message" label="Please construct your message here!" variant="outlined" required />
       </div>
-      <button className="submit" type="submit">{status}</button>
+      <Button className="submit" type="submit" variant="outlined">{status}</Button>
     </form>
     </>
   );
