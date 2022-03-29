@@ -362,13 +362,6 @@ export default function GalleryPageNutrients(props) {
      products21="Grow Dots"
      organic={organic} />
 
-     <Item src={greatwhitelogo}
-     logo_alt="Plant Success: Great White"
-     href="https://plantrevolution.com/products/great-white"
-     producttype="From Plant Success:"
-     products1="Great White Premium Mycorrhizae® - with Beneficial Bacteria and Trichoderma"
-     organic={organic} />
-
      <Item src={madlogo}
      logo_alt="Mad Farmer"
      title="Mad Farmer"

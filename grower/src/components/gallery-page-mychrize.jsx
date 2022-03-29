@@ -37,6 +37,7 @@ export default function GalleryPageMychrize(props) {
       <h1 className="page-title">{props.pagetitle}</h1>
 
       <ItemUpgraded src={successlogo}
+      organic={omri}
       href="https://plantrevolution.com/products/orca"
       alt="Plant Success"
       producttype="Premium Mycorrhizae"

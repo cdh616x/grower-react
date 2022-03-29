@@ -6,6 +6,7 @@ import Navbar from "./Navbar2.jsx";
 import Footer from "./Footer.jsx";
 import Item from "./Item.jsx";
 import PestItem from "./PestItem.jsx";
+import ItemUpgraded from "./ItemUpgraded.jsx";
 
 import omri from "../images/omri.png";
 
@@ -36,8 +37,15 @@ import zymeslogo from "../images/logos/zymes.png";
 
 import pestout from "../images/safergro/pestout.png";
 import dont_bug from "../images/foxfarms/fox-pesticide.png";
-import safe_fung from "../images/safer-brand/saferbrand.png";
-import bioclean from "../images/biogreen/clean.png";
+
+import safeSpray from "../images/safer-brand/spray.png";
+import safeConc from "../images/safer-brand/concentrate.png";
+
+import dntBugMe from "../images/foxfarms/dont-bug-me.png";
+import bshDoctr from "../images/foxfarms/bushdoctor.png";
+
+import spr_Conc from "../images/biogreen/spray-and-concentrate.png";
+
 import montespray from "../images/monterey/insect-spray.png";
 import nuke from "../images/flying-skull/nuke.png";
 import plantwash from "../images/lost-coast/plant-wash.png";
@@ -66,65 +74,88 @@ export default function Pesticides(props) {
 
     <h1 className="page-title">{props.pagetitle}</h1>
 
-    <PestItem src={saferlogo}
+    <ItemUpgraded src={saferlogo}
+    organic={omri}
     href="https://safergro.com/products/pest-out"
-    producttype="Pest Out"
-    products1="Broad spectrum Pesticide"
-    organic={omri}
-    media_img={pestout} />
+    alt="SaferGro Online Store"
+    producttype="Broad Spectrum Pesticide"
+    item100="Pest Out"
+    media_img100={pestout}
+    malt100="Safer Gro Pest Out Broad Spectrum Pesiticide" />
 
-    <PestItem src={hydrologo}
+    <ItemUpgraded src={hydrologo}
+    organic={omri}
     href="https://generalhydroponics.com/products/azamax/"
-    producttype="Azamax"
-    products1="Botanical Insecticide, Miticide, & Nematicide"
-    media_img={azamax} />
+    producttype="Botanical Pesticide"
+    item100="Azamax"
+    media_img100={azamax}
+    malt100="Azamax Botanical Pesticide from HydroFarm" />
 
-    <PestItem src={saferbrandlogo}
-    href="https://www.saferbrand.com/store/garden/plant-disease-prevention-fungicide"
-    producttype="Garden Fungicide"
-    products1="Spray & Concentrate"
+    <ItemUpgraded src={saferbrandlogo}
     organic={omri}
-    media_img={safe_fung} />
+    href="https://www.saferbrand.com/store/garden/plant-disease-prevention-fungicide"
+    alt="Safer Brand"
+    producttype="Garden Fungicide"
+    item="Fungicide Spray"
+    media_img={safeSpray}
+    malt="Safer Brand Garden Fungicide Spray"
+    item1="Fungicide Concentrate"
+    media_img1={safeConc}
+    malt1="Safer Brand Garden Fungicide Concentrate" />
 
-    <PestItem src={foxlogo}
+    <ItemUpgraded src={foxlogo}
+    organic={omri}
+    alt="Fox Farm"
     href="https://foxfarm.com/product/dont-bug-me-insecticide"
-    producttype="Don't Bug Me"
-    products1="Insect Spray"
-    producttype2="BushDoctor: Force of Nature"
-    products21="OMRI Listed Fungicide"
-    media_img={dont_bug} />
+    producttype="Fungicide | Insecticide"
+    item="Don't Bug Me Spray"
+    media_img={dntBugMe}
+    malt="Fox Farm Don't Bug Me Insect Spray"
+    item1="Force of Nature"
+    media_img1={bshDoctr}
+    malt1="Bush Doctor Force of Nature Fungicide" />
 
-    <PestItem src={earjuilogo}
+    <ItemUpgraded src={earjuilogo}
     href="https://www.earthjuice.com/products/gognats-liquid-poison-free-pest-control"
-    producttype="goGnats Insect Control"
-    products1="Alternative Liquid Concentrate"
-    media_img={gognats} />
+    alt="Earth Juice"
+    producttype="Insecticide"
+    item100="GoGnats Liquid Insect Control"
+    media_img100={gognats}
+    malt100="Earth Juice GoGnats Liquid Insect Control" />
 
-    <PestItem src={biogreenlogo}
+    <ItemUpgraded src={biogreenlogo}
     href="https://biogreenclean.com/"
-    producttype="Clean"
-    products1="Natural Cleaner, Spray & Concentrate"
-    media_img={bioclean} />
+    alt="Bio Green Clean - World's Toughest All Natural Cleaner"
+    producttype="Multipurpose Equipment Cleaner"
+    item100="Spray & Concentrate"
+    media_img100={spr_Conc}
+    malt100="Bio Green Clean - Spray and Concentrate" />
 
-    <PestItem src={montlogo}
+    <ItemUpgraded src={montlogo}
+    organic={omri}
+    alt="Monterey Lawn & Garden"
     href="https://www.montereylawngarden.com/product/monterey-garden-insect-spray/"
     producttype="Broad Spectrum Insecticide"
-    products1="Garden Insect Spray"
-    organic={omri}
-    media_img={montespray} />
+    item100="Garden Insect Spray"
+    media_img100={montespray}
+    malt100="Monterey Lawn & Garden Garden Insect Spray" />
 
-    <PestItem src={flyinglogo}
+    <ItemUpgraded src={flyinglogo}
+    organic={omri}
     href="https://www.flyingskull.net/NukeEm.html"
-    producttype="Nuke Em"
-    products1="Insecticide & Fungicide"
-    organic={omri}
-    media_img={nuke} />
+    alt="Flying Skull Plant Products"
+    producttype="Insecticide & Fungicide"
+    item100="Nuke Em"
+    media_img100={nuke}
+    malt100="Flying Skull Plant Products Nuke Em Insectice & Fungicide" />
 
-    <PestItem src={loscoslogo}
+    <ItemUpgraded src={loscoslogo}
     href="https://www.lostcoastplanttherapy.com/collections/home-page"
-    producttype="Plant Wash Concentrate"
-    products1="Broad Spectrum Insecticide & Fungicide"
-    media_img={plantwash}/>
+    alt="Lost Coast Plant Therapy"
+    item100="Plant Wash Concentrate"
+    producttype="Broad Spectrum Insecticide & Fungicide"
+    media_img100={plantwash}
+    malt100="Lost Coast Plant Therapy Plant Wash Concentrate" />
 
     <PestItem src={athenalogo}
     href="https://www.athenaproducts.com/ipm"
