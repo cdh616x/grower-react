@@ -46,14 +46,19 @@ import bshDoctr from "../images/foxfarms/bushdoctor.png";
 
 import spr_Conc from "../images/biogreen/spray-and-concentrate.png";
 
+import ipm from "../images/athena/ipm.png";
+import athMild from "../images/athena/mildew.png";
+
+import mighty from "../images/npk-industries/mighty.png";
+import wash from "../images/npk-industries/wash.png";
+
 import montespray from "../images/monterey/insect-spray.png";
 import nuke from "../images/flying-skull/nuke.png";
 import plantwash from "../images/lost-coast/plant-wash.png";
-import ipm from "../images/athena/athena-pest.png";
 import canncontrol from "../images/mammoth/canncontrol.png";
 import azamax from "../images/general-hydroponics/azamax1.png";
 import gognats from "../images/earth-juice/gognats.png";
-import npk from "../images/npk-industries/npk-industries.png";
+
 import regalia from "../images/regalia/fungicide.png";
 import exterminator from "../images/bigtime/exterminator.png";
 import banish_smite from "../images/supreme/supreme-bottles.png";
@@ -157,42 +162,55 @@ export default function Pesticides(props) {
     media_img100={plantwash}
     malt100="Lost Coast Plant Therapy Plant Wash Concentrate" />
 
-    <PestItem src={athenalogo}
+    <ItemUpgraded src={athenalogo}
     href="https://www.athenaproducts.com/ipm"
-    producttype="IPM"
-    products1="Broad Spectrum Insecticide and Pesticide"
-    producttype2="Mildew Control"
-    media_img={ipm} />
+    alt="Athena"
+    producttype="Garden Threat Control"
+    item="IPM"
+    media_img={ipm}
+    malt="Athena IPM"
+    item1="Mildew Control"
+    media_img1={athMild}
+    malt1="Athena Mildew Control" />
 
-    <PestItem src={mammothlogo}
+    <ItemUpgraded src={mammothlogo}
     href="https://mammothmicrobes.com/product/mammoth-canncontrol/"
-    producttype="CannControl"
-    products1="Effective against mold, mildew, mites & insects"
-    media_img={canncontrol} />
+    alt="Mammoth"
+    producttype="Pesticide & Fungicide"
+    item100="CannControl"
+    media_img100={canncontrol}
+    malt100="Mammoth CannControl" />
 
     <Item
     title="Wipe Out" />
 
-    <PestItem src={npklogo}
+    <ItemUpgraded src={npklogo}
     href="https://npk-industries.com/collections/controls"
-    producttype="Mighty"
-    products1="Spider Miticide Concentrate"
-    producttype2="PM Wash"
-    products21="Plant Cleaner Concentrate"
-    media_img={npk} />
+    alt="NPK Industries"
+    producttype="Garden Control"
+    item="Spider Miticide Concentrate"
+    media_img={mighty}
+    malt="NPK Industries Mighty"
+    item1="Plant Cleaner Concentrate"
+    media_img1={wash}
+    malt1="NPK Industries PM Wash" />
 
-    <PestItem src={marronelogo}
-    href="https://marronebio.com/products/regalia/"
-    producttype="Regalia"
-    products1="Bio-Fungicide"
+    <ItemUpgraded src={marronelogo}
     organic={omri}
-    media_img={regalia} />
+    href="https://marronebio.com/products/regalia/"
+    alt="Marrone Bio Innovations"
+    producttype="Bio-Fungicide"
+    item100="Bio-Fungicide"
+    media_img100={regalia}
+    malt100="Marrone Bio Innovations Regalia" />
 
-    <PestItem src={bigtimelogo}
-    producttype="Exterminator"
-    products1="Pesticide Concentrate"
+    <ItemUpgraded src={bigtimelogo}
+    producttype="Pesticide Concentrate"
+    alt="Big Time"
+    item100="Exterminator"
     href="https://bigtimezyme.com/shop/product/exterminator/"
-    media_img={exterminator} />
+    media_img100={exterminator}
+    malt100="Big Time Exterminator" />
 
     <PestItem src={orglablogo}
     href="https://organiclabs.com/o/organocide-bee-safe-3-in-1-garden-spray/"
