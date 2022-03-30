@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 
-import {Button, TextField, TextArea } from '@mui/material/';
+import {Button, TextField } from '@mui/material/';
 
 export default function ContactForm() {
   const [title, setTitle] = useState("Send us an email!");

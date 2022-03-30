@@ -231,8 +231,7 @@ input, .input {
 }
 
 .text {
-  padding-bottom: 2%;
-  padding-left: 2%;
+  padding: 0 2% 2%;
 }
 
 textarea {

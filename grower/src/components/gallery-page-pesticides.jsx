@@ -84,7 +84,6 @@ import exterminator from "../images/bigtime/exterminator.png";
 
 import neemoil from "../images/dynagro/neem.png";
 
-import sns from "../images/sns/sns-prod.png";
 import eliminator from "../images/zymes/eliminator1.png";
 import cycoph from "../images/cyco/ph.png";
 import olympus from "../images/nectar/olympus.png";

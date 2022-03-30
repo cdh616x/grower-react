@@ -6,10 +6,21 @@ import Footer from "./Footer.jsx";
 
 import ItemUpgraded from "./ItemUpgraded.jsx";
 
-import hydrofarm from "../images/logos/anden.png";
-import anden from "../images/anden/277VAC.png";
+import andenlogo from "../images/logos/anden.png";
+import _210 from "../images/anden/210.png";
+import _320 from "../images/anden/320.png";
 
 import quest from "../images/logos/quest.png";
+import __110 from "../images/quest/110.png";
+import __225 from "../images/quest/225.png";
+import humidistat from "../images/quest/humidistat.png";
+import mover from "../images/quest/mover.png";
+
+import activeAir from "../images/logos/active-air.png";
+import _110 from "../images/active-air/110.png";
+import _190 from "../images/active-air/190.png";
+
+import idealAir from '../images/logos/ideal-air.png';
 
 export default function CC(props) {
   return (
@@ -18,17 +29,49 @@ export default function CC(props) {
 
     <h1 className="page-title">{props.pagetitle}</h1>
 
-    <ItemUpgraded src={hydrofarm}
+    <ItemUpgraded src={andenlogo}
     href="https://www.anden.com/product_category/dehumidifier/"
     alt="Hydrofarm Climate Control"
     producttype="Dehumidifiers"
-    media_img={anden}
-    item="Anden 277VAC Dehumidifier"
-    malt="Anden 277VAC Dehumidifier" />
+    media_img={_210}
+    item="Anden 210 Industrial Dehumidifier"
+    malt="Anden 210 Pints/Day Industrial Dehumidifier"
+    media_img1={_320}
+    item1="Anden 320 Industrial Dehumidifier"
+    malt1="Anden 320 Pints/Day Industrial Dehumidifier" />
 
     <ItemUpgraded src={quest}
     href="https://www.questclimate.com/"
-    alt="Quest" />
+    alt="Quest"
+    producttype="Dehumidifiers"
+    item="Dual Overhead Dehumidifier 110"
+    media_img={__110}
+    malt="Quest Dual 110 Overhead Dehumidifier"
+    item1="Dual Overhead Dehumidifier 225"
+    media_img1={__225}
+    malt1="Quest Dual 225 Overhead Dehumidifier"
+    item2="Wall Mounted Humidistat"
+    media_img2={humidistat}
+    malt2="Quest Wall Mounted Humidistat"
+    item3="F9 Industrial Air Mover"
+    media_img3={mover}
+    malt3="Quest F9 Industrial Air Mover/Fan"
+    otherProducts="Other Products:"
+    otherItems="165, 205 Overhead Dehumidifier"
+    otherItems1="H5 HEPA Air Mover" />
+
+    <ItemUpgraded src={activeAir}
+    href="https://www.hydrofarm.com/p/active-air-dehumidifier-110-pint/aadhc1002p"
+    alt="Active Air"
+    producttype="Dehumidifiers"
+    item="Dehumidifier, 110 Pint"
+    media_img={_110}
+    malt="Active Air Dehumidifier, 110 Pint"
+    item1="Dehumidifer, 190 Pint"
+    media_img1={_190}
+    malt1="Active Air Dehumidifier, 190 Pint" />
+
+    <ItemUpgraded src={idealAir} />
 
     <Footer />
     </>

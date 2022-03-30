@@ -36,6 +36,11 @@ import vacuum from "../images/harvestkeeper/vacuum.png";
 import madfarmer from "../images/logos/mad-farmer.png";
 import gloves from "../images/mad-farmer/gloves.png";
 
+import fiskars from "../images/logos/fiskars.png";
+import orange from "../images/fiskars/orange.png";
+import sharpener from "../images/fiskars/sharp.png";
+
+
 export default function GalleryPageTrimming(props) {
   return (
     <>
@@ -63,6 +68,17 @@ export default function GalleryPageTrimming(props) {
      otherProducts="Other Products: "
      otherItems="Trim Fast Curved Pruners"
      otherItems1="Trim Fast Anti-Fatigue Pruners" />
+
+     <ItemUpgraded src={fiskars}
+     href="https://www.fiskars.com/en-us/gardening-and-yard-care/ideas-and-how-tos/pruning-and-trimming"
+     alt="Fiskars"
+     producttype="Trimming Products"
+     item="Micro Tip Pruning Snips"
+     media_img={orange}
+     malt="Fiskars Softouch Micro Tip Pruning Snips"
+     item1="Universal Scissors Sharpener"
+     media_img1={sharpener}
+     malt1="Fiskars Universal Scissors Sharpener" />
 
      <ItemUpgraded src={tomslogo}
      alt="Tom's Tumbeler"
