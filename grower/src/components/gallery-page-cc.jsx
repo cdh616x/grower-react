@@ -19,8 +19,13 @@ import mover from "../images/quest/mover.png";
 import activeAir from "../images/logos/active-air.png";
 import _110 from "../images/active-air/110.png";
 import _190 from "../images/active-air/190.png";
+import canister from "../images/active-air/canister.png";
 
 import idealAir from '../images/logos/ideal-air.png';
+import dehume from "../images/idealair/dehumidifiers.png";
+import hume from "../images/idealair/humidifier.png";
+import handc from "../images/idealair/handc.png";
+import overhead from "../images/idealair/overhead.png";
 
 export default function CC(props) {
   return (
@@ -63,15 +68,33 @@ export default function CC(props) {
     <ItemUpgraded src={activeAir}
     href="https://www.hydrofarm.com/p/active-air-dehumidifier-110-pint/aadhc1002p"
     alt="Active Air"
-    producttype="Dehumidifiers"
+    producttype="Dehumidifiers & CO2"
     item="Dehumidifier, 110 Pint"
     media_img={_110}
     malt="Active Air Dehumidifier, 110 Pint"
     item1="Dehumidifer, 190 Pint"
     media_img1={_190}
-    malt1="Active Air Dehumidifier, 190 Pint" />
+    malt1="Active Air Dehumidifier, 190 Pint"
+    item2="20 & 50lbs CO2 Tanks"
+    media_img2={canister}
+    malt2="Ideal Air CO2 Tanks" />
 
-    <ItemUpgraded src={idealAir} />
+    <ItemUpgraded src={idealAir}
+    alt="Ideal Air Growing Climate Solutions"
+    href="https://www.ideal-air.com/"
+    producttype="Climate Controllers"
+    item="22, 30, & 50 Pint Dehumidifiers"
+    media_img={dehume}
+    malt="Ideal Air Dehumidifiers"
+    item1="Humidifier"
+    media_img1={hume}
+    malt1="Ideal Air Humidifiers"
+    item2="24,000 BTU Heating & Cooling"
+    media_img2={handc}
+    malt2="Ideal Air Heating & Coolin"
+    item3="Ceiling Mount Heating & Cooling Cassette"
+    media_img3={overhead}
+    malt3="Ideal Air Pro-Dual 24,000 BTU Multi-Zone Heating & Cooling Ceiling Mount Cassette" />
 
     <Footer />
     </>
