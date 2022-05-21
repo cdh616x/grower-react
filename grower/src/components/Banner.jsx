@@ -21,7 +21,6 @@ export default function Banner() {
        <h2>4252 14 Mile Rd, Rockford MI</h2>
        <h2>growersedge1@gmail.com</h2>
        <h2><a href="https://www.facebook.com/growersedge/" target="_blank"><i class="fab fa-facebook"></i></a></h2>
-       <Sign />
       </div>
      </div>
     </>
