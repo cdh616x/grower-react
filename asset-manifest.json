@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.47652e38.css",
-    "main.js": "/static/js/main.14df19c7.js",
+    "main.css": "/static/css/main.c89b209a.css",
+    "main.js": "/static/js/main.dce13a56.js",
     "static/js/787.69c46001.chunk.js": "/static/js/787.69c46001.chunk.js",
     "static/media/house-sched.pdf": "/static/media/house-sched.0e1e5a8232f8ae785669.pdf",
     "static/media/emerald-harvest-feed.pdf": "/static/media/emerald-harvest-feed.63ae31d7ba13d1240089.pdf",
@@ -20,7 +20,6 @@
     "static/media/house-garden.png": "/static/media/house-garden.5856b8f380ba030c758a.png",
     "static/media/cyco.pdf": "/static/media/cyco.2bab102dc2353c90c225.pdf",
     "static/media/adv-nut.pdf": "/static/media/adv-nut.d1bdf09b208d8b3c78b6.pdf",
-    "static/media/fox-pesticide.png": "/static/media/fox-pesticide.848b54d106855c822e60.png",
     "static/media/fox-sched.jpeg": "/static/media/fox-sched.b73fe6a3298395d3015a.jpeg",
     "static/media/wiggle-worm.png": "/static/media/wiggle-worm.ed9f43b9ed25b232c776.png",
     "static/media/greenfield.png": "/static/media/greenfield.101f2f8e6c6b714a25ce.png",
@@ -323,12 +322,12 @@
     "static/media/mammoth.png": "/static/media/mammoth.bd0d549d80d545df99b7.png",
     "static/media/npk.png": "/static/media/npk.31ce8a5a18c0416aa13c.png",
     "index.html": "/index.html",
-    "main.47652e38.css.map": "/static/css/main.47652e38.css.map",
-    "main.14df19c7.js.map": "/static/js/main.14df19c7.js.map",
+    "main.c89b209a.css.map": "/static/css/main.c89b209a.css.map",
+    "main.dce13a56.js.map": "/static/js/main.dce13a56.js.map",
     "787.69c46001.chunk.js.map": "/static/js/787.69c46001.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.47652e38.css",
-    "static/js/main.14df19c7.js"
+    "static/css/main.c89b209a.css",
+    "static/js/main.dce13a56.js"
   ]
 }
