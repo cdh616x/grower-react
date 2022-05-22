@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c89b209a.css",
-    "main.js": "/static/js/main.dce13a56.js",
+    "main.js": "/static/js/main.1c21eb50.js",
     "static/js/787.69c46001.chunk.js": "/static/js/787.69c46001.chunk.js",
     "static/media/house-sched.pdf": "/static/media/house-sched.0e1e5a8232f8ae785669.pdf",
     "static/media/emerald-harvest-feed.pdf": "/static/media/emerald-harvest-feed.63ae31d7ba13d1240089.pdf",
@@ -192,7 +192,6 @@
     "static/media/light-controller.png": "/static/media/light-controller.b81837a18cd3e1c21163.png",
     "static/media/stack.png": "/static/media/stack.52d7031528034747d8b1.png",
     "static/media/1700e.png": "/static/media/1700e.5dccb05afcc9440aac01.png",
-    "static/media/closed.jpeg": "/static/media/closed.f64c8540f5569a408dd3.jpeg",
     "static/media/technaflora.png": "/static/media/technaflora.03a586ac27f7800783bc.png",
     "static/media/doom.png": "/static/media/doom.95b1dc7f5207549ec3f0.png",
     "static/media/cfm720.png": "/static/media/cfm720.a22d816e0b5149bc6ead.png",
@@ -213,7 +212,6 @@
     "static/media/vegamatrix.pdf": "/static/media/vegamatrix.2bd751c037d684f87228.pdf",
     "static/media/green-trimmer.png": "/static/media/green-trimmer.7efbf4a73ded16f5440c.png",
     "static/media/logo.png": "/static/media/logo.84178e6fa869af83bca9.png",
-    "static/media/open.jpeg": "/static/media/open.d5524d7777b8a031dd76.jpeg",
     "static/media/jumpstart.png": "/static/media/jumpstart.fbc8fb68f5bdb3acb71a.png",
     "static/media/twist.png": "/static/media/twist.310eabf2785035391c12.png",
     "static/media/sumppump.png": "/static/media/sumppump.94c95a0c239173bfadb4.png",
@@ -304,7 +302,6 @@
     "static/media/centurion.png": "/static/media/centurion.02763f0250168cf3213d.png",
     "static/media/promix.png": "/static/media/promix.7f69e78594ccd4208987.png",
     "static/media/bigtime.png": "/static/media/bigtime.a6007eb736e0bb09595e.png",
-    "static/media/mammoth-recolor.png": "/static/media/mammoth-recolor.67afeace5b3b9f0291f4.png",
     "static/media/titan.png": "/static/media/titan.2bb19f53f4ad6308eb35.png",
     "static/media/com.png": "/static/media/com.5ec49ca78cbeca86ce60.png",
     "static/media/harvestmore.png": "/static/media/harvestmore.ee5a18bf2bf86b46a207.png",
@@ -323,11 +320,11 @@
     "static/media/npk.png": "/static/media/npk.31ce8a5a18c0416aa13c.png",
     "index.html": "/index.html",
     "main.c89b209a.css.map": "/static/css/main.c89b209a.css.map",
-    "main.dce13a56.js.map": "/static/js/main.dce13a56.js.map",
+    "main.1c21eb50.js.map": "/static/js/main.1c21eb50.js.map",
     "787.69c46001.chunk.js.map": "/static/js/787.69c46001.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c89b209a.css",
-    "static/js/main.dce13a56.js"
+    "static/js/main.1c21eb50.js"
   ]
 }
