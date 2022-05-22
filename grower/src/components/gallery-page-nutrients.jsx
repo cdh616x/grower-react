@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import Navbar from "./Navbar2.jsx";
+import Navbar from "./Navbar.jsx";
 import Footer from "./Footer.jsx";
 import Item from "./Item.jsx";
 import PestItem from "./PestItem.jsx";
@@ -85,10 +85,11 @@ import fish from "../images/maxicrop/liquid-fish.png";
 import micro from "../images/sprayngro/micronutes.png";
 
 export default function GalleryPageNutrients(props) {
+  const inventory = "inventory";
   return(
     <>
     <div className="gallery">
-    <Navbar />
+    <Navbar inventory={inventory} />
 
     <h1 className="page-title">{props.pagetitle}</h1>
 

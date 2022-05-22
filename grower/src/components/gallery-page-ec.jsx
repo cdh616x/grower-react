@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import Navbar from "./Navbar2.jsx";
+import Navbar from "./Navbar.jsx";
 import Footer from "./Footer.jsx";
 import EnvItem from "./EnvItem.jsx";
 import ItemUpgraded from "./ItemUpgraded.jsx";
@@ -22,9 +22,10 @@ import airlogo from "../images/logos/active-air.png";
 import co2System from "../images/active-air/co2-system.png";
 
 export default function GalleryPageEC(props) {
+  const inventory = "inventory";
   return (
     <>
-     <Navbar />
+     <Navbar inventory={inventory} />
       <h1 className="page-title">{props.pagetitle}</h1>
 
       <ItemUpgraded src={titanlogo}

@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import Navbar from "./Navbar2.jsx";
+import Navbar from "./Navbar.jsx";
 import Footer from "./Footer.jsx";
 import CloneItem from "./CloneItem.jsx";
 import PestItem from "./PestItem.jsx";
@@ -60,9 +60,11 @@ import grodanplugs from "../images/grodan/plugs.png";
 import qplugs from "../images/ihort/q-plugs.png";
 
 export default function GalleryPageCloning(props) {
+  const inventory = "inventory";
+
   return (
     <>
-     <Navbar />
+     <Navbar inventory={inventory} />
      <h1 className="page-title">{props.pagetitle}</h1>
 
      <ItemUpgraded src={ezlogo}

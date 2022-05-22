@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import Navbar from "./Navbar2.jsx";
+import Navbar from "./Navbar.jsx";
 import Footer from "./Footer.jsx";
 import ItemUpgraded from "./ItemUpgraded.jsx";
 
@@ -20,9 +20,10 @@ import mondi from "../images/logos/mondi.png";
 import sumpPump from "../images/mondi/sumppump.png";
 
 export default function GalleryPageWater(props) {
+  const inventory = "inventory";
   return (
     <>
-    <Navbar />
+    <Navbar inventory={inventory} />
 
      <h1 className="page-title">{props.pagetitle}</h1>
 

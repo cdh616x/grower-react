@@ -2,14 +2,16 @@
 
 import React from "react";
 
-import Navbar from "../components/Navbar3.jsx";
+import Navbar from "../components/Navbar.jsx";
 import Footer from "../components/Footer.jsx";
 import Form from "../components/Form.jsx";
+import shop from "../web-images/shop-front.jpeg";
 
 export default function ContactPage() {
+  const contact = "contact"
   return (
     <>
-     <Navbar />
+     <Navbar contact={contact} />
      <div className="row contact-row">
      <div className="col-lg-7 col-sm-12">
       <Form />
@@ -19,7 +21,8 @@ export default function ContactPage() {
       <h1>616.863.9095</h1>
       <h2>4252 14 Mile Rd, Rockford MI</h2>
       <h2>growersedge1@gmail.com</h2>
-       <h2><a href="https://www.facebook.com/growersedge/" target="_blank"><i class="fab fa-facebook"></i></a></h2>
+       <h2><a href="https://www.facebook.com/growersedge/" target="_blank"><i className="fab fa-facebook"></i></a></h2>
+       <img src={shop} className="img-fluid padded" />
      </div>
      </div>
      <Footer />

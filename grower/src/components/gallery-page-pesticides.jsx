@@ -2,18 +2,15 @@
 
 import React from "react";
 
-import Navbar from "./Navbar2.jsx";
+import Navbar from "./Navbar.jsx";
 import Footer from "./Footer.jsx";
 import Item from "./Item.jsx";
-import PestItem from "./PestItem.jsx";
 import ItemUpgraded from "./ItemUpgraded.jsx";
 
 import omri from "../images/omri.png";
 
 import mammothlogo from "../images/logos/mammoth.png";
 import athenalogo from "../images/logos/athena.png";
-import cycologo from "../images/logos/cyco-logo.png";
-import ooologo from "../images/logos/ooo.png";
 import saferlogo from "../images/logos/safergro.png";
 import hydrologo from "../images/logos/general-hydro.png";
 import saferbrandlogo from "../images/logos/safer-brand.png";
@@ -36,7 +33,6 @@ import snslogo from "../images/logos/sns.png";
 import zymeslogo from "../images/logos/zymes.png";
 
 import pestout from "../images/safergro/pestout.png";
-import dont_bug from "../images/foxfarms/fox-pesticide.png";
 
 import safeSpray from "../images/safer-brand/spray.png";
 import safeConc from "../images/safer-brand/concentrate.png";
@@ -85,13 +81,12 @@ import exterminator from "../images/bigtime/exterminator.png";
 import neemoil from "../images/dynagro/neem.png";
 
 import eliminator from "../images/zymes/eliminator1.png";
-import cycoph from "../images/cyco/ph.png";
-import olympus from "../images/nectar/olympus.png";
 
 export default function Pesticides(props) {
+  const inventory = "inventory";
   return (
     <>
-    <Navbar />
+    <Navbar inventory={inventory} />
 
     <h1 className="page-title">{props.pagetitle}</h1>
 

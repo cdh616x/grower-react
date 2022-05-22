@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import Navbar from "./Navbar2.jsx";
+import Navbar from "./Navbar.jsx";
 import Footer from "./Footer.jsx";
 import DirtItem from "./DirtItem.jsx";
 import ItemUpgraded from "./ItemUpgraded.jsx";
@@ -59,9 +59,10 @@ import hugo from "../images/grodan/hugo.png";
 import mini from "../images/grodan/mini.png";
 
 export default function GalleryPageMedias(props) {
+  const inventory = "inventory";
   return (
     <>
-    <Navbar />
+    <Navbar inventory={inventory} />
     <h1 className="page-title">{props.pagetitle}</h1>
 
     <DirtItem src={foxfalogo}

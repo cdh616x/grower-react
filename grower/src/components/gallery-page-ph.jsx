@@ -2,11 +2,8 @@
 
 import React from "react";
 
-import Navbar from "./Navbar2.jsx";
+import Navbar from "./Navbar.jsx";
 import Footer from "./Footer.jsx";
-import CloneItem from "./CloneItem.jsx";
-import PestItem from "./PestItem.jsx";
-import EnvItem from "./EnvItem.jsx";
 import ItemUpgraded from "./ItemUpgraded.jsx";
 
 import ooologo from "../images/logos/ooo.png";
@@ -28,9 +25,10 @@ import gs1 from "../images/grostar/gs1-pen.png";
 import ph600 from "../images/milwaukee/ph600.png";
 
 export default function GalleryPagePH(props) {
+  const inventory = "inventory";
   return (
     <>
-     <Navbar />
+     <Navbar inventory={inventory} />
       <h1 className="page-title">{props.pagetitle}</h1>
 
       <ItemUpgraded src={cycologo}

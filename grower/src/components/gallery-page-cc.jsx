@@ -1,7 +1,7 @@
 //jshint esversion:6
 
 import React from "react";
-import Navbar from "./Navbar2.jsx";
+import Navbar from "./Navbar.jsx";
 import Footer from "./Footer.jsx";
 
 import ItemUpgraded from "./ItemUpgraded.jsx";
@@ -28,9 +28,10 @@ import handc from "../images/idealair/handc.png";
 import overhead from "../images/idealair/overhead.png";
 
 export default function CC(props) {
+  const inventory = "inventory";
   return (
     <>
-    <Navbar />
+    <Navbar inventory={inventory} />
 
     <h1 className="page-title">{props.pagetitle}</h1>
 

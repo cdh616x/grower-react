@@ -1,10 +1,3 @@
-//jshint esversion:6
-
-import React from "react";
-
-import shopfront from "../web-images/shop-front.jpeg";
-
-import Carousel from "./Carousel.jsx";
 import ImgItem from "./ImgItem.jsx";
 
 import athena from "../images/logos/athena.png";
@@ -56,41 +49,72 @@ import ageOld from "../images/logos/ageold.png";
 import remo from "../images/logos/remo.jpeg";
 import ces from "../images/logos/ces-logo.png";
 import hydroton from "../images/logos/hydroton.png";
-import SizeSelector from "./SizeSelector";
 
-export default function Landing() {
+export default function ComputerLogos() {
+    const smaul = <h1>Hello</h1>
 
-  const screenWidth = window.innerWidth
 
-  // const [screen, setScreen] = useState()
   return (
     <>
-      <div className="landing">
-        {/* <div className="row">
-          <img src={shopfront} className="img-fluid" />
-        </div> */}
-        <div className="row">
-          <h1 className="welcome-text">
-            Hi! We are Jenn and Dan; welcome to our shop!
-          </h1>
-        </div>
-        <div className="row landing-info">
-          <h3 className="home-info">
-            Grower's Edge is an indoor/outdoor garden supply store carrying
-            everything you need for hydroponics, aeroponics, and soilless
-            gardening. We carry lighting systems including LEDs, ceramic metal
-            halides, bulbs, ballasts, and reflectors, hydroponic and organic
-            nutrients, growing media including soil, coco, rockwool, hydroton,
-            and several other amendments; environmental controls and systems
-            including controllers, air conditioners, dehumidifiers, fans, etc.,
-            odor control, Co2, and several other items you need to run a
-            successful garden. Our friendly and knowledgeable staff has years of
-            experience in hydroponics, aeroponics, and soilless gardening and we
-            love helping all types of gardeners gain knowledge and maximize
-            their yields!
-          </h3>
-        </div>
-        <SizeSelector screenWidth={screenWidth} />
+      <div className="row">
+        <ImgItem src={nectar} className="img-fluid" />
+        <ImgItem src={roots} className="img-fluid" />
+        <ImgItem src={mills} className="img-fluid" />
+        <ImgItem src={advanced} className="img-fluid" />
+        <ImgItem src={hydrofarm} className="img-fluid" />
+        <ImgItem src={mammoth} className="img-fluid" />
+        <ImgItem src={genhydro} className="img-fluid" />
+        <ImgItem src={hawthorne} className="img-fluid" />
+      </div>
+      <div className="row">
+        <ImgItem src={gavita} />
+        <ImgItem src={phantom} />
+        <ImgItem src={promix} />
+        <ImgItem src={ez} />
+        <ImgItem src={motherearth} />
+        <ImgItem src={titan} />
+        <ImgItem src={fox} />
+        <ImgItem src={sungro} />
+      </div>
+      <div className="row">
+        <ImgItem src={gaia} />
+        <ImgItem src={sns} />
+        <ImgItem src={cyco} />
+        <ImgItem src={gold} />
+        <ImgItem src={success} />
+        <ImgItem src={dynagro} />
+        <ImgItem src={earthjuice} />
+        <ImgItem src={emerald} />
+      </div>
+      <div className="row">
+        <ImgItem src={grodan} />
+        <ImgItem src={bluelab} />
+        <ImgItem src={hands} />
+        <ImgItem src={lostcoast} />
+        <ImgItem src={atamiLogo} />
+        <ImgItem src={biobizz} />
+        <ImgItem src={currentCulture} />
+        <ImgItem src={technaFlora} />
+      </div>
+      <div className="row">
+        <ImgItem src={npk} />
+        <ImgItem src={vegamatrix} />
+        <ImgItem src={bioAg} />
+        <ImgItem src={microbeLife} />
+        <ImgItem src={heavy16} />
+        <ImgItem src={elite} />
+        <ImgItem src={botanicare} />
+        <ImgItem src={dte} />
+      </div>
+      <div className="row">
+        <ImgItem src={activeAqua} />
+        <ImgItem src={activeAir} />
+        <ImgItem src={hdi} />
+        <ImgItem src={sunsystem} />
+        <ImgItem src={athena} />
+        <ImgItem src={ageOld} />
+        <ImgItem src={remo} />
+        <ImgItem src={ces} />
       </div>
     </>
   );

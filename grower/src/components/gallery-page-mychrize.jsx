@@ -2,10 +2,8 @@
 
 import React from "react";
 
-import Navbar from "./Navbar2.jsx";
+import Navbar from "./Navbar.jsx";
 import Footer from "./Footer.jsx";
-import PestItem from "./PestItem.jsx";
-import CloneItem from "./CloneItem.jsx";
 import ItemUpgraded from "./ItemUpgraded.jsx";
 
 import successlogo from "../images/logos/plant-success.png";
@@ -30,9 +28,10 @@ import omri from "../images/omri.png";
 
 
 export default function GalleryPageMychrize(props) {
+  const inventory = "inventory";
   return (
     <>
-     <Navbar />
+     <Navbar inventory="inventory" />
 
       <h1 className="page-title">{props.pagetitle}</h1>
 

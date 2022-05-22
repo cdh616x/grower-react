@@ -1,7 +1,7 @@
 //jshint esversion:6
 
 import React from "react";
-import Navbar from "./Navbar2.jsx";
+import Navbar from "./Navbar.jsx";
 import Footer from "./Footer.jsx";
 
 import ItemUpgraded from "./ItemUpgraded.jsx";
@@ -21,9 +21,10 @@ import currentCulture from "../images/logos/current-culture-logo.png";
 import dwc from "../images/current-culture/dwc.png";
 
 export default function GalleryPageHydroponics(props) {
+  const inventory = "inventory";
   return (
     <>
-    <Navbar />
+    <Navbar inventory={inventory} />
 
     <h1 className="page-title">{props.pagetitle}</h1>
 

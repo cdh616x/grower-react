@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import Navbar from "./Navbar2.jsx";
+import Navbar from "./Navbar.jsx";
 import Footer from "./Footer.jsx";
 import ItemUpgraded from "./ItemUpgraded.jsx";
 
@@ -34,9 +34,10 @@ import onapro from "../images/ona/pro.png";
 import apple from "../images/ona/apple.png";
 
 export default function GalleryPageAir(props) {
+  const inventory = "inventory";
   return (
     <>
-     <Navbar />
+     <Navbar inventory={inventory} />
 
       <h1 className="page-title">{props.pagetitle}</h1>
 

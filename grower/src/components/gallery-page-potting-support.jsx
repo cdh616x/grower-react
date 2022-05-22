@@ -2,9 +2,8 @@
 
 import React from "react";
 
-import Navbar from "./Navbar2.jsx";
+import Navbar from "./Navbar.jsx";
 import Footer from "./Footer.jsx";
-import EnvItem from "./EnvItem.jsx";
 import ItemUpgraded from "./ItemUpgraded.jsx";
 
 import hydrologo from "../images/logos/hydrofarm.png";
@@ -12,7 +11,7 @@ import dirtpot from "../images/hydrofarm/dirtpot.png";
 import nurspot from "../images/hydrofarm/nursery.png";
 import smartpot from "../images/hydrofarm/smartpot.png";
 import bamboo from "../images/hydrofarm/bamboo.png";
-//-------------
+
 import greenstring from "../images/hydrofarm/garden-string.png";
 import netting from "../images/hydrofarm/netting.png";
 import twist from "../images/hydrofarm/twist.png";
@@ -25,9 +24,10 @@ import clips from "../images/growers-edge/clips.png";
 import trellisNetting from "../images/growers-edge/trellis-netting.png";
 
 export default function GalleryPagePS(props) {
+  const inventory = "inventory";
   return (
     <>
-     <Navbar />
+     <Navbar inventory={inventory} />
 
      <h1 className="page-title">{props.pagetitle}</h1>
 

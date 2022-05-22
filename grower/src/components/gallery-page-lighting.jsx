@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import Navbar from "./Navbar2.jsx";
+import Navbar from "./Navbar.jsx";
 import Footer from "./Footer.jsx";
 import LightItem from "./LightItem.jsx";
 import Item from "./Item.jsx";
@@ -45,9 +45,10 @@ import roi6 from "../images/growers-choice/roi680.png";
 import roi7 from "../images/growers-choice/roi720.png";
 
 export default function GalleryPageLighting(props) {
+  const inventory = "inventory";
   return (
     <>
-    <Navbar />
+    <Navbar inventory={inventory} />
     <h1 className="page-title">{props.pagetitle}</h1>
 
     <ItemUpgraded src={gavitlogo}

@@ -8,12 +8,13 @@ import Landing from "./components/Landing.jsx";
 import Footer from "./components/Footer.jsx";
 
 function App() {
+  const home = "home";
   return (
     <div className="App">
-    <Navbar />
+    <Navbar home={home} />
     <Banner />
     <Landing />
-    <Footer />
+    <Footer  />
     </div>
   );
 }
