@@ -8,7 +8,7 @@ export default function ImgItem(props) {
   if (window.innerWidth > 600) {
     logoSize = "col-1 autoMargin"
   } else {
-    logoSize = "col-3"
+    logoSize = "col-3 autoMargin"
   }
 
   return (

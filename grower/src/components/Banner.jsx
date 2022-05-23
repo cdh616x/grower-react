@@ -5,8 +5,6 @@ import React from "react";
 import logo from "../web-images/logo.png";
 import shop from "../web-images/shop-front.jpeg";
 
-import Sign from "./Sign.jsx";
-
 export default function Banner() {
   console.log("window width", window.innerWidth);
   console.log("window height", window.innerHeight);

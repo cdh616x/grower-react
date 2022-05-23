@@ -54,13 +54,13 @@ export default function MobileLogos() {
     return (
         <>
          <div className="row">
-          <ImgItem src={nectar} />
+          <ImgItem src={hydrofarm} />
           <ImgItem src={roots} />
           <ImgItem src={mills} />
           <ImgItem src={advanced} />
         </div>
         <div className="row">
-          <ImgItem src={hydrofarm} />
+          <ImgItem src={nectar} />
           <ImgItem src={mammoth} />
           <ImgItem src={genhydro} />
           <ImgItem src={hawthorne} />
